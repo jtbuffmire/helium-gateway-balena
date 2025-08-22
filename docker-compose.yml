@@ -1,84 +1,46 @@
-  # Docker Compose for Helium Gateway with RAK2287 
-  # I left gwmp-mux in as I'd like to add it to a future release, but it's not active yet
-  version: '2.4'
+# Docker Compose for Helium Gateway with RAK2287 
+version: '2'
 
-  services:
-    gateway-service:
-      build: ./gateway-service
-      restart: unless-stopped
-      ports:
-        - "4467:4467"      # gateway-rs API
-      volumes:
-        - gateway-data:/etc/helium_gateway
-        - gateway-logs:/var/log
-      devices:
-          - "/dev/i2c-1:/dev/i2c-1" 
-      cap_add: [SYS_RAWIO]
-      environment:
-        - REGION_OVERRIDE=${REGION_OVERRIDE:-US915}
-      labels:
-        io.balena.features.balena-api: '1'
-        io.balena.features.supervisor-api: '1'
+services:
+  cs-mux:
+    build: ./cs-mux
+    restart: unless-stopped
+    # ports: ["9090:9090"]      # To later activate Prometheus metrics
 
-    gwmp-mux:
-      build: ./gwmp-mux
-      restart: unless-stopped
-      ports:
-        - "1700:1700/udp"
-      environment:
-        RUST_LOG: debug    
-      depends_on:
-        gateway-service:
-          condition: service_started
-      # volumes:
-      #   - packet-logs:/var/log/packets
+  udp-packet-forwarder:
+    image: rakwireless/udp-packet-forwarder:latest
+    restart: unless-stopped
+    privileged: true
+    environment:
+      MODEL: "RAK2287"  
+      CONCENTRATOR: "SX1302"
+      INTERFACE: "SPI"
+      HAS_GPS: 0
+      HAS_LTE: 0
+      RESET_GPIO: 15
+      POWER_EN_GPIO: 23
+      RADIO_DEV: "/dev/spidev0.0"
+      # GATEWAY_EUI: ""
+      BAND: "us_902_928"
+      SERVER_HOST: "cs-mux"
+      SERVER_PORT: 1700
+      GPS_LATITUDE: 38.851137
+      GPS_LONGITUDE: -121.269953
+      GPS_ALTITUDE: 0
+    depends_on:
+      - cs-mux
 
-    packet-forwarder:
-      image: rakwireless/udp-packet-forwarder:latest
-      restart: unless-stopped
-      privileged: true
-      environment:
-        MODEL: "SX1302"  
-        CONCENTRATOR: "SX1302"
-        INTERFACE: "SPI"
-        HAS_GPS: 0
-        HAS_LTE: 0
-        RESET_GPIO: 15
-        POWER_EN_GPIO: 23
-        RADIO_DEV: "/dev/spidev0.0"
-        SPI_SPEED: 8000000  
-        STARTUP_DELAY: 15
-        # GATEWAY_EUI: ""
-        BAND: "us_902_928"
-        SERVER_HOST: "gwmp-mux"
-        SERVER_PORT: 1700
-        GPS_LATITUDE: 38.851137
-        GPS_LONGITUDE: -121.269953
-        GPS_ALTITUDE: 0
-      depends_on:
-        gwmp-mux:
-          condition: service_started
-
-    # packet-logger:
-    #   build: ./packet-logger
-    #   restart: unless-stopped
-    #   environment:
-    #     RUST_LOG: info
-    #     # Comma-separated list of device EUIs or DevAddrs to log
-    #     DEVICE_FILTER: "${DEVICE_FILTER:-}"
-    #     # Log all packets if DEVICE_FILTER is empty
-    #     LOG_ALL_PACKETS: "${LOG_ALL_PACKETS:-true}"
-    #   volumes:
-    #     - packet-logs:/var/log/packets
-    #     - device-logs:/var/log/devices
-    #     - raw-logs:/var/log/raw
-    #   depends_on:
-    #     gwmp-mux:
-    #       condition: service_started
-
-  volumes:
-    gateway-data:
-    gateway-logs:
-    # packet-logs:
-    # device-logs:
-    # raw-logs:
+  gateway-rs:
+    image: quay.io/team-helium/miner:gateway-latest
+    restart: unless-stopped
+    devices:
+      - /dev/i2c-1:/dev/i2c-1 
+    environment:
+      - GW_REGION=US915
+      - GW_LISTEN=0.0.0.0:1680
+      - GW_API=0.0.0.0:4467
+      - GW_KEYPAIR=ecc://i2c-1:96?slot=0
+      - GW_ONBOARDING=ecc://i2c-1:96?slot=15
+      - REGION_OVERRIDE=${REGION_OVERRIDE:-US915}
+    depends_on:
+      - cs-mux
