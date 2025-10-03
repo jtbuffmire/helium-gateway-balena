@@ -8,7 +8,7 @@
   #   * INFO
   #   * WARN
   #   * ERROR
-  level = "info"
+  level = "debug"
 
 # Multiplexer configuration.
 [multiplexer]

@@ -35,8 +35,21 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    GATEWAY_EUI = ""         # Custom EUI (auto-generated if empty)
    GW_KEYPAIR = ""          # Custom keypair path
    
-   # gwmp-mux configuration
-   GWMP_MUX_BIND = "0.0.0.0:1700"  # gwmp-mux bind address
+   # GPIO Configuration (GPIOD-compatible)
+   USE_LIBGPIOD = 1         # Enable libgpiod support
+   GPIO_CHIP = gpiochip0    # GPIO chip device
+   RESET_GPIO = 17          # GPIO pin for concentrator reset
+   POWER_EN_GPIO = 18       # GPIO pin for power enable
+   
+   # Hardware Configuration
+   CONCENTRATOR_MODEL = RAK2287    # Concentrator model
+   CONCENTRATOR_CHIP = SX1302      # Concentrator chip type
+   FREQUENCY_BAND = us_902_928     # Frequency band
+   
+   # GPS Configuration
+   GPS_LATITUDE = 38.851137        # GPS latitude
+   GPS_LONGITUDE = -121.269953     # GPS longitude
+   HAS_GPS = 0                     # Enable GPS (0/1)
    ```
 
 4. **Adding Multiple LoRaWAN Network Servers**:

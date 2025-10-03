@@ -11,16 +11,24 @@ services:
     image: rakwireless/udp-packet-forwarder:latest
     restart: unless-stopped
     privileged: true
+    devices:
+      - /dev/gpiochip0:/dev/gpiochip0
+      - /dev/gpiochip1:/dev/gpiochip1
+      - /dev/gpiochip2:/dev/gpiochip2
+      - /dev/gpiochip3:/dev/gpiochip3
+      - /dev/gpiochip4:/dev/gpiochip4
     environment:
-      MODEL: "RAK2287"  
+      MODEL: "RAK2287"
       CONCENTRATOR: "SX1302"
       INTERFACE: "SPI"
       HAS_GPS: 0
       HAS_LTE: 0
-      RESET_GPIO: 15
-      POWER_EN_GPIO: 23
+      USE_LIBGPIOD: 1
+      GPIO_CHIP: "gpiochip0"
+      RESET_GPIO: 17
+      POWER_EN_GPIO: 18
       RADIO_DEV: "/dev/spidev0.0"
-      # GATEWAY_EUI: ""
+      GATEWAY_EUI: ""
       BAND: "us_902_928"
       SERVER_HOST: "cs-mux"
       SERVER_PORT: 1700
@@ -42,5 +50,6 @@ services:
       - GW_KEYPAIR=ecc://i2c-1:96?slot=0
       - GW_ONBOARDING=ecc://i2c-1:96?slot=15
       - REGION_OVERRIDE=${REGION_OVERRIDE:-US915}
+      - RUST_LOG=debug
     depends_on:
       - cs-mux
