@@ -69,14 +69,52 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    enabled = true
    ```
 
+## Gateway Registration
+
+### Registering Your Gateway on Helium Blockchain
+
+To turn a locked gateway into a data only gateway, you'll need to register the gateway with your wallet:
+
+#### Prerequisites
+- Helium wallet with SOL 
+- Fresh gateway identity 
+
+#### Step 1: Generate Add Transaction (Gateway Container)
+```bash
+# SSH into gateway-rs container
+balena device ssh <device-uuid> gateway-rs
+
+# Generate the add transaction
+helium_gateway add --owner <YOUR_WALLET_ADDRESS> --payer <YOUR_WALLET_ADDRESS> --mode dataonly
+```
+
+#### Step 2: Sign and Submit Transaction (Local Machine)
+```bash
+# From your local machine with wallet access
+/path/to/helium-wallet-cli \
+  -f /path/to/wallet.key \
+  hotspots add iot --commit \
+  "<TRANSACTION_HASH_FROM_STEP_1>"
+```
+
+#### Creating Fresh Identity (For Recycled Gateways)
+
+If you get "account already in use" errors, the gateway identity is already registered. Create a fresh one:
+
+**File-based key for data-only**
+```bash
+# In gateway-rs container
+rm -f /etc/helium_gateway/gateway_key.bin
+# Restart gateway service - it will generate a new key
+```
+
 ### Getting Gateway Information
 
 Once deployed and running:
 
-1. Open Balena Cloud terminal for your device
-2. Select the `gateway-service` service
-3. Run: `/usr/bin/helium_gateway -c /etc/helium_gateway/settings.toml key info`
-4. Note the gateway address and EUI for blockchain registration
+1. SSH into gateway-rs container: `balena device ssh <device-uuid> gateway-rs`
+2. Get gateway info: `helium_gateway key info`
+3. Note the gateway address for blockchain operations
 
 ## Architecture
 

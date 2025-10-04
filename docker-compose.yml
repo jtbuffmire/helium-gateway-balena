@@ -5,33 +5,28 @@ services:
   cs-mux:
     build: ./cs-mux
     restart: unless-stopped
-    # ports: ["9090:9090"]      # To later activate Prometheus metrics
 
   udp-packet-forwarder:
-    image: rakwireless/udp-packet-forwarder:latest
+    image: rakwireless/udp-packet-forwarder:latest   # RECOMMEND: pin to a known-good tag/digest
     restart: unless-stopped
     privileged: true
     devices:
+      - /dev/spidev0.0:/dev/spidev0.0
       - /dev/gpiochip0:/dev/gpiochip0
-      - /dev/gpiochip1:/dev/gpiochip1
-      - /dev/gpiochip2:/dev/gpiochip2
-      - /dev/gpiochip3:/dev/gpiochip3
-      - /dev/gpiochip4:/dev/gpiochip4
     environment:
-      MODEL: "RAK2287"
+      MODEL: "RAK2287"           
       CONCENTRATOR: "SX1302"
       INTERFACE: "SPI"
-      HAS_GPS: 0
-      HAS_LTE: 0
+      DEVICE: "/dev/spidev0.0"
+      SPI_SPEED: 8000000
       USE_LIBGPIOD: 1
       GPIO_CHIP: "gpiochip0"
       RESET_GPIO: 17
-      POWER_EN_GPIO: 18
-      RADIO_DEV: "/dev/spidev0.0"
-      GATEWAY_EUI: ""
       BAND: "us_902_928"
       SERVER_HOST: "cs-mux"
       SERVER_PORT: 1700
+      # GATEWAY_EUI: ""
+      # Optional GPS hints (ignored if HAS_GPS=0 in image)
       GPS_LATITUDE: 38.851137
       GPS_LONGITUDE: -121.269953
       GPS_ALTITUDE: 0
@@ -39,17 +34,17 @@ services:
       - cs-mux
 
   gateway-rs:
-    image: quay.io/team-helium/miner:gateway-latest
+    image: quay.io/team-helium/miner:gateway-latest  
     restart: unless-stopped
     devices:
-      - /dev/i2c-1:/dev/i2c-1 
+      - /dev/i2c-1:/dev/i2c-1
     environment:
       - GW_REGION=US915
       - GW_LISTEN=0.0.0.0:1680
       - GW_API=0.0.0.0:4467
-      - GW_KEYPAIR=ecc://i2c-1:96?slot=0
-      - GW_ONBOARDING=ecc://i2c-1:96?slot=15
-      - REGION_OVERRIDE=${REGION_OVERRIDE:-US915}
+      # Using file-based keys for data-only gateway
+      - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
+      - REGION_OVERRIDE=US915     
       - RUST_LOG=debug
     depends_on:
       - cs-mux
