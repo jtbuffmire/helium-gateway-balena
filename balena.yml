@@ -38,7 +38,9 @@ post-provisioning: |
   
   #### GPIO Configuration (GPIOD-compatible)
   
-  # GPIO configuration is not needed for this setup
+  - `MODEL` - Concentrator model (RAK2287)
+  - `CONCENTRATOR` - Concentrator chip type (SX1302)
+  - `SPI_SPEED` - SPI communication speed (2000000 Hz)
   
   #### Hardware Configuration
   
@@ -95,7 +97,10 @@ data:
     - REGION_OVERRIDE: US915
     - GATEWAY_EUI: 
     - GW_KEYPAIR: 
-    # GPIO configuration not needed for this setup
+    # Packet Forwarder Configuration
+    - MODEL: RAK2287
+    - CONCENTRATOR: SX1302
+    - SPI_SPEED: 2000000
     # Hardware Configuration
     - CONCENTRATOR_MODEL: RAK2287
     - CONCENTRATOR_CHIP: SX1302

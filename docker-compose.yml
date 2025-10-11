@@ -1,55 +1,67 @@
-# Docker Compose for Helium Gateway with RAK2287
-version: '2'
+version: "2.4"
 
 services:
+
+  cs-mux:
+    build: ./cs-mux
+    restart: unless-stopped
+    # ports: ["9090:9090"]      # To later activate Prometheus metrics
+    
   udp-packet-forwarder:
     build: ./udp-packet-forwarder
-    container_name: udp-packet-forwarder
+    # ports:
+    #   - "127.0.0.1:1700:1700/udp"
     restart: unless-stopped
+    depends_on:
+      - cs-mux
     privileged: true
     devices:
-      - /dev/spidev0.0:/dev/spidev0.0
-      - /dev/gpiochip0:/dev/gpiochip0
-      - /dev/gpiochip1:/dev/gpiochip1
+      - /dev/spidev0.0
+      - /dev/spidev0.1
+      - /dev/gpiochip0
+    # (Balena only) helpful feature labels:
+    labels:
+      io.balena.features.sysfs: '1'
+      io.balena.features.procfs: '1'
+      io.balena.features.kernel-modules: '1'
+    volumes:
+      - rak-config:/app/config
     environment:
+      # Use character-device GPIO (not sysfs)
+      # - SERVER_HOST: "127.0.0.1"
+      # Avoid TTN auto-targeting:
+      TTS_REGION: ""              # unset/blank; remove TTN/TTS_* if present
+      GATEWAY_EUI_SOURCE: "chip"  # use SX1302 chip EUI for a stable gateway EUI
+      USE_LIBGPIOD: "1"
+      GPIO_CHIP: "gpiochip0"
+      RESET_GPIO: "17"       # RAK2287 HAT typical
+      POWER_EN_GPIO: "18"    # RAK2287 HAT typical
+      CONCENTRATOR_MODEL: "RAK2287"
+      CONCENTRATOR_CHIP: "SX1302"
+      FREQUENCY_BAND: "us_902_928"
+      # Point the forwarder to the multiplexer (same compose network)
+      SERVER_HOST: "cs-mux"
+      SERVER_PORT: "1700"
+      # Correct region variable for RAK image
+      BAND: "us_902_928"
+      # Concentrator (SPI Corecell HAT)
       MODEL: "RAK2287"
       INTERFACE: "SPI"
-      HAS_GPS: 0
-      HAS_LTE: 0
-      RADIO_DEV: "/dev/spidev0.0"
-      BAND: "us_902_928"
-      SERVER_HOST: "gwmp-mux"
-      SERVER_PORT: 1700
-      GPS_LATITUDE: 44.620909171851785
-      GPS_LONGITUDE: -65.7519539345585
-      GPS_ALTITUDE: 0
-
-  gwmp-mux:
-    image: ghcr.io/thingsixfoundation/gwmp-mux:latest
-    container_name: gwmp-mux
-    restart: unless-stopped
-    command: "--host 1700 --client gateway-rs:1680"
-    depends_on:
-      - udp-packet-forwarder
+      DEVICE: "/dev/spidev0.0"
 
   gateway-rs:
-    image: quay.io/team-helium/miner:gateway-latest
-    container_name: gateway-rs
-    restart: unless-stopped
-    devices:
-      - /dev/i2c-1:/dev/i2c-1
-    environment:
-      - GW_REGION=US915
-      - GW_LISTEN=0.0.0.0:1680
-      - GW_API=0.0.0.0:4467
-      - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
-      - REGION_OVERRIDE=US915
-      # Onboarding automation variables
-      - HELIUM_OWNER_ADDRESS=${HELIUM_OWNER_ADDRESS}
-      - HELIUM_PAYER_ADDRESS=${HELIUM_PAYER_ADDRESS}
-      - RESET_GATEWAY_KEY=${RESET_GATEWAY_KEY}
-      - BALENA_DEVICE_UUID=${BALENA_DEVICE_UUID}
-      - BALENA_API_KEY=${BALENA_API_KEY}
-    depends_on:
-      - udp-packet-forwarder
-      - gwmp-mux
+     image: quay.io/team-helium/miner:gateway-latest
+     restart: unless-stopped
+     devices:
+       - /dev/i2c-1:/dev/i2c-1
+     environment:
+       - GW_REGION=US915
+       - GW_LISTEN=0.0.0.0:1680
+       - GW_API=0.0.0.0:4467
+       - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
+       - REGION_OVERRIDE=US915
+       - RUST_LOG=debug
+     depends_on:
+       - cs-mux
+volumes:
+  rak-config: {}

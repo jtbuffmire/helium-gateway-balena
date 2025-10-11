@@ -35,9 +35,13 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    GATEWAY_EUI = ""         # Custom EUI (auto-generated if empty)
    GW_KEYPAIR = ""          # Custom keypair path
    
-   # GPIO Configuration
-   # Not needed for this setup - concentrator operates without GPIO control
-   
+   # Packet Forwarder Configuration
+   MODEL = RAK2287              # Concentrator model
+   CONCENTRATOR = SX1302        # Concentrator chip type
+   SPI_SPEED = 2000000         # SPI communication speed (Hz)
+
+   # Note: GPIO configuration removed - concentrator initializes without GPIO control
+
    # Hardware Configuration
    CONCENTRATOR_MODEL = RAK2287    # Concentrator model
    CONCENTRATOR_CHIP = SX1302      # Concentrator chip type
@@ -127,7 +131,7 @@ helium_gateway -c /etc/helium_gateway/settings.toml key info
 ### Network Flow
 
 ```
-LoRa Devices → RAK2287 → packet-forwarder → gwmp-mux → gateway-service + other LNS → Networks
+LoRa Devices → RAK2287 → packet-forwarder → cs-mux → gateway-service + other LNS → Networks
 ```
 
 ### Packet Multiplexing
