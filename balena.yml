@@ -38,10 +38,7 @@ post-provisioning: |
   
   #### GPIO Configuration (GPIOD-compatible)
   
-  - `USE_LIBGPIOD` - Enable libgpiod support (default: 1)
-  - `GPIO_CHIP` - GPIO chip device (default: gpiochip0)
-  - `RESET_GPIO` - GPIO pin for concentrator reset (default: 17)
-  - `POWER_EN_GPIO` - GPIO pin for power enable (default: 18)
+  # GPIO configuration is not needed for this setup
   
   #### Hardware Configuration
   
@@ -98,11 +95,7 @@ data:
     - REGION_OVERRIDE: US915
     - GATEWAY_EUI: 
     - GW_KEYPAIR: 
-    # GPIO Configuration (GPIOD-compatible)
-    - USE_LIBGPIOD: 1
-    - GPIO_CHIP: gpiochip0
-    - RESET_GPIO: 17
-    - POWER_EN_GPIO: 18
+    # GPIO configuration not needed for this setup
     # Hardware Configuration
     - CONCENTRATOR_MODEL: RAK2287
     - CONCENTRATOR_CHIP: SX1302

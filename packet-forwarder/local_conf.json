@@ -1,0 +1,14 @@
+{
+    "gateway_conf": {
+        "gateway_ID": "0242ACFFFE120002",
+        "server_address": "gwmp-mux",
+        "serv_port_up": 1700,
+        "serv_port_down": 1700,
+        "serv_enabled": true,
+        "ref_latitude": 44.620909,
+        "ref_longitude": -65.751954,
+        "ref_altitude": 0,
+        "contact_email": "",
+        "description": ""
+    }
+}

@@ -35,11 +35,8 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    GATEWAY_EUI = ""         # Custom EUI (auto-generated if empty)
    GW_KEYPAIR = ""          # Custom keypair path
    
-   # GPIO Configuration (GPIOD-compatible)
-   USE_LIBGPIOD = 1         # Enable libgpiod support
-   GPIO_CHIP = gpiochip0    # GPIO chip device
-   RESET_GPIO = 17          # GPIO pin for concentrator reset
-   POWER_EN_GPIO = 18       # GPIO pin for power enable
+   # GPIO Configuration
+   # Not needed for this setup - concentrator operates without GPIO control
    
    # Hardware Configuration
    CONCENTRATOR_MODEL = RAK2287    # Concentrator model
@@ -71,50 +68,42 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
 
 ## Gateway Registration
 
-### Registering Your Gateway on Helium Blockchain
+### Onboarding Helper Script (Recommended)
 
-To turn a locked gateway into a data only gateway, you'll need to register the gateway with your wallet:
+Use the `gw-ssh.sh` helper script to streamline migrating old Helium miners to your wallet:
 
-#### Prerequisites
-- Helium wallet with SOL 
-- Fresh gateway identity 
-
-#### Step 1: Generate Add Transaction (Gateway Container)
 ```bash
-# SSH into gateway-rs container
-balena device ssh <device-uuid> gateway-rs
+# Get help
+./gw-ssh.sh --help
 
-# Generate the add transaction
-helium_gateway add --owner <YOUR_WALLET_ADDRESS> --payer <YOUR_WALLET_ADDRESS> --mode dataonly
+# SSH access with pre-filled onboarding commands
+./gw-ssh.sh <device-uuid> --owner <your-wallet-address>
+
+# SSH access only (manual commands)
+./gw-ssh.sh <device-uuid>
 ```
 
-#### Step 2: Sign and Submit Transaction (Local Machine)
-```bash
-# From your local machine with wallet access
-/path/to/helium-wallet-cli \
-  -f /path/to/wallet.key \
-  hotspots add iot --commit \
-  "<TRANSACTION_HASH_FROM_STEP_1>"
-```
+The script provides exact commands to run inside the container and handles wallet address substitution automatically.
 
-#### Creating Fresh Identity (For Recycled Gateways)
+### Manual Registration
 
-If you get "account already in use" errors, the gateway identity is already registered. Create a fresh one:
+For recycled gateways, you need to generate a fresh identity:
 
-**File-based key for data-only**
-```bash
-# In gateway-rs container
-rm -f /etc/helium_gateway/gateway_key.bin
-# Restart gateway service - it will generate a new key
-```
+1. **SSH into container**: `balena device ssh <device-uuid> gateway-rs`
+2. **Delete old key**: `rm -f /etc/helium_gateway/gateway_key.bin`
+3. **Restart service**: `pkill -f helium_gateway` (auto-restarts)
+4. **Generate transaction**: `helium_gateway add --owner <WALLET> --payer <WALLET> --mode dataonly`
+5. **Sign locally**: `helium-wallet -f wallet.key hotspots add iot --commit "<TXN>"`
 
 ### Getting Gateway Information
 
-Once deployed and running:
+```bash
+# SSH into container
+balena device ssh <device-uuid> gateway-rs
 
-1. SSH into gateway-rs container: `balena device ssh <device-uuid> gateway-rs`
-2. Get gateway info: `helium_gateway key info`
-3. Note the gateway address for blockchain operations
+# Get gateway info
+helium_gateway -c /etc/helium_gateway/settings.toml key info
+```
 
 ## Architecture
 
@@ -216,3 +205,12 @@ This project combines multiple open-source components:
 - [RAK2287 Documentation](https://docs.rakwireless.com/)
 - [Balena Documentation](https://www.balena.io/docs/)
 
+## Quick Reference
+
+```bash
+# Use helper script (recommended)
+./gw-ssh.sh <device-uuid> --owner <wallet-address>
+
+# Sign transaction (correct format - no backslash before quotes)
+helium-wallet -f wallet.key hotspots add iot --commit "TRANSACTION_HASH"
+```

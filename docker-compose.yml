@@ -1,40 +1,40 @@
-# Docker Compose for Helium Gateway with RAK2287 
+# Docker Compose for Helium Gateway with RAK2287
 version: '2'
 
 services:
-  cs-mux:
-    build: ./cs-mux
-    restart: unless-stopped
-
   udp-packet-forwarder:
-    image: rakwireless/udp-packet-forwarder:latest   # RECOMMEND: pin to a known-good tag/digest
+    build: ./udp-packet-forwarder
+    container_name: udp-packet-forwarder
     restart: unless-stopped
     privileged: true
     devices:
       - /dev/spidev0.0:/dev/spidev0.0
       - /dev/gpiochip0:/dev/gpiochip0
+      - /dev/gpiochip1:/dev/gpiochip1
     environment:
-      MODEL: "RAK2287"           
-      CONCENTRATOR: "SX1302"
+      MODEL: "RAK2287"
       INTERFACE: "SPI"
-      DEVICE: "/dev/spidev0.0"
-      SPI_SPEED: 8000000
-      USE_LIBGPIOD: 1
-      GPIO_CHIP: "gpiochip0"
-      RESET_GPIO: 17
+      HAS_GPS: 0
+      HAS_LTE: 0
+      RADIO_DEV: "/dev/spidev0.0"
       BAND: "us_902_928"
-      SERVER_HOST: "cs-mux"
+      SERVER_HOST: "gwmp-mux"
       SERVER_PORT: 1700
-      # GATEWAY_EUI: ""
-      # Optional GPS hints (ignored if HAS_GPS=0 in image)
-      GPS_LATITUDE: 38.851137
-      GPS_LONGITUDE: -121.269953
+      GPS_LATITUDE: 44.620909171851785
+      GPS_LONGITUDE: -65.7519539345585
       GPS_ALTITUDE: 0
+
+  gwmp-mux:
+    image: ghcr.io/thingsixfoundation/gwmp-mux:latest
+    container_name: gwmp-mux
+    restart: unless-stopped
+    command: "--host 1700 --client gateway-rs:1680"
     depends_on:
-      - cs-mux
+      - udp-packet-forwarder
 
   gateway-rs:
-    image: quay.io/team-helium/miner:gateway-latest  
+    image: quay.io/team-helium/miner:gateway-latest
+    container_name: gateway-rs
     restart: unless-stopped
     devices:
       - /dev/i2c-1:/dev/i2c-1
@@ -42,9 +42,14 @@ services:
       - GW_REGION=US915
       - GW_LISTEN=0.0.0.0:1680
       - GW_API=0.0.0.0:4467
-      # Using file-based keys for data-only gateway
       - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
-      - REGION_OVERRIDE=US915     
-      - RUST_LOG=debug
+      - REGION_OVERRIDE=US915
+      # Onboarding automation variables
+      - HELIUM_OWNER_ADDRESS=${HELIUM_OWNER_ADDRESS}
+      - HELIUM_PAYER_ADDRESS=${HELIUM_PAYER_ADDRESS}
+      - RESET_GATEWAY_KEY=${RESET_GATEWAY_KEY}
+      - BALENA_DEVICE_UUID=${BALENA_DEVICE_UUID}
+      - BALENA_API_KEY=${BALENA_API_KEY}
     depends_on:
-      - cs-mux
+      - udp-packet-forwarder
+      - gwmp-mux
