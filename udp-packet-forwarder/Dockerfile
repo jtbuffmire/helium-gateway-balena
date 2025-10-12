@@ -1,3 +1,3 @@
 # udp-packet-forwarder/Dockerfile
 FROM rakwireless/udp-packet-forwarder:latest
-COPY rak-config/ /app/config/
+# no COPY of rak-config here; config arrives via the mounted volume
