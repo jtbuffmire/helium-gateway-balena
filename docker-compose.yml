@@ -28,6 +28,10 @@ services:
       - /dev/spidev0.0
       - /dev/spidev0.1
       - /dev/gpiochip0
+      - /dev/gpiochip1
+  
+    # Power cycle happens via Dockerfile modification - no command override needed
+    
     # (Balena only) helpful feature labels:
     labels:
       io.balena.features.sysfs: '1'
@@ -51,17 +55,20 @@ services:
       GPIO_CHIP: gpiochip0
       RESET_GPIO: "17"       # RAK2287 HAT typical
       POWER_EN_GPIO: "18"    # RAK2287 HAT typical
+      POWER_EN_LOGIC: "1"    # 1=active-high (power on = GPIO HIGH), 0=active-low
 
       # region (RAK image understands BAND / us_902_928 or US915)
       BAND: us_902_928
 
-      CONCENTRATOR_MODEL: RAK2287
-      CONCENTRATOR_CHIP: SX1302
-      FREQUENCY_BAND: us_902_928
+      # CONCENTRATOR_MODEL: RAK2287
+      # CONCENTRATOR_CHIP: SX1302
+      # FREQUENCY_BAND: us_902_928
       
       # Avoid TTN auto-targeting:
       TTS_REGION: ""              # unset/blank; remove TTN/TTS_* if present
 
+      # optional; start conservative if 8 MHz is flaky:
+      # SPI_SPEED: "4000000"
 
   gateway-rs:
      image: quay.io/team-helium/miner:gateway-latest
