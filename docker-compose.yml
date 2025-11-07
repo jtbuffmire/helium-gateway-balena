@@ -75,6 +75,8 @@ services:
      restart: unless-stopped
      devices:
        - /dev/i2c-1:/dev/i2c-1
+     volumes:
+       - helium-gateway-data:/etc/helium_gateway
      environment:
        - GW_REGION=US915
        - GW_LISTEN=0.0.0.0:1680
@@ -86,3 +88,4 @@ services:
        - cs-mux
 volumes:
   rak-config: {}
+  helium-gateway-data: {}
