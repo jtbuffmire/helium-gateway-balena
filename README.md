@@ -35,8 +35,22 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    GATEWAY_EUI = ""         # Custom EUI (auto-generated if empty)
    GW_KEYPAIR = ""          # Custom keypair path
    
-   # gwmp-mux configuration
-   GWMP_MUX_BIND = "0.0.0.0:1700"  # gwmp-mux bind address
+   # Packet Forwarder Configuration
+   MODEL = RAK2287              # Concentrator model
+   CONCENTRATOR = SX1302        # Concentrator chip type
+   SPI_SPEED = 2000000         # SPI communication speed (Hz)
+
+   # Note: GPIO configuration removed - concentrator initializes without GPIO control
+
+   # Hardware Configuration
+   CONCENTRATOR_MODEL = RAK2287    # Concentrator model
+   CONCENTRATOR_CHIP = SX1302      # Concentrator chip type
+   FREQUENCY_BAND = us_902_928     # Frequency band
+   
+   # GPS Configuration
+   GPS_LATITUDE = 38.851137        # GPS latitude
+   GPS_LONGITUDE = -121.269953     # GPS longitude
+   HAS_GPS = 0                     # Enable GPS (0/1)
    ```
 
 4. **Adding Multiple LoRaWAN Network Servers**:
@@ -56,14 +70,44 @@ A modern Helium Data-Only Gateway implementation using gateway-rs 1.3.0 and RAK2
    enabled = true
    ```
 
+## Gateway Registration
+
+### Onboarding Helper Script (Recommended)
+
+Use the `gw-ssh.sh` helper script to streamline migrating old Helium miners to your wallet:
+
+```bash
+# Get help
+./gw-ssh.sh --help
+
+# SSH access with pre-filled onboarding commands
+./gw-ssh.sh <device-uuid> --owner <your-wallet-address>
+
+# SSH access only (manual commands)
+./gw-ssh.sh <device-uuid>
+```
+
+The script provides exact commands to run inside the container and handles wallet address substitution automatically.
+
+### Manual Registration
+
+For recycled gateways, you need to generate a fresh identity:
+
+1. **SSH into container**: `balena device ssh <device-uuid> gateway-rs`
+2. **Delete old key**: `rm -f /etc/helium_gateway/gateway_key.bin`
+3. **Restart service**: `pkill -f helium_gateway` (auto-restarts)
+4. **Generate transaction**: `helium_gateway add --owner <WALLET> --payer <WALLET> --mode dataonly`
+5. **Sign locally**: `helium-wallet -f wallet.key hotspots add iot --commit "<TXN>"`
+
 ### Getting Gateway Information
 
-Once deployed and running:
+```bash
+# SSH into container
+balena device ssh <device-uuid> gateway-rs
 
-1. Open Balena Cloud terminal for your device
-2. Select the `gateway-service` service
-3. Run: `/usr/bin/helium_gateway -c /etc/helium_gateway/settings.toml key info`
-4. Note the gateway address and EUI for blockchain registration
+# Get gateway info
+helium_gateway -c /etc/helium_gateway/settings.toml key info
+```
 
 ## Architecture
 
@@ -87,7 +131,7 @@ Once deployed and running:
 ### Network Flow
 
 ```
-LoRa Devices → RAK2287 → packet-forwarder → gwmp-mux → gateway-service + other LNS → Networks
+LoRa Devices → RAK2287 → packet-forwarder → cs-mux → gateway-service + other LNS → Networks
 ```
 
 ### Packet Multiplexing
@@ -165,3 +209,12 @@ This project combines multiple open-source components:
 - [RAK2287 Documentation](https://docs.rakwireless.com/)
 - [Balena Documentation](https://www.balena.io/docs/)
 
+## Quick Reference
+
+```bash
+# Use helper script (recommended)
+./gw-ssh.sh <device-uuid> --owner <wallet-address>
+
+# Sign transaction (correct format - no backslash before quotes)
+helium-wallet -f wallet.key hotspots add iot --commit "TRANSACTION_HASH"
+```

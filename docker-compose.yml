@@ -1,84 +1,91 @@
-  # Docker Compose for Helium Gateway with RAK2287 
-  # I left gwmp-mux in as I'd like to add it to a future release, but it's not active yet
-  version: '2.4'
+version: "2.4"
 
-  services:
-    gateway-service:
-      build: ./gateway-service
-      restart: unless-stopped
-      ports:
-        - "4467:4467"      # gateway-rs API
-      volumes:
-        - gateway-data:/etc/helium_gateway
-        - gateway-logs:/var/log
-      devices:
-          - "/dev/i2c-1:/dev/i2c-1" 
-      cap_add: [SYS_RAWIO]
-      environment:
-        - REGION_OVERRIDE=${REGION_OVERRIDE:-US915}
-      labels:
-        io.balena.features.balena-api: '1'
-        io.balena.features.supervisor-api: '1'
+services:
 
-    gwmp-mux:
-      build: ./gwmp-mux
-      restart: unless-stopped
-      ports:
-        - "1700:1700/udp"
-      environment:
-        RUST_LOG: debug    
-      depends_on:
-        gateway-service:
-          condition: service_started
-      # volumes:
-      #   - packet-logs:/var/log/packets
+  cs-mux:
+    build: ./cs-mux
+    restart: unless-stopped
+    # ports: ["9090:9090"]      # To later activate Prometheus metrics
+    
+  # Seeds the named volume exactly once (keeps existing files via -n)
+  rak-config-seed:
+    build: ./rak-config-seed
+    volumes:
+      - rak-config:/app/config
+    command: sh -c 'mkdir -p /app/config && cp -vn /seed/* /app/config/ && sleep infinity'
+    restart: unless-stopped
 
-    packet-forwarder:
-      image: rakwireless/udp-packet-forwarder:latest
-      restart: unless-stopped
-      privileged: true
-      environment:
-        MODEL: "SX1302"  
-        CONCENTRATOR: "SX1302"
-        INTERFACE: "SPI"
-        HAS_GPS: 0
-        HAS_LTE: 0
-        RESET_GPIO: 15
-        POWER_EN_GPIO: 23
-        RADIO_DEV: "/dev/spidev0.0"
-        SPI_SPEED: 8000000  
-        STARTUP_DELAY: 15
-        # GATEWAY_EUI: ""
-        BAND: "us_902_928"
-        SERVER_HOST: "gwmp-mux"
-        SERVER_PORT: 1700
-        GPS_LATITUDE: 38.851137
-        GPS_LONGITUDE: -121.269953
-        GPS_ALTITUDE: 0
-      depends_on:
-        gwmp-mux:
-          condition: service_started
+  udp-packet-forwarder:
+    build: ./udp-packet-forwarder
+    # ports:
+    #   - "127.0.0.1:1700:1700/udp"
+    restart: unless-stopped
+    depends_on:
+      - cs-mux
+      - rak-config-seed
+    privileged: true
+    devices:
+      - /dev/spidev0.0
+      - /dev/spidev0.1
+      - /dev/gpiochip0
+      - /dev/gpiochip1
+  
+    # Power cycle happens via Dockerfile modification - no command override needed
+    
+    # (Balena only) helpful feature labels:
+    labels:
+      io.balena.features.sysfs: '1'
+      io.balena.features.procfs: '1'
+      io.balena.features.kernel-modules: '1'
+    volumes:
+      - rak-config:/app/config
+    environment:
+      # Point the forwarder to the multiplexer (same compose network)
+      SERVER_HOST: cs-mux
+      SERVER_PORT: "1700"
 
-    # packet-logger:
-    #   build: ./packet-logger
-    #   restart: unless-stopped
-    #   environment:
-    #     RUST_LOG: info
-    #     # Comma-separated list of device EUIs or DevAddrs to log
-    #     DEVICE_FILTER: "${DEVICE_FILTER:-}"
-    #     # Log all packets if DEVICE_FILTER is empty
-    #     LOG_ALL_PACKETS: "${LOG_ALL_PACKETS:-true}"
-    #   volumes:
-    #     - packet-logs:/var/log/packets
-    #     - device-logs:/var/log/devices
-    #     - raw-logs:/var/log/raw
-    #   depends_on:
-    #     gwmp-mux:
-    #       condition: service_started
+      # Concentrator (SPI Corecell HAT)
+      MODEL: RAK2287
+      INTERFACE: SPI
+      DEVICE: /dev/spidev0.0
+      # Use character-device GPIO (not sysfs)
+      # - SERVER_HOST: "127.0.0.1"
+      GATEWAY_EUI_SOURCE: chip  # use SX1302 chip EUI for a stable gateway EUI
+      USE_LIBGPIOD: "1"
+      GPIO_CHIP: gpiochip0
+      RESET_GPIO: "17"       # RAK2287 HAT typical
+      POWER_EN_GPIO: "18"    # RAK2287 HAT typical
+      POWER_EN_LOGIC: "1"    # 1=active-high (power on = GPIO HIGH), 0=active-low
 
-  volumes:
-    gateway-data:
-    gateway-logs:
-    # packet-logs:
-    # device-logs:
-    # raw-logs:
+      # region (RAK image understands BAND / us_902_928 or US915)
+      BAND: us_902_928
+
+      # CONCENTRATOR_MODEL: RAK2287
+      # CONCENTRATOR_CHIP: SX1302
+      # FREQUENCY_BAND: us_902_928
+      
+      # Avoid TTN auto-targeting:
+      TTS_REGION: ""              # unset/blank; remove TTN/TTS_* if present
+
+      # optional; start conservative if 8 MHz is flaky:
+      # SPI_SPEED: "4000000"
+
+  gateway-rs:
+     image: quay.io/team-helium/miner:gateway-latest
+     restart: unless-stopped
+     devices:
+       - /dev/i2c-1:/dev/i2c-1
+     volumes:
+       - helium-gateway-data:/etc/helium_gateway
+     environment:
+       - GW_REGION=US915
+       - GW_LISTEN=0.0.0.0:1680
+       - GW_API=0.0.0.0:4467
+       - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
+       - REGION_OVERRIDE=US915
+       - RUST_LOG=debug
+     depends_on:
+       - cs-mux
+volumes:
+  rak-config: {}
+  helium-gateway-data: {}

@@ -36,6 +36,28 @@ post-provisioning: |
   - `GATEWAY_EUI` - Custom gateway EUI (auto-generated if not set)
   - `GW_KEYPAIR` - Custom keypair path (uses ECC chip or file storage if not set)
   
+  #### GPIO Configuration (GPIOD-compatible)
+  
+  - `MODEL` - Concentrator model (RAK2287)
+  - `CONCENTRATOR` - Concentrator chip type (SX1302)
+  - `SPI_SPEED` - SPI communication speed (2000000 Hz)
+  
+  #### Hardware Configuration
+  
+  - `CONCENTRATOR_MODEL` - Concentrator model (default: RAK2287)
+  - `CONCENTRATOR_CHIP` - Concentrator chip type (default: SX1302)
+  - `CONCENTRATOR_INTERFACE` - Interface type (default: SPI)
+  - `RADIO_DEV` - Radio device path (default: /dev/spidev0.0)
+  - `FREQUENCY_BAND` - Frequency band (default: us_902_928)
+  
+  #### GPS Configuration
+  
+  - `GPS_LATITUDE` - GPS latitude (default: 38.851137)
+  - `GPS_LONGITUDE` - GPS longitude (default: -121.269953)
+  - `GPS_ALTITUDE` - GPS altitude (default: 0)
+  - `HAS_GPS` - Enable GPS (default: 0)
+  - `HAS_LTE` - Enable LTE (default: 0)
+  
   ### Getting Started
   
   1. **Deploy the Application**: Use the "Deploy with balena" button or push this code to your fleet
@@ -75,6 +97,23 @@ data:
     - REGION_OVERRIDE: US915
     - GATEWAY_EUI: 
     - GW_KEYPAIR: 
+    # Packet Forwarder Configuration
+    - MODEL: RAK2287
+    - CONCENTRATOR: SX1302
+    - SPI_SPEED: 2000000
+    # Hardware Configuration
+    - CONCENTRATOR_MODEL: RAK2287
+    - CONCENTRATOR_CHIP: SX1302
+    - CONCENTRATOR_INTERFACE: SPI
+    - RADIO_DEV: /dev/spidev0.0
+    # Frequency Band
+    - FREQUENCY_BAND: us_902_928
+    # GPS Configuration
+    - GPS_LATITUDE: 38.851137
+    - GPS_LONGITUDE: -121.269953
+    - GPS_ALTITUDE: 0
+    - HAS_GPS: 0
+    - HAS_LTE: 0
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
