@@ -17,6 +17,7 @@ services:
 
   udp-packet-forwarder:
     build: ./udp-packet-forwarder
+    # Notes to determine success
     # ports:
     #   - "127.0.0.1:1700:1700/udp"
     restart: unless-stopped
@@ -53,8 +54,8 @@ services:
       GATEWAY_EUI_SOURCE: chip  # use SX1302 chip EUI for a stable gateway EUI
       USE_LIBGPIOD: "1"
       GPIO_CHIP: gpiochip0
-      RESET_GPIO: "17"       # RAK2287 HAT typical
-      POWER_EN_GPIO: "18"    # RAK2287 HAT typical
+      RESET_GPIO: "25"       # RAK2004 HAT (Helium miner hardware) - CONFIRMED WORKING
+      POWER_EN_GPIO: "0"     # Disabled - not needed for successful initialization
       POWER_EN_LOGIC: "1"    # 1=active-high (power on = GPIO HIGH), 0=active-low
 
       # region (RAK image understands BAND / us_902_928 or US915)
