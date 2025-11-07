@@ -7,7 +7,6 @@ services:
     restart: unless-stopped
     # ports: ["9090:9090"]      # To later activate Prometheus metrics
     
-  # Seeds the named volume exactly once (keeps existing files via -n)
   rak-config-seed:
     build: ./rak-config-seed
     volumes:
@@ -54,7 +53,7 @@ services:
       GATEWAY_EUI_SOURCE: chip  # use SX1302 chip EUI for a stable gateway EUI
       USE_LIBGPIOD: "1"
       GPIO_CHIP: gpiochip0
-      RESET_GPIO: "25"       # RAK2004 HAT (Helium miner hardware) - CONFIRMED WORKING
+      RESET_GPIO: "25,17"    # Try GPIO 25 (RAK2004/Helium), then GPIO 17 (RAK2245/SenseCAP M1)
       POWER_EN_GPIO: "0"     # Disabled - not needed for successful initialization
       POWER_EN_LOGIC: "1"    # 1=active-high (power on = GPIO HIGH), 0=active-low
 
