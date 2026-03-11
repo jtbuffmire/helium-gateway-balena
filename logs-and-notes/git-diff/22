@@ -1,0 +1,1982 @@
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+Warning: Suppressed 19 message(s) due to rate limiting
+<packet-forwarder> Gateway EUI:   0242ACFFFE110004
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          STATIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gwmp-mux:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110004
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          STATIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gwmp-mux:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110004
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          STATIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gwmp-mux:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110004
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+Warning: Suppressed 131 message(s) due to rate limiting
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<gateway-service> 2025-08-21T07:52:07.758411Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13Bb9e9MCg2ziR1XLvcGPER5FHQXzHFRMzaRaSTPxnqLdkQGBF3
+
+<gateway-service> 2025-08-21T07:52:07.854758Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13ckXfBvL9jj1hLqveJSs7F6UX66kVA6cKCiZ6wA2WdQ2NU9ccH
+
+<packet-forwarder> INFO: [main] concentrator started, packet can now be received
+
+<packet-forwarder> INFO: concentrator EUI: 0x0016c001ff10aa97
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 2 ms
+
+<gwmp-mux> Aug 21 07:52:09.897 INFO New packet forwarder client: 02:42:AC:FF:FE:11:00:04, 172.17.0.3:39594
+
+<gwmp-mux> Aug 21 07:52:09.898 ERRO host_and_mux error: error parsing socket address: invalid socket address syntax
+
+<gateway-service> 2025-08-21T07:52:10.878609Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-21T07:52:10.878807Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-21 10:52:07.0 +00:00:00
+
+<gateway-service> 2025-08-21T07:52:10.878851Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-21T07:52:10.879762Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+Taking update locks
+Downloading delta for image 'registry2.balena-cloud.com/v2/8da52d3835bae21e46fc95451b217314@sha256:16301ce55c2b9dfafc77c4d448865bc9e09bfad1074068685081a1591f591792'
+Downloading delta for image 'registry2.balena-cloud.com/v2/43d245944d368d71f8f4bec34c0a4304@sha256:e5fe5b151c105d5ac2f5155ba8c76809b1758cca2930a56d0f042e8d572950fa'
+Supervisor starting
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:52:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 30616764
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:52:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/semtech-udp-0.11.0/src/server_runtime/mod.rs:266:17:
+
+<gwmp-mux> UdpTx threw error: ClientEventQueueFull(SendError(StatReceived(Stat { time: "2025-08-21 07:52:39 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(0.0), dwnb: 0, txnb: 0, temp: Some(30.0) }, MacAddr8([2, 66, 172, 255, 254, 17, 0, 4]))))
+
+<gwmp-mux> note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+<gwmp-mux> thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/semtech-udp-0.11.0/src/server_runtime/mod.rs:256:17:
+
+<gwmp-mux> UdpRx threw error: InternalQueueClosedOrFull
+
+Downloaded image 'registry2.balena-cloud.com/v2/43d245944d368d71f8f4bec34c0a4304@sha256:e5fe5b151c105d5ac2f5155ba8c76809b1758cca2930a56d0f042e8d572950fa'
+<gateway-service> 2025-08-21T07:53:48.506743Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-21T07:53:48.507005Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-21 11:38:26.0 +00:00:00
+
+<gateway-service> 2025-08-21T07:53:48.507046Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-21T07:53:48.507106Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:54:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 120617444
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:54:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:54:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 150617727
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:54:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409201007880DA0002D2E952F18456890B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000192 (netid=0x00003C, fcnt=218)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":155025822,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-71,"lsnr":13.8,"foff":-180,"rssi":-70,"size":17,"data":"QJIBAHiA2gAC0ulS8YRWiQs="}]}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 80930100788022000110B22C09DE76C4FCBDC7E0E5BB4C
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=34)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":176738416,"chan":5,"rfch":1,"freq":904.900000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-25,"lsnr":11.5,"foff":3639,"rssi":-25,"size":23,"data":"gJMBAHiAIgABELIsCd52xPy9x+Dlu0w="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:55:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 2
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 2 (40 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 3 (655 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 180618576
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:55:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809301007880230001223135B8F831CBB9718A7CC8
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=35)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":180725128,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":9.8,"foff":3621,"rssi":-24,"size":21,"data":"gJMBAHiAIwABIjE1uPgxy7lxinzI"}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:55:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (21 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (410 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 210620647
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:55:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:56:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 240623247
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:56:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 80930100788024000103BD98996C12BF03C7E283139E94
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=36)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":265141595,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-19,"lsnr":12.8,"foff":3561,"rssi":-19,"size":23,"data":"gJMBAHiAJAABA72YmWwSvwPH4oMTnpQ="}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078802500018FC20EECF319104D85B4C854
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=37)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":269728389,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-23,"lsnr":12.8,"foff":3636,"rssi":-22,"size":21,"data":"gJMBAHiAJQABj8IO7PMZEE2FtMhU"}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:56:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 2
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 2 (44 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 3 (660 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 270624866
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:56:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:57:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 300625926
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:57:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:57:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 330626191
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:57:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:58:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 360626416
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:58:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:58:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 390626734
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:58:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:59:09 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 420627095
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:59:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 07:59:39 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 450627401
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 07:59:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}

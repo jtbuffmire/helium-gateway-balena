@@ -1,0 +1,99 @@
+# Buoy.fish Gateway Companion - Docker Compose
+# This replaces the Balena-managed container stack.
+# Runs on a Raspberry Pi 4 with RAK2287 concentrator HAT.
+
+services:
+
+  cs-mux:
+    build: ./services/cs-mux
+    restart: unless-stopped
+    environment:
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      HELIUM_ENDPOINT: ${HELIUM_ENDPOINT:-gateway-rs:1680}
+      DIRECT_LNS_ENDPOINT: ${DIRECT_LNS_ENDPOINT:-}
+      PKT_LOGGER_ENDPOINT: ${PKT_LOGGER_ENDPOINT:-pkt-logger:1702}
+    networks:
+      - gateway
+
+  udp-packet-forwarder:
+    build: ./services/udp-packet-forwarder
+    restart: unless-stopped
+    depends_on:
+      - cs-mux
+    privileged: true
+    devices:
+      - /dev/spidev0.0
+      - /dev/spidev0.1
+      - /dev/gpiochip0
+      - /dev/gpiochip1
+    environment:
+      SERVER_HOST: cs-mux
+      SERVER_PORT: "1700"
+      MODEL: RAK2287
+      INTERFACE: SPI
+      DEVICE: /dev/spidev0.0
+      GATEWAY_EUI_SOURCE: chip
+      USE_LIBGPIOD: "1"
+      GPIO_CHIP: gpiochip0
+      RESET_GPIO: "25,17"
+      POWER_EN_GPIO: "0"
+      POWER_EN_LOGIC: "1"
+      BAND: us_902_928
+      TTS_REGION: ""
+    networks:
+      - gateway
+
+  gateway-rs:
+    image: quay.io/team-helium/miner:gateway-latest
+    restart: unless-stopped
+    devices:
+      - /dev/i2c-1:/dev/i2c-1
+    volumes:
+      - helium-gateway-data:/etc/helium_gateway
+    environment:
+      - GW_REGION=US915
+      - GW_LISTEN=0.0.0.0:1680
+      - GW_API=0.0.0.0:4467
+      - GW_KEYPAIR=/etc/helium_gateway/gateway_key.bin
+      - REGION_OVERRIDE=US915
+      - RUST_LOG=debug
+    depends_on:
+      - cs-mux
+    dns:
+      - "8.8.8.8"
+      - "1.1.1.1"
+    networks:
+      - gateway
+
+  # Buoy management agent - connects to Phoenix server via MQTT
+  buoy-agent:
+    build: ./agent
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      # /boot/firmware/buoy-config:/config:ro  # Only on provisioned devices
+      - agent-data:/data
+      - ./services/cs-mux:/app/services/cs-mux
+    environment:
+      MQTT_BROKER: ${MQTT_BROKER:-mqtt.buoy.fish}
+      MQTT_PORT: ${MQTT_PORT:-1883}
+      MQTT_USER: ${MQTT_USER:-gateway}
+      MQTT_PASS: ${MQTT_PASS:-buoy}
+      DEVICE_ID: ${DEVICE_ID:-unprovisioned}
+      SITE_NAME: ${SITE_NAME:-unknown}
+    networks:
+      - gateway
+
+  pkt-logger:
+    build: ./pkt-logger
+    restart: unless-stopped
+    networks:
+      - gateway
+
+volumes:
+  helium-gateway-data: {}
+  agent-data: {}
+
+networks:
+  gateway:
+    driver: bridge

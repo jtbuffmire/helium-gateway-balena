@@ -1,0 +1,16 @@
+{
+  "device_id": "dev-join-debug",
+  "site_name": "Dev Lab - Join Request Troubleshooting",
+  "hostname": "buoy-dev-join-debug",
+
+  "mqtt_broker": "mqtt.buoy.fish",
+  "mqtt_user": "gateway",
+  "mqtt_pass": "buoy",
+
+  "tailscale_auth_key": "tskey-auth-kwwPCWhvKR11CNTRL-BFDgyVGBMZhqRwwXKKYKZhi2nNembsErS",
+
+  "region": "US915",
+  "gateway_eui": "",
+
+  "notes": "Dev gateway for OTAA Join Request troubleshooting. Fans packets to both Helium and console.buoy.fish:1701 directly via cs-mux."
+}

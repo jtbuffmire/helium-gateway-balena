@@ -1,0 +1,1999 @@
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:12:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (51 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (886 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 390622355
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:12:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:13:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 420622597
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:13:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:13:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 450622832
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:13:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:14:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 480623125
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:14:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 40950100780002001AFD371D31B4E26AA9994B9855EE67
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000195 (netid=0x00003C, fcnt=2)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":488822687,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-66,"lsnr":12.8,"foff":10793,"rssi":-66,"size":23,"data":"QJUBAHgAAgAa/TcdMbTiaqmZS5hV7mc="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:14:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (23 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (416 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 510623430
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:14:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409501007880C20002D9E221695B58F895
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000195 (netid=0x00003C, fcnt=194)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":520006321,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-63,"lsnr":11.5,"foff":-640,"rssi":-63,"size":17,"data":"QJUBAHiAwgAC2eIhaVtY+JU="}]}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409501007880C20002D9E221695B58F895
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000195 (netid=0x00003C, fcnt=194)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":522168992,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-63,"lsnr":13.8,"foff":-645,"rssi":-63,"size":17,"data":"QJUBAHiAwgAC2eIhaVtY+JU="}]}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409501007880C20002D9E221695B58F895
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000195 (netid=0x00003C, fcnt=194)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":524331825,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-63,"lsnr":14.0,"foff":-646,"rssi":-62,"size":17,"data":"QJUBAHiAwgAC2eIhaVtY+JU="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:15:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (51 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (886 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 540624158
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:15:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4096010078809D0002FC6212260C21AE3C
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=157)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":563455634,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-53,"lsnr":14.0,"foff":-177,"rssi":-52,"size":17,"data":"QJYBAHiAnQAC/GISJgwhrjw="}]}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4096010078809D0002FC6212260C21AE3C
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=157)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":565608589,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-53,"lsnr":14.0,"foff":-188,"rssi":-52,"size":17,"data":"QJYBAHiAnQAC/GISJgwhrjw="}]}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4096010078809D0002FC6212260C21AE3C
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=157)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":567769677,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-53,"lsnr":14.2,"foff":-202,"rssi":-53,"size":17,"data":"QJYBAHiAnQAC/GISJgwhrjw="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:15:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (51 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (886 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 570625308
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:15:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:16:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 2 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 600625573
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:16:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:16:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 630625986
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:16:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:17:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 660626961
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:17:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:17:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 690628607
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:17:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007880CA00013B2CCF280DDFE69DD7CCF6E7C8BD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=202)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":707771411,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-40,"lsnr":12.2,"foff":2204,"rssi":-39,"size":23,"data":"gJYBAHiAygABOyzPKA3f5p3XzPbnyL0="}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CB0001373C1FAB57959874EB814EB6
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=203)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":711774226,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-39,"lsnr":13.5,"foff":2183,"rssi":-38,"size":21,"data":"gJYBAHiAywABNzwfq1eVmHTrgU62"}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CB0001373C1FAB57959874EB814EB6
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=203)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":716774163,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-39,"lsnr":11.8,"foff":2246,"rssi":-39,"size":21,"data":"gJYBAHiAywABNzwfq1eVmHTrgU62"}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:18:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (65 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (905 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 720628928
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:18:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:18:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 750631280
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:18:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:19:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 780634357
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:19:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:19:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 810635996
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:19:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:20:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 840636785
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:20:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:20:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 870637102
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:20:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:21:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 900639028
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:21:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:21:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 930639342
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:21:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:22:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 960640921
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:22:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:22:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 990643695
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:22:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4093010078809900027AAC84C69FB03686
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=153)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1018908205,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-59,"lsnr":13.8,"foff":-25,"rssi":-59,"size":17,"data":"QJMBAHiAmQACeqyExp+wNoY="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:23:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (17 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (406 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1020646459
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:23:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4093010078809900027AAC84C69FB03686
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=153)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1021069936,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-60,"lsnr":14.5,"foff":-37,"rssi":-60,"size":17,"data":"QJMBAHiAmQACeqyExp+wNoY="}]}
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 4093010078809900027AAC84C69FB03686
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=153)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1023227871,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-59,"lsnr":14.2,"foff":-40,"rssi":-59,"size":17,"data":"QJMBAHiAmQACeqyExp+wNoY="}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:23:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 2
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 2 (34 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 3 (646 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1050648684
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:23:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:24:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1080649084
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:24:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:24:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1110649909
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:24:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:25:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 2 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1140652112
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:25:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:25:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1170653001
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:25:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:26:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1200653268
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:26:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:26:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1230653507
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:26:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:27:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1260653809
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:27:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007880CC0001072ECADF2394D3B756166CEA53D7
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=204)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1260961799,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-23,"lsnr":13.8,"foff":2276,"rssi":-23,"size":23,"data":"gJYBAHiAzAABBy7K3yOU07dWFmzqU9c="}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CD00017D1C658EA4F26C0A04FAD3DD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=205)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1264739522,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-25,"lsnr":13.2,"foff":2214,"rssi":-24,"size":21,"data":"gJYBAHiAzQABfRxljqTybAoE+tPd"}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CD00017D1C658EA4F26C0A04FAD3DD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=205)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1269739460,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.5,"foff":2284,"rssi":-23,"size":21,"data":"gJYBAHiAzQABfRxljqTybAoE+tPd"}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CD00017D1C658EA4F26C0A04FAD3DD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=205)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1275741038,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-23,"lsnr":11.2,"foff":2316,"rssi":-22,"size":21,"data":"gJYBAHiAzQABfRxljqTybAoE+tPd"}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:27:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 4
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 4 (86 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 5 (1154 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1290654181
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:27:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":4,"rxfw":4,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007880CE0001533CCC62148E19CA56EF710CDB23
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=206)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1307733771,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":10.0,"foff":2259,"rssi":-23,"size":23,"data":"gJYBAHiAzgABUzzMYhSOGcpW73EM2yM="}]}
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809601007880CF00015350DF881F3AD46AAB409035
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=207)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":1311736585,"chan":4,"rfch":1,"freq":904.700000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":14.2,"foff":2246,"rssi":-23,"size":21,"data":"gJYBAHiAzwABU1DfiB861GqrQJA1"}]}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:28:14 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 2
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 2 (44 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 3 (662 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1320655641
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:28:14 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 20:28:44 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (0.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 1350656872
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 20:28:44 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}

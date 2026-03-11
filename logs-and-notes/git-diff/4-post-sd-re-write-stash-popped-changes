@@ -1,0 +1,1046 @@
+Downloaded image 'registry2.balena-cloud.com/v2/23d540223334c0b30770a82c91eb4978@sha256:7bd03dc4f36e0c748e3fd68d2aab79a10f44eb983316ab52d7db454c153a659a'
+Taking update locks
+Installing service 'gateway-service sha256:477e887ed1d68c24aaead9e867b147fdd76dcc87abf50bd9bc8de31ce7dc957e'
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'gateway-service sha256:477e887ed1d68c24aaead9e867b147fdd76dcc87abf50bd9bc8de31ce7dc957e'
+Starting service 'gateway-service sha256:477e887ed1d68c24aaead9e867b147fdd76dcc87abf50bd9bc8de31ce7dc957e'
+Downloaded image 'registry2.balena-cloud.com/v2/8dff414cfe63c900cb5e37ca7e79ecc5@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Warning: Suppressed 12 message(s) due to rate limiting
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1700"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-20T16:42:05.085294Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+Releasing update locks
+<gateway-service> 2025-08-20T16:42:05.164318Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T16:42:05.164453Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T16:42:05.164561Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T16:42:05.164661Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T16:42:05.164841Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T16:42:05.165095Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          DYNAMIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gateway-service:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110002
+
+<packet-forwarder> EUI Source:    eth0
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> Chip ID:       0016C001FF10AA97
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T16:42:10.404422Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=133eHpw37dktSFDwANiS2NQ5Zt7uDiaPnkXrYo3Qrgqo8Xdsp1a
+
+<gateway-service> 2025-08-20T16:42:10.500905Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13Trz3EM8cRuDQpdaXGbAzVAuySZWESSg3Qn6VeLw4CdqPtYNRL
+
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+<gateway-service> 2025-08-20T16:42:13.477543Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-20T16:42:13.477853Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-20 17:39:59.0 +00:00:00
+
+<gateway-service> 2025-08-20T16:42:13.478227Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-20T16:42:13.478331Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+Warning: Suppressed 19 message(s) due to rate limiting
+<packet-forwarder> Gateway EUI:   0242ACFFFE110002
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+Warning: Suppressed 19 message(s) due to rate limiting
+<packet-forwarder> Gateway EUI:   0242ACFFFE110002
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+Warning: Suppressed 19 message(s) due to rate limiting
+<packet-forwarder> Gateway EUI:   0242ACFFFE110002
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110002
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+
+<packet-forwarder> ERROR: [main] failed to start the concentrator
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Reading existing ./global_conf.json file

@@ -1,0 +1,2022 @@
+Connecting to add7055c10cccc2b92312c22434a1c81...
+Spawning shell...
+=============================================================
+    Welcome to balenaOS
+=============================================================
+root@add7055:~# balena ps
+CONTAINER ID   IMAGE                                                            COMMAND                  CREATED              STATUS                            PORTS                                       NAMES
+e17defb3c753   34575d29787b                                                     "/opt/start-udp-prox…"   About a minute ago   Up About a minute                                                             udp-proxy_12224014_3629523_0dc25c22fc2381221c8521b902aae4ff
+45e3f18e9309   8d56b25769af                                                     "/usr/bin/entry.sh s…"   About a minute ago   Up About a minute                                                             packet-forwarder_12224013_3629523_0dc25c22fc2381221c8521b902aae4ff
+8a482a109640   efb94ba0e706                                                     "/opt/start-gwmp-mux…"   About a minute ago   Up About a minute                 0.0.0.0:1700->1700/udp, :::1700->1700/udp   gwmp-mux_12224012_3629523_0dc25c22fc2381221c8521b902aae4ff
+1caea1697c98   ebb1385abfc0                                                     "/opt/gateway/start-…"   About a minute ago   Up About a minute                 0.0.0.0:4467->4467/tcp, :::4467->4467/tcp   gateway-service_12224011_3629523_0dc25c22fc2381221c8521b902aae4ff
+701ae46cb7e9   registry2.balena-cloud.com/v2/43812936f3ae18cafa04900afbee2714   "/usr/src/app/entry.…"   20 months ago        Up 3 minutes (health: starting)                                               balena_supervisor
+root@add7055:~# 
+
+gwmp-mux:
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> INFO: [main] concentrator started, packet can now be received
+
+<packet-forwarder> INFO: concentrator EUI: 0x0016c001ff10aa97
+
+<gwmp-mux> Aug 21 06:15:03.249 INFO New packet forwarder client: 02:42:AC:FF:FE:11:00:04, 172.17.0.4:48181
+
+<gwmp-mux> Aug 21 06:15:03.249 INFO Connecting to server 127.0.0.1:1680 on behalf of 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:03.249 INFO Connecting to server 127.0.0.1:1691 on behalf of 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 8093010078800E0001C8D315107965C9790D39D4FA87BE
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=14)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":3770054,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-28,"lsnr":12.2,"foff":4001,"rssi":-28,"size":23,"data":"gJMBAHiADgAByNMVEHllyXkNOdT6h74="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:06.393 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @3770054 us, 905.30 MHz, DataRate(SF10, BW125), rssis: -28, snr: 12.2, len: 23
+
+<gwmp-mux> Aug 21 06:15:06.393 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:06.393 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":7756769,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-26,"lsnr":12.2,"foff":4019,"rssi":-25,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:10.384 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @7756769 us, 903.90 MHz, DataRate(SF10, BW125), rssis: -26, snr: 12.2, len: 21
+
+<gwmp-mux> Aug 21 06:15:10.384 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:10.385 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:13.250 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:13.250 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":12755745,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.5,"foff":4035,"rssi":-23,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:15.379 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @12755745 us, 904.90 MHz, DataRate(SF10, BW125), rssis: -24, snr: 12.5, len: 21
+
+<gwmp-mux> Aug 21 06:15:15.381 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:15.381 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":18756001,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-25,"lsnr":12.0,"foff":3958,"rssi":-24,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:15:21.386 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @18756001 us, 904.10 MHz, DataRate(SF10, BW125), rssis: -25, snr: 12, len: 21
+
+<gwmp-mux> Aug 21 06:15:21.387 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:21.387 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:23.252 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:23.252 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":23756606,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.5,"foff":4062,"rssi":-24,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:26.385 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @23756606 us, 904.50 MHz, DataRate(SF10, BW125), rssis: -24, snr: 12.5, len: 21
+
+<gwmp-mux> Aug 21 06:15:26.385 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:26.385 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":28757211,"chan":4,"rfch":1,"freq":904.700000,"mid":10,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":13.0,"foff":3995,"rssi":-24,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:31.380 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @28757211 us, 904.70 MHz, DataRate(SF10, BW125), rssis: -24, snr: 13, len: 21
+
+<gwmp-mux> Aug 21 06:15:31.381 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:31.381 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:15:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 6
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 6 (128 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 6 (1466 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 30630920
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<gwmp-mux> Aug 21 06:15:33.252 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:33.253 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:15:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":6,"rxok":6,"rxfw":6,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:33.255 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:15:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 6, rxok: 6, rxfw: 6, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:15:33.256 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:33.257 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":33757816,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.5,"foff":3977,"rssi":-23,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<gwmp-mux> Aug 21 06:15:36.390 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @33757816 us, 905.10 MHz, DataRate(SF10, BW125), rssis: -24, snr: 12.5, len: 21
+
+<gwmp-mux> Aug 21 06:15:36.390 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:36.391 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409601007880A700027BA6DAD30AF7D1CD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=167)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":34421559,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-53,"lsnr":13.5,"foff":-139,"rssi":-53,"size":17,"data":"QJYBAHiApwACe6ba0wr30c0="}]}
+
+<gwmp-mux> Aug 21 06:15:37.043 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @34421559 us, 905.30 MHz, DataRate(SF7, BW125), rssis: -53, snr: 13.5, len: 17
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:37.044 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:37.044 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409601007880A700027BA6DAD30AF7D1CD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=167)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":36582589,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-53,"lsnr":13.8,"foff":-155,"rssi":-52,"size":17,"data":"QJYBAHiApwACe6ba0wr30c0="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:15:39.206 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @36582589 us, 904.90 MHz, DataRate(SF7, BW125), rssis: -53, snr: 13.8, len: 17
+
+<gwmp-mux> Aug 21 06:15:39.206 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:39.207 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409601007880A700027BA6DAD30AF7D1CD
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=167)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":38735741,"chan":1,"rfch":0,"freq":904.100000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-52,"lsnr":13.2,"foff":-149,"rssi":-52,"size":17,"data":"QJYBAHiApwACe6ba0wr30c0="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:41.356 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @38735741 us, 904.10 MHz, DataRate(SF7, BW125), rssis: -52, snr: 13.2, len: 17
+
+<gwmp-mux> Aug 21 06:15:41.356 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:41.356 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":38758423,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.0,"foff":4031,"rssi":-23,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:41.389 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @38758423 us, 905.30 MHz, DataRate(SF10, BW125), rssis: -24, snr: 12, len: 21
+
+<gwmp-mux> Aug 21 06:15:41.389 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:41.389 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:43.254 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:43.254 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078800F0001201B8A9B109BEA9FF6BF8E3B
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=15)
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093524678800F0381201B8AFB909BEA9F96B38E3B
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":42759418,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-25,"lsnr":12.2,"foff":4046,"rssi":-25,"size":21,"data":"gJMBAHiADwABIBuKmxCb6p/2v447"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:15:45.391 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @42759418 us, 903.90 MHz, DataRate(SF10, BW125), rssis: -25, snr: 12.2, len: 21
+
+<gwmp-mux> Aug 21 06:15:45.391 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:45.391 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:15:53.255 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:15:53.255 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:16:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 7
+
+<packet-forwarder> # CRC_OK: 85.71%, CRC_FAIL: 14.29%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 6 (114 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 7 (1617 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 60631207
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<gwmp-mux> Aug 21 06:16:03.255 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:16:03.255 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:16:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":7,"rxok":6,"rxfw":6,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:16:03.258 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:16:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 7, rxok: 6, rxfw: 6, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:16:03.258 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:16:03.258 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:16:13.256 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:16:13.256 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:16:23.257 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:16:23.257 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:16:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 90631495
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:16:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:16:33.257 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:16:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:16:33.257 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:16:33.257 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:16:33.259 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:16:33.260 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:16:43.259 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:16:43.259 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:16:53.260 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:16:53.260 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:17:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 120631790
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:17:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:17:03.261 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:17:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:17:03.261 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:17:03.262 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:17:03.262 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:17:03.262 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:17:13.263 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:17:13.263 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:17:23.263 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:17:23.264 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:17:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:17:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> ##### 2025-08-21 06:18:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 180633756
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:18:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:18:03.261 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:18:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:18:03.261 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:03.261 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:03.269 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:18:03.269 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:18:13.269 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:13.270 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:18:23.270 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:18:23.271 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+Warning: Suppressed 16 message(s) due to rate limiting
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:18:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:18:33.259 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:18:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:18:33.259 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:33.260 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:33.272 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:18:33.273 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:18:43.273 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:18:43.273 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:18:53.279 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:18:53.279 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:19:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 240636010
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:19:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:19:03.261 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:19:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:03.261 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:03.261 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:03.275 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:19:03.276 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:13.277 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:13.277 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:23.278 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:19:23.278 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:19:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 270636243
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:19:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:33.266 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:19:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:19:33.267 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:33.267 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:33.278 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:19:33.278 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:43.280 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:19:43.280 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:19:53.282 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:19:53.282 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:20:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 300638703
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:20:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:20:03.271 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:20:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:20:03.271 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:03.272 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:03.283 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:20:03.283 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:20:13.283 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:13.284 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:20:23.285 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:20:23.285 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:20:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 330640680
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:20:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:20:33.266 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:20:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:20:33.267 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:33.267 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:33.286 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:20:33.286 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:20:43.287 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:20:43.287 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:20:53.288 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:20:53.288 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:21:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 360641059
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:21:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:03.269 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:21:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:21:03.270 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:03.270 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:03.289 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:21:03.289 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:13.289 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:13.289 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:23.291 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:21:23.291 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:21:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 390643204
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:21:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:33.276 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:21:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:21:33.276 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:33.276 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:33.291 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:21:33.292 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:43.292 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:21:43.293 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:21:53.294 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:21:53.294 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:22:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 420645405
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:22:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:22:03.271 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:22:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:22:03.271 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:22:03.272 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:22:03.295 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:22:03.295 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:22:13.296 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:22:13.296 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:22:23.297 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:22:23.297 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:22:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 450645658
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:22:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:22:33.276 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:22:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:22:33.276 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:22:33.276 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:22:33.298 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:22:33.298 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:22:43.298 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:22:43.299 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:22:53.299 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:22:53.300 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:23:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 480645966
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:23:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:23:03.273 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:23:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:03.274 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:03.274 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:03.301 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:03.301 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409301007880A30002535BF5AE8173CFF6
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=163)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":490244800,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-68,"lsnr":13.8,"foff":-12,"rssi":-67,"size":17,"data":"QJMBAHiAowACU1v1roFzz/Y="}]}
+
+<gwmp-mux> Aug 21 06:23:12.874 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @490244800 us, 904.50 MHz, DataRate(SF7, BW125), rssis: -68, snr: 13.8, len: 17
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:12.874 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:12.875 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:13.302 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:13.302 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409301007880A30002535BF5AE8173CFF6
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=163)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":492398603,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-69,"lsnr":13.5,"foff":-37,"rssi":-69,"size":17,"data":"QJMBAHiAowACU1v1roFzz/Y="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gwmp-mux> Aug 21 06:23:15.034 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @492398603 us, 903.90 MHz, DataRate(SF7, BW125), rssis: -69, snr: 13.5, len: 17
+
+<gwmp-mux> Aug 21 06:23:15.034 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:15.034 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409301007880A30002535BF5AE8173CFF6
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=163)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":494560550,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-67,"lsnr":13.5,"foff":-33,"rssi":-66,"size":17,"data":"QJMBAHiAowACU1v1roFzz/Y="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:17.195 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @494560550 us, 904.90 MHz, DataRate(SF7, BW125), rssis: -67, snr: 13.5, len: 17
+
+<gwmp-mux> Aug 21 06:23:17.196 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:17.196 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:23.302 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:23.303 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:23:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (51 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (885 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 510646264
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:23:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:33.281 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:23:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 3, rxok: 3, rxfw: 3, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:23:33.281 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:33.281 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:33.304 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:33.304 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:43.304 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:23:43.304 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:23:53.306 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:23:53.306 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:24:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 2 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 540646558
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:24:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:24:03.279 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:24:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:24:03.279 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:24:03.279 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:03.307 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:24:03.307 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:13.308 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:24:13.308 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:23.309 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:24:23.309 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:24:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 570646851
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:24:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:33.282 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:24:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:24:33.283 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:24:33.283 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:24:33.310 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:24:33.310 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:43.312 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:24:43.312 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:24:53.314 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:24:53.314 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:25:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 600647174
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:25:03 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 06:25:03.275 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:25:03 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:03.275 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:03.275 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:03.316 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:25:03.316 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809301007880100001DB443BCD7E03FC933271CC281AC1
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=16)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":603727396,"chan":2,"rfch":0,"freq":904.300000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-26,"lsnr":9.0,"foff":3968,"rssi":-26,"size":23,"data":"gJMBAHiAEAAB20Q7zX4D/JMyccwoGsE="}]}
+
+<gwmp-mux> Aug 21 06:25:06.362 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @603727396 us, 904.30 MHz, DataRate(SF10, BW125), rssis: -26, snr: 9, len: 23
+
+<gwmp-mux> Aug 21 06:25:06.363 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:06.363 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 809301007880110001A4F1FB306BC0F4FEB78ECB5F
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=17)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":607729127,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-24,"lsnr":12.0,"foff":3941,"rssi":-24,"size":21,"data":"gJMBAHiAEQABpPH7MGvA9P63jstf"}]}
+
+<gwmp-mux> Aug 21 06:25:10.362 INFO From 02:42:AC:FF:FE:11:00:04 received uplink: @607729127 us, 905.10 MHz, DataRate(SF10, BW125), rssis: -24, snr: 12, len: 21
+
+<gwmp-mux> Aug 21 06:25:10.362 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:25:10.362 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:13.316 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:13.316 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:23.318 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:25:23.318 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:25:33 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 2
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 2 (44 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 3 (661 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 630647424
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 06:25:33 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:33.284 INFO From 02:42:AC:FF:FE:11:00:04 received stat: Stat { time: "2025-08-21 06:25:33 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 2, rxok: 2, rxfw: 2, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 06:25:33.285 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:33.285 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:33.319 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:25:33.319 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:43.320 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<gwmp-mux> Aug 21 06:25:43.320 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:04
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 06:25:53.321 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<gwmp-mux> Aug 21 06:25:53.321 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:04. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 06:26:03 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 660649261
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+
+
+
+
+
+
+
+

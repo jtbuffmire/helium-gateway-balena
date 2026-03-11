@@ -1,0 +1,1851 @@
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Downloading delta for image 'registry2.balena-cloud.com/v2/88bee4a78cc55d48a1288a9a4c900fdb@sha256:18785c8bd26510c688227aaa391c318591e91fc9d1a397e0779225d7a75674a7'
+Downloading delta for image 'registry2.balena-cloud.com/v2/38b57b1a7079590d0a43863c508cbb3a@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Downloaded image 'registry2.balena-cloud.com/v2/38b57b1a7079590d0a43863c508cbb3a@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Restarting service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+<packet-forwarder> === Packet Forwarder Startup Wrapper ===
+
+<packet-forwarder> Waiting for gateway-service to be ready...
+
+<packet-forwarder> Initial startup delay: 10 seconds
+
+Downloaded image 'registry2.balena-cloud.com/v2/88bee4a78cc55d48a1288a9a4c900fdb@sha256:18785c8bd26510c688227aaa391c318591e91fc9d1a397e0779225d7a75674a7'
+Taking update locks
+Killing service 'gateway-service sha256:f0c9c6813ed9b90172c35312e979aeaddf889fdd39589f6618d79e461907fac7'
+Killing service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Service exited 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Killed service 'packet-forwarder sha256:ac874ef33ce4da19fca0cba4e847906f31b6679f6df114649a04e251d0eebd0a'
+Deleting image 'registry2.balena-cloud.com/v2/7560148d3912d7a15dba9ab419446ebe@sha256:6ea72f5159b87960a0d8785f485d610fd1e251da342b47a784296fe50973cb66'
+Deleted image 'registry2.balena-cloud.com/v2/7560148d3912d7a15dba9ab419446ebe@sha256:6ea72f5159b87960a0d8785f485d610fd1e251da342b47a784296fe50973cb66'
+<packet-forwarder> Testing connection to gateway-service:1700 (attempt 1/30)
+
+<packet-forwarder> â Gateway service is responding on gateway-service:1700
+
+<packet-forwarder> === Starting RAK UDP Packet Forwarder ===
+
+<packet-forwarder> /opt/start-packet-forwarder.sh: line 37: /usr/src/app/start.sh: No such file or directory
+
+Service exited 'gateway-service sha256:f0c9c6813ed9b90172c35312e979aeaddf889fdd39589f6618d79e461907fac7'
+Killed service 'gateway-service sha256:f0c9c6813ed9b90172c35312e979aeaddf889fdd39589f6618d79e461907fac7'
+Deleting image 'registry2.balena-cloud.com/v2/c621cf5df8ff0ee44ee25d67f3d352bf@sha256:28d5dabda5cb3986860cc02751addb77876ff7b7c8be3f0c736f6695502c6831'
+Deleted image 'registry2.balena-cloud.com/v2/c621cf5df8ff0ee44ee25d67f3d352bf@sha256:28d5dabda5cb3986860cc02751addb77876ff7b7c8be3f0c736f6695502c6831'
+Installing service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Installed service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Starting service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Started service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+<gateway-service> â ECC chip found at address 0x60
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Writing ECC keypair: ecc://i2c-1:96?slot=0
+
+<gateway-service> Verifying keypair was written:
+
+<gateway-service> â settings.toml exists, contents:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1700"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-20T17:26:09.114697Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+<gateway-service> 2025-08-20T17:26:09.189888Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T17:26:09.189981Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T17:26:09.190066Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T17:26:09.190126Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T17:26:09.190185Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T17:26:09.190232Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> === Waiting for gateway-service ===
+
+Releasing update locks
+<gateway-service> 2025-08-20T17:26:14.595608Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13vzkkWFMzi3auAzb83dST3NEfgAwmVVAYgbLpo4bR8zuUWiC4U
+
+<gateway-service> 2025-08-20T17:26:14.854998Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13vzMDDrqcpdxgK6wgxupxtrn8eXNdHEbSVLbYEgbZLxpYvrBnY
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<gateway-service> 2025-08-20T17:26:22.469474Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-20T17:26:22.469751Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-20 17:43:18.0 +00:00:00
+
+<gateway-service> 2025-08-20T17:26:22.469796Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-20T17:26:22.471140Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+Downloading delta for image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+Delta still processing remotely. Will retry...
+<packet-forwarder> Gateway not ready, waiting...
+
+Downloading delta for image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+Delta still processing remotely. Will retry...
+<packet-forwarder> Gateway not ready, waiting...
+
+Downloading delta for image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+Downloaded image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+Taking update locks
+<packet-forwarder> Gateway not ready, waiting...
+
+Killing service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Killing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+<packet-forwarder> Gateway not ready, waiting...
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Killed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Service exited 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Killed service 'gateway-service sha256:b194ca3a95bc9635ec5f7b0537f1878646a4482482a44d06f07e631ca08baaf2'
+Deleting image 'registry2.balena-cloud.com/v2/38b57b1a7079590d0a43863c508cbb3a@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Deleting image 'registry2.balena-cloud.com/v2/88bee4a78cc55d48a1288a9a4c900fdb@sha256:18785c8bd26510c688227aaa391c318591e91fc9d1a397e0779225d7a75674a7'
+Deleted image 'registry2.balena-cloud.com/v2/38b57b1a7079590d0a43863c508cbb3a@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Deleted image 'registry2.balena-cloud.com/v2/88bee4a78cc55d48a1288a9a4c900fdb@sha256:18785c8bd26510c688227aaa391c318591e91fc9d1a397e0779225d7a75674a7'
+Installing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Installed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Starting service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Started service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+<gateway-service> Checking for I2C device
+
+<gateway-service> â ECC chip found at address 0x60
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Writing ECC keypair: ecc://i2c-1:96?slot=0
+
+<gateway-service> Verifying keypair was written:
+
+<gateway-service> â settings.toml exists, contents:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1700"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-20T17:38:38.219405Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+<gateway-service> 2025-08-20T17:38:38.295129Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T17:38:38.295260Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T17:38:38.295948Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T17:38:38.296059Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T17:38:38.296128Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T17:38:38.296183Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T17:38:43.540581Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=12x8h1YmuVanRVS7mQovAVpntPSxPYNPZFfYXVZyT1oWTa4QQxu
+
+<gateway-service> 2025-08-20T17:38:43.642688Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13u1rMzVVFnYTGpKvVM9LRffBQV1PzhXnM2MpGDBqfihMGRAXAV
+
+Releasing update locks
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T17:38:51.104185Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-20T17:38:51.104440Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-20 17:54:07.0 +00:00:00
+
+<gateway-service> 2025-08-20T17:38:51.104495Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-20T17:38:51.104545Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'

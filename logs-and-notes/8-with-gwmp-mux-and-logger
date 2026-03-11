@@ -1,0 +1,10 @@
+gwmp-mux  Starting gwmp-mux with packet logging
+ gwmp-mux  listening on port 1700
+ gwmp-mux  forwarding to gateway-service:1680
+ gwmp-mux  error: Found argument '--bind' which wasn't expected, or isn't valid in this context
+ gwmp-mux  
+ gwmp-mux  USAGE:
+ gwmp-mux      gwmp-mux [FLAGS] [OPTIONS] [--] [log-level]
+ gwmp-mux  
+ gwmp-mux  For more information try --help
+ Service exited 'gwmp-mux sha256:c002cf39bdb2dc7b35faa7bd35ad7be06c7182c22e1eb1073b097590e30b5687'

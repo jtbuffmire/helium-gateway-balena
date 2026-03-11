@@ -1,0 +1,16 @@
+{
+  "device_id": "baja-companion-1",
+  "site_name": "Baja Sur - San Jose del Cabo",
+  "hostname": "buoy-baja-1",
+
+  "mqtt_broker": "mqtt.buoy.fish",
+  "mqtt_user": "gateway",
+  "mqtt_pass": "buoy",
+
+  "tailscale_auth_key": "tskey-auth-REPLACE_ME",
+
+  "region": "US915",
+  "gateway_eui": "",
+
+  "notes": "This file goes in /boot/firmware/buoy-config/site.json on the SD card."
+}

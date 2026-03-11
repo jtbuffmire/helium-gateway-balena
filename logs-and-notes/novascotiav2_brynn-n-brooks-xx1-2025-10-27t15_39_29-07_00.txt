@@ -1,0 +1,1000 @@
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:26:57-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:26:59-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:26:59-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:26:59-07:00 Service exited 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:27:31-07:00 <cs-mux> 2025-10-27T22:27:31.797677Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:27:31-07:00 <cs-mux> 2025-10-27T22:27:31.801929Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:28:02-07:00 Warning: Suppressed 16 message(s) due to rate limiting
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Mode:          STATIC
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> 
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> 
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> 
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:28:06-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:28:02-07:00 Restarting service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:28:08-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:28:08-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:28:09-07:00 Service exited 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:28:31-07:00 <cs-mux> 2025-10-27T22:28:31.798388Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:28:31-07:00 <cs-mux> 2025-10-27T22:28:31.803625Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:29:31-07:00 <cs-mux> 2025-10-27T22:29:31.799208Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:29:31-07:00 <cs-mux> 2025-10-27T22:29:31.804448Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:30:22-07:00 Warning: Suppressed 21 message(s) due to rate limiting
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:30:27-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:30:29-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:30:29-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:30:31-07:00 <cs-mux> 2025-10-27T22:30:31.800731Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:30:31-07:00 <cs-mux> 2025-10-27T22:30:31.805920Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:31:32-07:00 Warning: Suppressed 22 message(s) due to rate limiting
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:31:37-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:31:39-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:31:39-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:31:56-07:00 <gateway-rs> 2025-10-27T22:31:56.076297Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+2025-10-27T15:32:11-07:00 <gateway-rs> 2025-10-27T22:32:11.079138Z  WARN run: gateway_rs::beaconer: failed to reconnect err=service error: rpc status: Unavailable, message: "error trying to connect: deadline has elapsed", details: [], metadata: MetadataMap { headers: {} }
+2025-10-27T15:32:12-07:00 <gateway-rs> 2025-10-27T22:32:12.457811Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+2025-10-27T15:32:17-07:00 <gateway-rs> 2025-10-27T22:32:17.844692Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=142aTTWztZjt9mwcHsoycLNjpmZ7DkqKdcJ3afPc9daPaTiztVU
+2025-10-27T15:32:23-07:00 <gateway-rs> 2025-10-27T22:32:23.614418Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14rk2Ho5VnfPKPpGm1VYvQCurC3yAivD7MtdWBREu1V1aTUKV34
+2025-10-27T15:32:31-07:00 <cs-mux> 2025-10-27T22:32:31.802962Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:32:31-07:00 <cs-mux> 2025-10-27T22:32:31.808205Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:32:42-07:00 Warning: Suppressed 19 message(s) due to rate limiting
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Mode:          STATIC
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> 
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> 
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> 
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:32:47-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:32:49-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:32:49-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:33:31-07:00 Warning: Suppressed 18 message(s) due to rate limiting
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Protocol
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Mode:          STATIC
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> 
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> 
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> 
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:33:57-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:33:59-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:33:59-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:34:00-07:00 Service exited 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:34:31-07:00 <cs-mux> 2025-10-27T22:34:31.807650Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:34:31-07:00 <cs-mux> 2025-10-27T22:34:31.810900Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:34:34-07:00 <gateway-rs> 2025-10-27T22:34:34.399752Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=US915 region=US915
+2025-10-27T15:35:02-07:00 Warning: Suppressed 16 message(s) due to rate limiting
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Mode:          STATIC
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> 
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> 
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> 
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:35:07-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:35:02-07:00 Restarting service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:35:09-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:35:09-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:35:10-07:00 Service exited 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-27T15:36:12-07:00 Warning: Suppressed 21 message(s) due to rate limiting
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> 
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> 
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> 
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:36:17-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:36:19-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:36:19-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:36:31-07:00 <cs-mux> 2025-10-27T22:36:31.810460Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:36:31-07:00 <cs-mux> 2025-10-27T22:36:31.813711Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:37:22-07:00 Warning: Suppressed 25 message(s) due to rate limiting
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> 
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:37:27-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:37:29-07:00 <gateway-rs> 2025-10-27T22:37:29.002962Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14ejuzcW8GCJGW684bSUneYRb8KMFuHG2Mk8G1J5YFZvVgFCgtp
+2025-10-27T15:37:29-07:00 <gateway-rs> 2025-10-27T22:37:29.089982Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13LnkywPXegsHMdCzkPxb3uNWs9JHHfEXVUPSwYXCe3YVdJSkUq
+2025-10-27T15:37:29-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:37:29-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:37:31-07:00 <cs-mux> 2025-10-27T22:37:31.811536Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+2025-10-27T15:37:31-07:00 <cs-mux> 2025-10-27T22:37:31.814777Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+2025-10-27T15:38:32-07:00 Warning: Suppressed 18 message(s) due to rate limiting
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Protocol
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Mode:          STATIC
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Protocol:      UDP
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Band:          us_902_928
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> EUI Source:    file
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Radio
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Model:         RAK2287
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Design:        CORECELL
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Interface:     SPI
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Reset GPIO:    17
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Enable GPIO:   0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Extra
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Stat interval: 30
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Push timeout:  100
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Latitude:      38.851137
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Altitude:      0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> 
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Version: 2.1.0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> Version: 2.1.0;
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> ***
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Little endian host
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:38:37-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+2025-10-27T15:38:38-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+2025-10-27T15:38:39-07:00 <udp-packet-forwarder> ERROR: Failed to set SX1250_0 in STANDBY_RC mode
+2025-10-27T15:38:39-07:00 <udp-packet-forwarder> ERROR: [main] failed to start the concentrator
+2025-10-27T15:38:40-07:00 Service exited 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'

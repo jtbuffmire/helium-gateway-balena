@@ -1,0 +1,11 @@
+{
+  "device_id": "test-gateway-1",
+  "site_name": "Lab / Office",
+  "hostname": "buoy-test-gateway-1",
+  "mqtt_broker": "mqtt.buoy.fish",
+  "mqtt_user": "gateway",
+  "mqtt_pass": "buoy",
+  "tailscale_auth_key": "tskey-auth-ktDLQiMf4b11CNTRL-728854YRoB6ZQcoSjH9rB6JZytanAYjU7",
+  "region": "US915",
+  "gateway_eui": ""
+}

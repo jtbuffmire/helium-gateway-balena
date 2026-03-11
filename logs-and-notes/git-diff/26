@@ -1,0 +1,1189 @@
+Creating network 'default'
+Creating volume 'gwmp-config'
+Creating volume 'gateway-data'
+Creating volume 'gateway-logs'
+Creating volume 'packet-buffer-data'
+Creating network 'default'
+Downloading image 'registry2.balena-cloud.com/v2/b0ee71708958b352dbde5d442f6fac3c@sha256:c166bdc333329f7d758851b38484e1726f56bec38ff7314a1788b86d2ffb4dde'
+Downloading image 'registry2.balena-cloud.com/v2/5a43b5a5bdf30269ca215c4ee7d8b7dc@sha256:593268e6c1385f4ae29a14ecb29a84e6b7830776062cb8dafff9a948a5329a74'
+Downloading image 'registry2.balena-cloud.com/v2/261f907a92c7edff21af1d4e99596418@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Downloading image 'registry2.balena-cloud.com/v2/e1fa10d41c5c4858553daf5be01f180b@sha256:0e3a6f3e3d574bfd38adf8173c81d506c9fafdb337fe88143aebf064f7bc2ca5'
+Downloading image 'registry2.balena-cloud.com/v2/3408f64fb0070e6bacc1ca37e828aaac@sha256:973950547b0d6e544a68a4ff1769a34e0bd6e216e24041400fe2cf94d9ae8ab0'
+Downloading image 'registry2.balena-cloud.com/v2/ea13ec645237cb875281ce49207b2b3c@sha256:c816fb0f506b4cbd17d89bc6e5dd14e44bc30759aac5ed03debf9681ac186793'
+Supervisor starting
+Downloaded image 'registry2.balena-cloud.com/v2/e1fa10d41c5c4858553daf5be01f180b@sha256:0e3a6f3e3d574bfd38adf8173c81d506c9fafdb337fe88143aebf064f7bc2ca5'
+Downloaded image 'registry2.balena-cloud.com/v2/5a43b5a5bdf30269ca215c4ee7d8b7dc@sha256:593268e6c1385f4ae29a14ecb29a84e6b7830776062cb8dafff9a948a5329a74'
+Downloaded image 'registry2.balena-cloud.com/v2/ea13ec645237cb875281ce49207b2b3c@sha256:c816fb0f506b4cbd17d89bc6e5dd14e44bc30759aac5ed03debf9681ac186793'
+Downloaded image 'registry2.balena-cloud.com/v2/3408f64fb0070e6bacc1ca37e828aaac@sha256:973950547b0d6e544a68a4ff1769a34e0bd6e216e24041400fe2cf94d9ae8ab0'
+Downloaded image 'registry2.balena-cloud.com/v2/b0ee71708958b352dbde5d442f6fac3c@sha256:c166bdc333329f7d758851b38484e1726f56bec38ff7314a1788b86d2ffb4dde'
+Taking update locks
+Installing service 'gateway-service sha256:b5cda7a5af565e30e854c72defb21096c8ee40e4d6eaa1de0abfb059182f706b'
+Installing service 'packet-buffer sha256:57ca32377f5d4324bbb955f1d8e91519afd6d5faac4733ec1b93346946c90e83'
+Installed service 'packet-buffer sha256:57ca32377f5d4324bbb955f1d8e91519afd6d5faac4733ec1b93346946c90e83'
+Starting service 'packet-buffer sha256:57ca32377f5d4324bbb955f1d8e91519afd6d5faac4733ec1b93346946c90e83'
+Installed service 'gateway-service sha256:b5cda7a5af565e30e854c72defb21096c8ee40e4d6eaa1de0abfb059182f706b'
+Starting service 'gateway-service sha256:b5cda7a5af565e30e854c72defb21096c8ee40e4d6eaa1de0abfb059182f706b'
+Downloaded image 'registry2.balena-cloud.com/v2/261f907a92c7edff21af1d4e99596418@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Started service 'packet-buffer sha256:57ca32377f5d4324bbb955f1d8e91519afd6d5faac4733ec1b93346946c90e83'
+<packet-buffer> 1:C 21 Aug 2025 19:45:47.280 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+
+<packet-buffer> 1:C 21 Aug 2025 19:45:47.281 * Redis version=7.2.10, bits=64, commit=00000000, modified=0, pid=1, just started
+
+<packet-buffer> 1:C 21 Aug 2025 19:45:47.281 * Configuration loaded
+
+<packet-buffer> 1:M 21 Aug 2025 19:45:47.283 * monotonic clock: POSIX clock_gettime
+
+<packet-buffer>                 _._                                                  
+
+<packet-buffer>            _.-``__ ''-._                                             
+
+<packet-buffer>       _.-``    `.  `_.  ''-._           Redis 7.2.10 (00000000/0) 64 bit
+
+<packet-buffer>   .-`` .-```.  ```\/    _.,_ ''-._                                  
+
+<packet-buffer>  (    '      ,       .-`  | `,    )     Running in standalone mode
+
+<packet-buffer>  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+
+<packet-buffer>  |    `-._   `._    /     _.-'    |     PID: 1
+
+<packet-buffer>   `-._    `-._  `-./  _.-'    _.-'                                   
+
+<packet-buffer>  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+
+<packet-buffer>  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+
+<packet-buffer>   `-._    `-._`-.__.-'_.-'    _.-'                                   
+
+<packet-buffer>  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+
+<packet-buffer>  |    `-._`-._        _.-'_.-'    |                                  
+
+<packet-buffer>   `-._    `-._`-.__.-'_.-'    _.-'                                   
+
+<packet-buffer>       `-._    `-.__.-'    _.-'                                       
+
+<packet-buffer>           `-._        _.-'                                           
+
+<packet-buffer>               `-.__.-'                                               
+
+<packet-buffer> 
+
+<packet-buffer> 1:M 21 Aug 2025 19:45:47.290 * Server initialized
+
+<packet-buffer> 1:M 21 Aug 2025 19:45:47.341 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+
+<packet-buffer> 1:M 21 Aug 2025 19:45:47.355 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+
+<packet-buffer> 1:M 21 Aug 2025 19:45:47.355 * Ready to accept connections tcp
+
+Started service 'gateway-service sha256:b5cda7a5af565e30e854c72defb21096c8ee40e4d6eaa1de0abfb059182f706b'
+<gateway-service> Starting start-gateway-service.sh
+
+<gateway-service> Checking for I2C device
+
+<gateway-service> â ECC chip found at address 0x60
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Writing ECC keypair: ecc://i2c-1:96?slot=0
+
+<gateway-service> Verifying keypair was written:
+
+<gateway-service> â settings.toml exists, contents:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1680"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-21T19:45:48.860046Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+Installing service 'packet-receiver sha256:abe4dae80699005ac11e3310807b7f5cac18cc275af3a2dd3848834b5b5a7d1e'
+<gateway-service> 2025-08-21T19:45:48.938388Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-21T19:45:48.938549Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-21T19:45:48.938789Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-21T19:45:48.938892Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1680"
+
+<gateway-service> 2025-08-21T19:45:48.938948Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-21T19:45:48.939140Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installed service 'packet-receiver sha256:abe4dae80699005ac11e3310807b7f5cac18cc275af3a2dd3848834b5b5a7d1e'
+Starting service 'packet-receiver sha256:abe4dae80699005ac11e3310807b7f5cac18cc275af3a2dd3848834b5b5a7d1e'
+Started service 'packet-receiver sha256:abe4dae80699005ac11e3310807b7f5cac18cc275af3a2dd3848834b5b5a7d1e'
+<packet-receiver> Starting packet receiver service
+
+<packet-receiver> Listening on UDP port 1701 for packets from gwmp-mux
+
+<packet-receiver> Storing packets in Redis buffer for Node-RED forwarding
+
+<packet-receiver> Waiting for Redis to be ready...
+
+Installing service 'gwmp-mux sha256:9469d899d392c45894c102c39dae97eff55c4b3e57577ea7536873c19e82a144'
+Installing service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<packet-receiver> Redis is ready, starting packet receiver
+
+Installed service 'gwmp-mux sha256:9469d899d392c45894c102c39dae97eff55c4b3e57577ea7536873c19e82a144'
+Starting service 'gwmp-mux sha256:9469d899d392c45894c102c39dae97eff55c4b3e57577ea7536873c19e82a144'
+Installed service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Starting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<packet-receiver> {"message": "Starting packet receiver"}
+
+<packet-receiver> {"message": "Connected to Redis", "redis_host": "packet-buffer", "redis_port": 6379, "attempt": 1}
+
+<packet-receiver> {"message": "UDP socket bound", "port": 1701}
+
+<packet-receiver> {"message": "Packet receiver ready", "udp_port": 1701, "redis_host": "packet-buffer"}
+
+Started service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<gateway-service> 2025-08-21T19:45:54.232788Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13CKhPCqE5V6MNdwsHsnw1yQPxU9aruY5Gf46Uzqv9VpcqgG5Uj
+
+<gateway-service> 2025-08-21T19:45:54.334269Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=145mHtPsZKCtzG75cUxr8gY6KM5DJ4PydUiveo8CbYowMcvbzrE
+
+Started service 'gwmp-mux sha256:9469d899d392c45894c102c39dae97eff55c4b3e57577ea7536873c19e82a144'
+<gwmp-mux> Starting gwmp-mux with packet logging
+
+<gwmp-mux> listening to packet-forwarder on port 1700
+
+<gwmp-mux> forwarding to gateway-service on port 1680
+
+<gwmp-mux> Aug 21 19:45:54.540 INFO Starting server: 0.0.0.0:1700
+
+<gwmp-mux> Aug 21 19:45:54.540 INFO Ready for clients
+
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<node-red-forwarder> Redis is ready, starting forwarder
+
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-21T19:45:57.419399Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-21T19:45:57.419734Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-21 21:02:11.0 +00:00:00
+
+<gateway-service> 2025-08-21T19:45:57.419781Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-21T19:45:57.419832Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          DYNAMIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gwmp-mux:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110007
+
+<packet-forwarder> EUI Source:    eth0
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+Releasing update locks
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110007
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110007
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<packet-forwarder> INFO: [main] concentrator started, packet can now be received
+
+<packet-forwarder> INFO: concentrator EUI: 0x0016c001ff10aa97
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:46:01.907 INFO New packet forwarder client: 02:42:AC:FF:FE:11:00:07, 172.17.0.7:47668
+
+<gwmp-mux> Aug 21 19:46:01.907 INFO Connecting to server 127.0.0.1:1680 on behalf of 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:46:01.907 INFO Connecting to server 127.0.0.1:1701 on behalf of 02:42:AC:FF:FE:11:00:07
+
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<gwmp-mux> Aug 21 19:46:11.908 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:46:11.909 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<gwmp-mux> Aug 21 19:46:21.909 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:46:21.909 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 19:46:31 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 30626361
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<gwmp-mux> Aug 21 19:46:31.910 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<gwmp-mux> Aug 21 19:46:31.910 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 19:46:31 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:46:31.919 INFO From 02:42:AC:FF:FE:11:00:07 received stat: Stat { time: "2025-08-21 19:46:31 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(0.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 19:46:31.920 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:46:31.920 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<gwmp-mux> Aug 21 19:46:41.912 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:46:41.912 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<gwmp-mux> Aug 21 19:46:51.914 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:46:51.914 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 19:47:01 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (166 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 60628447
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<gwmp-mux> Aug 21 19:47:01.915 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:01.915 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 19:47:01 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gwmp-mux> Aug 21 19:47:01.919 INFO From 02:42:AC:FF:FE:11:00:07 received stat: Stat { time: "2025-08-21 19:47:01 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:01.920 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:01.920 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:11.919 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:11.919 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:21.921 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:21.921 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+Restarting service 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<node-red-forwarder> Starting Node-RED forwarder service
+
+<node-red-forwarder> Forwarding buffered packets to Node-RED API endpoint
+
+<node-red-forwarder> Configuration:
+
+<node-red-forwarder>   Node-RED URL: ${NODE_RED_URL:-http://node-red:1880/packet-data}
+
+<node-red-forwarder>   Batch Size: ${BATCH_SIZE:-10}
+
+<node-red-forwarder>   Forward Interval: ${FORWARD_INTERVAL:-30}s
+
+<node-red-forwarder> Waiting for Redis to be ready...
+
+<node-red-forwarder> Redis is ready, starting forwarder
+
+<node-red-forwarder> Traceback (most recent call last):
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 303, in <module>
+
+<node-red-forwarder>     forwarder = NodeRedForwarder()
+
+<node-red-forwarder>                 ^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder>   File "/app/forward_to_nodered.py", line 32, in __init__
+
+<node-red-forwarder>     self.batch_size = int(os.getenv('BATCH_SIZE', '10'))
+
+<node-red-forwarder>                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<node-red-forwarder> ValueError: invalid literal for int() with base 10: '${BATCH_SIZE:-10}'
+
+Service exited 'node-red-forwarder sha256:71d5c3ef2bbf4fe76c828c33f27442c7d8b5b1b38c8eb5827d0d1882a6f2af5d'
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-21 19:47:31 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 90629683
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-21 19:47:31 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:31.917 INFO From 02:42:AC:FF:FE:11:00:07 received stat: Stat { time: "2025-08-21 19:47:31 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<gwmp-mux> Aug 21 19:47:31.917 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:31.917 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:31.922 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:31.922 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 8093010078805A0101E0A8632C0378275BBC090C33B213
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=346)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":95956293,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-16,"lsnr":11.8,"foff":2576,"rssi":-16,"size":23,"data":"gJMBAHiAWgEB4KhjLAN4J1u8CQwzshM="}]}
+
+<gwmp-mux> Aug 21 19:47:37.251 INFO From 02:42:AC:FF:FE:11:00:07 received uplink: @95956293 us, 904.50 MHz, DataRate(SF10, BW125), rssis: -16, snr: 11.8, len: 23
+
+<gwmp-mux> Aug 21 19:47:37.251 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:37.252 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078805B0101306E1646424193DAC27CB760
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=347)
+
+<packet-forwarder> INFO: [up] payload (21 bytes): 8093010078805B0101306E1646424193DAC27CB760
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000193 (netid=0x00003C, fcnt=347)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":99884037,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-95,"lsnr":-7.2,"foff":2564,"rssi":-88,"size":21,"data":"gJMBAHiAWwEBMG4WRkJBk9rCfLdg"},{"jver":1,"tmst":99884038,"chan":5,"rfch":1,"freq":904.900000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-23,"lsnr":12.2,"foff":2567,"rssi":-22,"size":21,"data":"gJMBAHiAWwEBMG4WRkJBk9rCfLdg"}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:41.179 INFO From 02:42:AC:FF:FE:11:00:07 received uplink: @99884037 us, 903.90 MHz, DataRate(SF10, BW125), rssis: -95, snr: -7.2, len: 21
+
+<gwmp-mux> Aug 21 19:47:41.179 INFO From 02:42:AC:FF:FE:11:00:07 received uplink: @99884038 us, 904.90 MHz, DataRate(SF10, BW125), rssis: -23, snr: 12.2, len: 21
+
+<gwmp-mux> Aug 21 19:47:41.180 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:41.180 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:41.180 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:41.180 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:41.923 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<gwmp-mux> Aug 21 19:47:41.923 WARN Reconnected to GWMP client 02:42:AC:FF:FE:11:00:07
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gwmp-mux> Aug 21 19:47:51.924 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<gwmp-mux> Aug 21 19:47:51.924 WARN Lost connection to GWMP client 02:42:AC:FF:FE:11:00:07. Dropping frames.
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms

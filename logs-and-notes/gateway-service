@@ -1,0 +1,321 @@
+gateway-service  Starting start-gateway-service.sh
+ gateway-service  Checking for I2C device
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is present.
+ gateway-service  ECC is not present.
+ gateway-service  ECC is not present.
+ gateway-service  Setting REGION_OVERRIDE
+ gateway-service  REGION_OVERRED is set to US915
+ gateway-service  Interacting with ECC_CHIP
+ gateway-service  Using ECC for public key.
+ gateway-service  Appending template configuration...
+ gateway-service  Final settings.toml content:
+ gateway-service  region = "US915"
+ gateway-service  keypair = "ecc://i2c-1:96?slot=0"
+ gateway-service  ## gateway-rs configuration file
+ gateway-service  
+ gateway-service  ## Keypair is a string that supports specifying different locations for 
+ gateway-service  ## the secrets. The default one is file based one since all devices 
+ gateway-service  ## can support it.
+ gateway-service  ## Note: The keypair configuration is dynamically set by the start script
+ gateway-service  ## based on whether an ECC chip is detected.
+ gateway-service  
+ gateway-service  # Ecc608 based (for original hotspots):
+ gateway-service  onboarding = "ecc://i2c-1:96?slot=15"
+ gateway-service  
+ gateway-service  # The address to listen on for the (semtech) packet forwarder
+ gateway-service  listen = "0.0.0.0:1680"
+ gateway-service  
+ gateway-service  # The local port to serve the local grpc on. Supports both a simple port number
+ gateway-service  # or full ip:port listen address. Do NOT expose this port outside of the host
+ gateway-service  # network for security
+ gateway-service  api = 4467
+ gateway-service  
+ gateway-service  # The default region to use until a region is received from the Helium network.
+ gateway-service  # This value should line up with the configured region of the semtech packet
+ gateway-service  # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+ gateway-service  # packet and poc beaconing until the correct asserted region is retrieved. 
+ gateway-service  # Note: The region configuration is dynamically set by the start script
+ gateway-service  # based on the REGION_OVERRIDE environment variable.
+ gateway-service  
+ gateway-service  [log]
+ gateway-service  # The logging level to assume on startup
+ gateway-service  level = "debug"
+ gateway-service  # Whether the logged output should include timestamps
+ gateway-service  timestamp = true
+ gateway-service  
+ gateway-service  [poc]
+ gateway-service  # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+ gateway-service  # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+ gateway-service  #
+ gateway-service  disable = true
+ gateway-service  
+ gateway-service  # The uri to fetch entropy for poc beacons
+ gateway-service  entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+ gateway-service  # The uri for IOT ingest services to deliver beacons and witnesses
+ gateway-service  ingest_uri = "http://mainnet-pociot.helium.io:9080"
+ gateway-service  
+ gateway-service  # The config service is used to fetch and monitor region parameters and other
+ gateway-service  # configuration items
+ gateway-service  [config]
+ gateway-service  pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+ gateway-service  uri = "http://mainnet-config.helium.io:6080/"
+ gateway-service  
+ gateway-service  # The router uri is where lorawan packets are delivered to the helium packet
+ gateway-service  # router. 
+ gateway-service  [router]
+ gateway-service  uri = "http://mainnet-router.helium.io:8080/"
+ gateway-service  # Maximum number of packets to queue up for the packet router
+ gateway-service  queue = 20Copying to final location...
+ gateway-service  Calling helium_gateway server ...
+ gateway-service  Checking if port 1680 is available...
+ gateway-service  Port 1680 is available
+ gateway-service  2025-08-18T20:18:38.167681Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+Installed service 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+Starting service 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+ gateway-service  2025-08-18T20:18:38.245136Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+ gateway-service  2025-08-18T20:18:38.245255Z  INFO run: gateway_rs::region_watcher: starting default_region=US915
+ gateway-service  2025-08-18T20:18:38.245356Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+ gateway-service  2025-08-18T20:18:38.245429Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1680"
+ gateway-service  2025-08-18T20:18:38.245500Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+ gateway-service  2025-08-18T20:18:38.245557Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+Started service 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+ packet-forwarder  Starting RAK2287 Packet Forwarder for Helium...
+ packet-forwarder  === Packet Forwarder Configuration ===
+ packet-forwarder  Model: RAK2287
+ packet-forwarder  Interface: SPI
+ packet-forwarder  Region: US915
+ packet-forwarder  Gateway EUI: ${GATEWAY_EUI:-}
+ packet-forwarder  Server: 127.0.0.1:1680
+ packet-forwarder  ======================================
+ packet-forwarder  Frequency band set to: us_902_928
+ packet-forwarder  Waiting for gateway service to be ready...
+ packet-forwarder  Attempting to connect to: 127.0.0.1:1680
+ packet-forwarder  Available network interfaces:
+ packet-forwarder  1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+ packet-forwarder      link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+ packet-forwarder      inet 127.0.0.1/8 scope host lo
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder      inet6 ::1/128 scope host 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+ packet-forwarder      link/ether dc:a6:32:3b:f7:6f brd ff:ff:ff:ff:ff:ff
+ packet-forwarder  3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+ packet-forwarder      link/ether dc:a6:32:3b:f7:70 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 192.168.86.47/24 brd 192.168.86.255 scope global dynamic noprefixroute wlan0
+ packet-forwarder         valid_lft 45684sec preferred_lft 45684sec
+ packet-forwarder      inet6 fd15:4ed0:5b4:d00c:b4a2:bbd7:5a84:88ed/64 scope global dynamic noprefixroute 
+ packet-forwarder         valid_lft 1675sec preferred_lft 1675sec
+ packet-forwarder      inet6 fe80::9b0c:b6aa:dbad:7a12/64 scope link noprefixroute 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  4: resin-dns: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+ packet-forwarder      link/ether d2:18:dd:d7:ab:db brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.102.1/24 scope global resin-dns
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  5: balena0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+ packet-forwarder      link/ether 02:42:06:f4:a6:45 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.101.1/24 brd 10.114.101.255 scope global balena0
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  6: supervisor0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+ packet-forwarder      link/ether 02:42:ff:21:ab:68 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.104.1/25 brd 10.114.104.127 scope global supervisor0
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  8: resin-vpn: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 500
+ packet-forwarder      link/none 
+ packet-forwarder      inet 10.242.0.190 peer 52.4.252.97/32 scope global resin-vpn
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder      inet6 fe80::ab45:9d7c:cc19:574e/64 scope link stable-privacy 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  Checking what's listening on port 1680:
+ packet-forwarder  Nothing listening on port 1680
+ packet-forwarder  Waiting for gateway service... (1/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+Starting service 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+Releasing update locks
+ packet-forwarder  Waiting for gateway service... (2/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ gateway-service  2025-08-18T20:18:43.482748Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14WJV2y5yPoUgVMYHAgTCFpQpKBwwvWRkmsjcyzPTD1C6PNB8AV
+ gateway-service  2025-08-18T20:18:43.581289Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13JF9ETcnjekLuCtMNgtad9ea1ExA7r2PNqdtpC9TWKagA5yrSB
+ packet-forwarder  Waiting for gateway service... (3/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (4/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (5/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (6/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ gateway-service  2025-08-18T20:18:50.563403Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=US915 region=US915
+ gateway-service  2025-08-18T20:18:50.563658Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-18 22:15:20.0 +00:00:00
+ gateway-service  2025-08-18T20:18:50.563696Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+ gateway-service  2025-08-18T20:18:50.563756Z  INFO run: gateway_rs::gateway: region updated region="US915"
+ packet-forwarder  Waiting for gateway service... (7/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (8/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (9/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (10/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (11/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (12/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (13/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (14/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (15/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (16/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (17/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (18/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (19/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (20/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (21/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (22/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (23/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (24/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (25/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (26/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (27/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (28/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (29/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (30/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  ERROR: Cannot connect to gateway service at 127.0.0.1:1680
+ packet-forwarder  Make sure the gateway-service is running and accessible
+Service exited 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+Restarting service 'packet-forwarder sha256:657a8b73b199d1f77221ce9212dd93d658a9d89287d1f19dd70feda9bf22023a'
+ packet-forwarder  Starting RAK2287 Packet Forwarder for Helium...
+ packet-forwarder  === Packet Forwarder Configuration ===
+ packet-forwarder  Model: RAK2287
+ packet-forwarder  Interface: SPI
+ packet-forwarder  Region: US915
+ packet-forwarder  Gateway EUI: ${GATEWAY_EUI:-}
+ packet-forwarder  Server: 127.0.0.1:1680
+ packet-forwarder  ======================================
+ packet-forwarder  Frequency band set to: us_902_928
+ packet-forwarder  Waiting for gateway service to be ready...
+ packet-forwarder  Attempting to connect to: 127.0.0.1:1680
+ packet-forwarder  Available network interfaces:
+ packet-forwarder  1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+ packet-forwarder      link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+ packet-forwarder      inet 127.0.0.1/8 scope host lo
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder      inet6 ::1/128 scope host 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+ packet-forwarder      link/ether dc:a6:32:3b:f7:6f brd ff:ff:ff:ff:ff:ff
+ packet-forwarder  3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+ packet-forwarder      link/ether dc:a6:32:3b:f7:70 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 192.168.86.47/24 brd 192.168.86.255 scope global dynamic noprefixroute wlan0
+ packet-forwarder         valid_lft 45620sec preferred_lft 45620sec
+ packet-forwarder      inet6 fd15:4ed0:5b4:d00c:b4a2:bbd7:5a84:88ed/64 scope global dynamic noprefixroute 
+ packet-forwarder         valid_lft 1781sec preferred_lft 1781sec
+ packet-forwarder      inet6 fe80::9b0c:b6aa:dbad:7a12/64 scope link noprefixroute 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  4: resin-dns: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+ packet-forwarder      link/ether d2:18:dd:d7:ab:db brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.102.1/24 scope global resin-dns
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  5: balena0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+ packet-forwarder      link/ether 02:42:06:f4:a6:45 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.101.1/24 brd 10.114.101.255 scope global balena0
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  6: supervisor0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+ packet-forwarder      link/ether 02:42:ff:21:ab:68 brd ff:ff:ff:ff:ff:ff
+ packet-forwarder      inet 10.114.104.1/25 brd 10.114.104.127 scope global supervisor0
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  8: resin-vpn: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 500
+ packet-forwarder      link/none 
+ packet-forwarder      inet 10.242.0.190 peer 52.4.252.97/32 scope global resin-vpn
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder      inet6 fe80::ab45:9d7c:cc19:574e/64 scope link stable-privacy 
+ packet-forwarder         valid_lft forever preferred_lft forever
+ packet-forwarder  Checking what's listening on port 1680:
+ packet-forwarder  Nothing listening on port 1680
+ packet-forwarder  Waiting for gateway service... (1/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (2/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (3/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (4/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (5/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (6/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (7/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (8/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (9/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (10/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (11/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused
+ packet-forwarder  Waiting for gateway service... (12/30)
+ packet-forwarder  Debug: nc -z 127.0.0.1 1680
+ packet-forwarder  nc: connect to 127.0.0.1 port 1680 (tcp) failed: Connection refused

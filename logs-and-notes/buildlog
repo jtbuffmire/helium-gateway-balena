@@ -1,0 +1,613 @@
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Unpacking libssl3:arm64 (3.0.17-1~deb12u2) ...\r"}
+[gwmp-mux]          Unpacking libssl3:arm64 (3.0.17-1~deb12u2) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Selecting previously unselected package openssl.\r"}
+[gwmp-mux]          Selecting previously unselected package openssl.
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Preparing to unpack .../openssl_3.0.17-1~deb12u2_arm64.deb ...\r"}
+[gwmp-mux]          Preparing to unpack .../openssl_3.0.17-1~deb12u2_arm64.deb ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Unpacking openssl (3.0.17-1~deb12u2) ..."}
+[gwmp-mux]          Unpacking openssl (3.0.17-1~deb12u2) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Selecting previously unselected package ca-certificates.\r"}
+[gwmp-mux]          Selecting previously unselected package ca-certificates.
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Preparing to unpack .../ca-certificates_20230311+deb12u1_all.deb ...\r"}
+[gwmp-mux]          Preparing to unpack .../ca-certificates_20230311+deb12u1_all.deb ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Unpacking ca-certificates (20230311+deb12u1) ..."}
+[gwmp-mux]          Unpacking ca-certificates (20230311+deb12u1) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Setting up libssl3:arm64 (3.0.17-1~deb12u2) ...\r"}
+[gwmp-mux]          Setting up libssl3:arm64 (3.0.17-1~deb12u2) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Setting up openssl (3.0.17-1~deb12u2) ..."}
+[gwmp-mux]          Setting up openssl (3.0.17-1~deb12u2) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Setting up ca-certificates (20230311+deb12u1) ...\r"}
+[gwmp-mux]          Setting up ca-certificates (20230311+deb12u1) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: unable to initialize frontend: Dialog\r"}
+[gwmp-mux]          debconf: unable to initialize frontend: Dialog
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: (TERM is not set, so the dialog frontend is not usable.)\r"}
+[gwmp-mux]          debconf: (TERM is not set, so the dialog frontend is not usable.)
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: falling back to frontend: Readline\r"}
+[gwmp-mux]          debconf: falling back to frontend: Readline
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: unable to initialize frontend: Readline\r"}
+[gwmp-mux]          debconf: unable to initialize frontend: Readline
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/aarch64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r"}
+[gwmp-mux]          debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/aarch64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          debconf: falling back to frontend: Teletype\r"}
+[gwmp-mux]          debconf: falling back to frontend: Teletype
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Updating certificates in /etc/ssl/certs...\r"}
+[gwmp-mux]          Updating certificates in /etc/ssl/certs...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          142 added, 0 removed; done.\r"}
+[gwmp-mux]          142 added, 0 removed; done.
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Processing triggers for libc-bin (2.36-9+deb12u10) ...\r"}
+[gwmp-mux]          Processing triggers for libc-bin (2.36-9+deb12u10) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Processing triggers for ca-certificates (20230311+deb12u1) ...\r"}
+[gwmp-mux]          Processing triggers for ca-certificates (20230311+deb12u1) ...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Updating certificates in /etc/ssl/certs...\r"}
+[gwmp-mux]          Updating certificates in /etc/ssl/certs...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          0 added, 0 removed; done.\r"}
+[gwmp-mux]          0 added, 0 removed; done.
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Running hooks in /etc/ca-certificates/update.d...\r"}
+[gwmp-mux]          Running hooks in /etc/ca-certificates/update.d...
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          done.\r"}
+[gwmp-mux]          done.
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container d564479d9699"}
+[gwmp-mux]          Removing intermediate container d564479d9699
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 2fe4751eecc1"}
+[gwmp-mux]           ---> 2fe4751eecc1
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 7/14 : COPY --from=builder /usr/src/app/target/release/gwmp-mux /usr/local/bin/gwmp-mux"}
+[gwmp-mux]          Step 7/14 : COPY --from=builder /usr/src/app/target/release/gwmp-mux /usr/local/bin/gwmp-mux
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 0426edaaf245"}
+[gwmp-mux]           ---> 0426edaaf245
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 8/14 : RUN mkdir -p /etc/gwmp-mux"}
+[gwmp-mux]          Step 8/14 : RUN mkdir -p /etc/gwmp-mux
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> Running in e74bf0d74144"}
+[gwmp-mux]           ---> Running in e74bf0d74144
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container e74bf0d74144"}
+[gwmp-mux]          Removing intermediate container e74bf0d74144
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> e710bb2d2f88"}
+[gwmp-mux]           ---> e710bb2d2f88
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 9/14 : COPY start-gwmp-mux.sh /opt/start-gwmp-mux.sh"}
+[gwmp-mux]          Step 9/14 : COPY start-gwmp-mux.sh /opt/start-gwmp-mux.sh
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 6b401d275574"}
+[gwmp-mux]           ---> 6b401d275574
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 10/14 : COPY config.toml.template /opt/config.toml.template"}
+[gwmp-mux]          Step 10/14 : COPY config.toml.template /opt/config.toml.template
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 1fd4875ceed9"}
+[gwmp-mux]           ---> 1fd4875ceed9
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 11/14 : RUN chmod +x /opt/start-gwmp-mux.sh"}
+[gwmp-mux]          Step 11/14 : RUN chmod +x /opt/start-gwmp-mux.sh
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> Running in 15e85b300de9"}
+[gwmp-mux]           ---> Running in 15e85b300de9
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container 15e85b300de9"}
+[gwmp-mux]          Removing intermediate container 15e85b300de9
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> a12707646629"}
+[gwmp-mux]           ---> a12707646629
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 12/14 : EXPOSE 1700/udp"}
+[gwmp-mux]          Step 12/14 : EXPOSE 1700/udp
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> Running in 099172251d0e"}
+[gwmp-mux]           ---> Running in 099172251d0e
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container 099172251d0e"}
+[gwmp-mux]          Removing intermediate container 099172251d0e
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 45cdfb32614c"}
+[gwmp-mux]           ---> 45cdfb32614c
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 13/14 : WORKDIR /opt"}
+[gwmp-mux]          Step 13/14 : WORKDIR /opt
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> Running in 9deea092777b"}
+[gwmp-mux]           ---> Running in 9deea092777b
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container 9deea092777b"}
+[gwmp-mux]          Removing intermediate container 9deea092777b
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> a0854a2bf2ab"}
+[gwmp-mux]           ---> a0854a2bf2ab
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Step 14/14 : ENTRYPOINT [\"/opt/start-gwmp-mux.sh\"]"}
+[gwmp-mux]          Step 14/14 : ENTRYPOINT ["/opt/start-gwmp-mux.sh"]
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> Running in 1e3ed5ed781e"}
+[gwmp-mux]           ---> Running in 1e3ed5ed781e
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Removing intermediate container 1e3ed5ed781e"}
+[gwmp-mux]          Removing intermediate container 1e3ed5ed781e
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m           ---> 775840889dd7"}
+[gwmp-mux]           ---> 775840889dd7
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[34m[gwmp-mux]\u001b[39m          Successfully built 775840889dd7"}
+[gwmp-mux]          Successfully built 775840889dd7
+[debug] handling message: {"message":"\u001b[35m[packet-forwarder]\u001b[39m  [>                                                        ] 0%"}
+[packet-forwarder]  [>                                                        ] 0%
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              Generating image deltas from release f98ec9dde0f1ee5e9d24d618334af070 (id: 3627076)"}
+[Info]              Generating image deltas from release f98ec9dde0f1ee5e9d24d618334af070 (id: 3627076)
+[debug] handling message: {"message":"[>                                                  ] 1%","replace":true}
+[>                                                  ] 1%[debug] handling message: {"message":"[>                                                  ] 1%","replace":true}
+[>                                                  ] 1%[debug] handling message: {"message":"[=>                                                 ] 2%","replace":true}
+[=>                                                 ] 2%[debug] handling message: {"message":"[=>                                                 ] 2%","replace":true}
+[=>                                                 ] 2%[debug] handling message: {"message":"[=>                                                 ] 2%","replace":true}
+[=>                                                 ] 2%[debug] handling message: {"message":"[=>                                                 ] 2%","replace":true}
+[=>                                                 ] 2%[debug] handling message: {"message":"[=>                                                 ] 3%","replace":true}
+[=>                                                 ] 3%[debug] handling message: {"message":"[=>                                                 ] 3%","replace":true}
+[=>                                                 ] 3%[debug] handling message: {"message":"[==>                                                ] 4%","replace":true}
+[==>                                                ] 4%[debug] handling message: {"message":"[==>                                                ] 4%","replace":true}
+[==>                                                ] 4%[debug] handling message: {"message":"[==>                                                ] 4%","replace":true}
+[==>                                                ] 4%[debug] handling message: {"message":"[==>                                                ] 5%","replace":true}
+[==>                                                ] 5%[debug] handling message: {"message":"[==>                                                ] 5%","replace":true}
+[==>                                                ] 5%[debug] handling message: {"message":"[==>                                                ] 5%","replace":true}
+[==>                                                ] 5%[debug] handling message: {"message":"[===>                                               ] 6%","replace":true}
+[===>                                               ] 6%[debug] handling message: {"message":"[===>                                               ] 6%","replace":true}
+[===>                                               ] 6%[debug] handling message: {"message":"[===>                                               ] 7%","replace":true}
+[===>                                               ] 7%[debug] handling message: {"message":"[===>                                               ] 7%","replace":true}
+[===>                                               ] 7%[debug] handling message: {"message":"[===>                                               ] 7%","replace":true}
+[===>                                               ] 7%[debug] handling message: {"message":"[====>                                              ] 8%","replace":true}
+[====>                                              ] 8%[debug] handling message: {"message":"[====>                                              ] 8%","replace":true}
+[====>                                              ] 8%[debug] handling message: {"message":"[====>                                              ] 8%","replace":true}
+[====>                                              ] 8%[debug] handling message: {"message":"[====>                                              ] 9%","replace":true}
+[====>                                              ] 9%[debug] handling message: {"message":"[====>                                              ] 9%","replace":true}
+[====>                                              ] 9%[debug] handling message: {"message":"[====>                                              ] 9%","replace":true}
+[====>                                              ] 9%[debug] handling message: {"message":"[=====>                                             ] 10%","replace":true}
+[=====>                                             ] 10%[debug] handling message: {"message":"[=====>                                             ] 10%","replace":true}
+[=====>                                             ] 10%[debug] handling message: {"message":"[=====>                                             ] 10%","replace":true}
+[=====>                                             ] 10%[debug] handling message: {"message":"[=====>                                             ] 10%","replace":true}
+[=====>                                             ] 10%[debug] handling message: {"message":"[=====>                                             ] 11%","replace":true}
+[=====>                                             ] 11%[debug] handling message: {"message":"[=====>                                             ] 11%","replace":true}
+[=====>                                             ] 11%[debug] handling message: {"message":"[=====>                                             ] 11%","replace":true}
+[=====>                                             ] 11%[debug] handling message: {"message":"[=====>                                             ] 11%","replace":true}
+[=====>                                             ] 11%[debug] handling message: {"message":"[=====>                                             ] 11%","replace":true}
+[=====>                                             ] 11%[debug] handling message: {"message":"[======>                                            ] 12%","replace":true}
+[======>                                            ] 12%[debug] handling message: {"message":"[======>                                            ] 12%","replace":true}
+[======>                                            ] 12%[debug] handling message: {"message":"[======>                                            ] 12%","replace":true}
+[======>                                            ] 12%[debug] handling message: {"message":"[======>                                            ] 13%","replace":true}
+[======>                                            ] 13%[debug] handling message: {"message":"[======>                                            ] 13%","replace":true}
+[======>                                            ] 13%[debug] handling message: {"message":"[======>                                            ] 13%","replace":true}
+[======>                                            ] 13%[debug] handling message: {"message":"[=======>                                           ] 14%","replace":true}
+[=======>                                           ] 14%[debug] handling message: {"message":"[=======>                                           ] 14%","replace":true}
+[=======>                                           ] 14%[debug] handling message: {"message":"[=======>                                           ] 14%","replace":true}
+[=======>                                           ] 14%[debug] handling message: {"message":"[=======>                                           ] 15%","replace":true}
+[=======>                                           ] 15%[debug] handling message: {"message":"[=======>                                           ] 15%","replace":true}
+[=======>                                           ] 15%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 17%","replace":true}
+[========>                                          ] 17%[debug] handling message: {"message":"[========>                                          ] 17%","replace":true}
+[========>                                          ] 17%[debug] handling message: {"message":"[========>                                          ] 17%","replace":true}
+[========>                                          ] 17%[debug] handling message: {"message":"[========>                                          ] 17%","replace":true}
+[========>                                          ] 17%[debug] handling message: {"message":"[=========>                                         ] 18%","replace":true}
+[=========>                                         ] 18%[debug] handling message: {"message":"[=========>                                         ] 18%","replace":true}
+[=========>                                         ] 18%[debug] handling message: {"message":"[=========>                                         ] 18%","replace":true}
+[=========>                                         ] 18%[debug] handling message: {"message":"[=========>                                         ] 19%","replace":true}
+[=========>                                         ] 19%[debug] handling message: {"message":"[=========>                                         ] 19%","replace":true}
+[=========>                                         ] 19%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 21%","replace":true}
+[==========>                                        ] 21%[debug] handling message: {"message":"[==========>                                        ] 21%","replace":true}
+[==========>                                        ] 21%[debug] handling message: {"message":"[==========>                                        ] 21%","replace":true}
+[==========>                                        ] 21%[debug] handling message: {"message":"[===========>                                       ] 22%","replace":true}
+[===========>                                       ] 22%[debug] handling message: {"message":"[===========>                                       ] 22%","replace":true}
+[===========>                                       ] 22%[debug] handling message: {"message":"[===========>                                       ] 22%","replace":true}
+[===========>                                       ] 22%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[=============>                                     ] 27%","replace":true}
+[=============>                                     ] 27%[debug] handling message: {"message":"[==============>                                    ] 29%","replace":true}
+[==============>                                    ] 29%[debug] handling message: {"message":"[===============>                                   ] 31%","replace":true}
+[===============>                                   ] 31%[debug] handling message: {"message":"[================>                                  ] 33%","replace":true}
+[================>                                  ] 33%[debug] handling message: {"message":"[=================>                                 ] 35%","replace":true}
+[=================>                                 ] 35%[debug] handling message: {"message":"[==================>                                ] 37%","replace":true}
+[==================>                                ] 37%[debug] handling message: {"message":"[===================>                               ] 39%","replace":true}
+[===================>                               ] 39%[debug] handling message: {"message":"[====================>                              ] 41%","replace":true}
+[====================>                              ] 41%[debug] handling message: {"message":"[=====================>                             ] 43%","replace":true}
+[=====================>                             ] 43%[debug] handling message: {"message":"[======================>                            ] 45%","replace":true}
+[======================>                            ] 45%[debug] handling message: {"message":"[=======================>                           ] 47%","replace":true}
+[=======================>                           ] 47%[debug] handling message: {"message":"[========================>                          ] 49%","replace":true}
+[========================>                          ] 49%[debug] handling message: {"message":"[=========================>                         ] 51%","replace":true}
+[=========================>                         ] 51%[debug] handling message: {"message":"[==========================>                        ] 53%","replace":true}
+[==========================>                        ] 53%[debug] handling message: {"message":"[===========================>                       ] 55%","replace":true}
+[===========================>                       ] 55%[debug] handling message: {"message":"[============================>                      ] 57%","replace":true}
+[============================>                      ] 57%[debug] handling message: {"message":"[==============================>                    ] 60%","replace":true}
+[==============================>                    ] 60%[debug] handling message: {"message":"[===============================>                   ] 62%","replace":true}
+[===============================>                   ] 62%[debug] handling message: {"message":"[================================>                  ] 64%","replace":true}
+[================================>                  ] 64%[debug] handling message: {"message":"[================================>                  ] 65%","replace":true}
+[================================>                  ] 65%[debug] handling message: {"message":"[================================>                  ] 65%","replace":true}
+[================================>                  ] 65%[debug] handling message: {"message":"[================================>                  ] 65%","replace":true}
+[================================>                  ] 65%[debug] handling message: {"message":"[=================================>                 ] 67%","replace":true}
+[=================================>                 ] 67%[debug] handling message: {"message":"[==================================>                ] 69%","replace":true}
+[==================================>                ] 69%[debug] handling message: {"message":"[===================================>               ] 71%","replace":true}
+[===================================>               ] 71%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[======================================>            ] 76%","replace":true}
+[======================================>            ] 76%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[=======================================>           ] 79%","replace":true}
+[=======================================>           ] 79%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[=========================================>         ] 82%","replace":true}
+[=========================================>         ] 82%[debug] handling message: {"message":"[==========================================>        ] 84%","replace":true}
+[==========================================>        ] 84%[debug] handling message: {"message":"[==========================================>        ] 84%","replace":true}
+[==========================================>        ] 84%[debug] handling message: {"message":"[==========================================>        ] 84%","replace":true}
+[==========================================>        ] 84%[debug] handling message: {"message":"[===========================================>       ] 86%","replace":true}
+[===========================================>       ] 86%[debug] handling message: {"message":"[===========================================>       ] 86%","replace":true}
+[===========================================>       ] 86%[debug] handling message: {"message":"[===========================================>       ] 86%","replace":true}
+[===========================================>       ] 86%[debug] handling message: {"message":"[============================================>      ] 88%","replace":true}
+[============================================>      ] 88%[debug] handling message: {"message":"[============================================>      ] 88%","replace":true}
+[============================================>      ] 88%[debug] handling message: {"message":"[============================================>      ] 88%","replace":true}
+[============================================>      ] 88%[debug] handling message: {"message":"[=============================================>     ] 90%","replace":true}
+[=============================================>     ] 90%[debug] handling message: {"message":"[==============================================>    ] 92%","replace":true}
+[==============================================>    ] 92%[debug] handling message: {"message":"[===============================================>   ] 94%","replace":true}
+[===============================================>   ] 94%[debug] handling message: {"message":"[================================================>  ] 96%","replace":true}
+[================================================>  ] 96%[debug] handling message: {"message":"[=================================================> ] 98%","replace":true}
+[=================================================> ] 98%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[32m[Success]\u001b[39m           Successfully generated image deltas"}
+[Success]           Successfully generated image deltas
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              Uploading images"}
+[Info]              Uploading images
+[debug] handling message: {"message":"[==>                                                ] 4%","replace":true}
+[==>                                                ] 4%[debug] handling message: {"message":"[===>                                               ] 6%","replace":true}
+[===>                                               ] 6%[debug] handling message: {"message":"[====>                                              ] 8%","replace":true}
+[====>                                              ] 8%[debug] handling message: {"message":"[=====>                                             ] 10%","replace":true}
+[=====>                                             ] 10%[debug] handling message: {"message":"[======>                                            ] 12%","replace":true}
+[======>                                            ] 12%[debug] handling message: {"message":"[======>                                            ] 13%","replace":true}
+[======>                                            ] 13%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[========>                                          ] 16%","replace":true}
+[========>                                          ] 16%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 20%","replace":true}
+[==========>                                        ] 20%[debug] handling message: {"message":"[==========>                                        ] 21%","replace":true}
+[==========>                                        ] 21%[debug] handling message: {"message":"[===========>                                       ] 22%","replace":true}
+[===========>                                       ] 22%[debug] handling message: {"message":"[===========>                                       ] 22%","replace":true}
+[===========>                                       ] 22%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[===========>                                       ] 23%","replace":true}
+[===========>                                       ] 23%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 24%","replace":true}
+[============>                                      ] 24%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[============>                                      ] 25%","replace":true}
+[============>                                      ] 25%[debug] handling message: {"message":"[=============>                                     ] 26%","replace":true}
+[=============>                                     ] 26%[debug] handling message: {"message":"[=============>                                     ] 26%","replace":true}
+[=============>                                     ] 26%[debug] handling message: {"message":"[=============>                                     ] 26%","replace":true}
+[=============>                                     ] 26%[debug] handling message: {"message":"[=============>                                     ] 27%","replace":true}
+[=============>                                     ] 27%[debug] handling message: {"message":"[=============>                                     ] 27%","replace":true}
+[=============>                                     ] 27%[debug] handling message: {"message":"[=============>                                     ] 27%","replace":true}
+[=============>                                     ] 27%[debug] handling message: {"message":"[==============>                                    ] 28%","replace":true}
+[==============>                                    ] 28%[debug] handling message: {"message":"[==============>                                    ] 29%","replace":true}
+[==============>                                    ] 29%[debug] handling message: {"message":"[===============>                                   ] 30%","replace":true}
+[===============>                                   ] 30%[debug] handling message: {"message":"[=========================>                         ] 50%","replace":true}
+[=========================>                         ] 50%[debug] handling message: {"message":"[=========================>                         ] 51%","replace":true}
+[=========================>                         ] 51%[debug] handling message: {"message":"[=========================>                         ] 51%","replace":true}
+[=========================>                         ] 51%[debug] handling message: {"message":"[=========================>                         ] 51%","replace":true}
+[=========================>                         ] 51%[debug] handling message: {"message":"[===========================>                       ] 54%","replace":true}
+[===========================>                       ] 54%[debug] handling message: {"message":"[===========================>                       ] 55%","replace":true}
+[===========================>                       ] 55%[debug] handling message: {"message":"[============================>                      ] 57%","replace":true}
+[============================>                      ] 57%[debug] handling message: {"message":"[=============================>                     ] 59%","replace":true}
+[=============================>                     ] 59%[debug] handling message: {"message":"[===============================>                   ] 62%","replace":true}
+[===============================>                   ] 62%[debug] handling message: {"message":"[===============================>                   ] 63%","replace":true}
+[===============================>                   ] 63%[debug] handling message: {"message":"[================================>                  ] 65%","replace":true}
+[================================>                  ] 65%[debug] handling message: {"message":"[=================================>                 ] 66%","replace":true}
+[=================================>                 ] 66%[debug] handling message: {"message":"[==================================>                ] 68%","replace":true}
+[==================================>                ] 68%[debug] handling message: {"message":"[==================================>                ] 68%","replace":true}
+[==================================>                ] 68%[debug] handling message: {"message":"[===================================>               ] 70%","replace":true}
+[===================================>               ] 70%[debug] handling message: {"message":"[===================================>               ] 70%","replace":true}
+[===================================>               ] 70%[debug] handling message: {"message":"[===================================>               ] 70%","replace":true}
+[===================================>               ] 70%[debug] handling message: {"message":"[===================================>               ] 70%","replace":true}
+[===================================>               ] 70%[debug] handling message: {"message":"[===================================>               ] 71%","replace":true}
+[===================================>               ] 71%[debug] handling message: {"message":"[====================================>              ] 72%","replace":true}
+[====================================>              ] 72%[debug] handling message: {"message":"[====================================>              ] 72%","replace":true}
+[====================================>              ] 72%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[====================================>              ] 73%","replace":true}
+[====================================>              ] 73%[debug] handling message: {"message":"[=====================================>             ] 74%","replace":true}
+[=====================================>             ] 74%[debug] handling message: {"message":"[=====================================>             ] 74%","replace":true}
+[=====================================>             ] 74%[debug] handling message: {"message":"[=====================================>             ] 74%","replace":true}
+[=====================================>             ] 74%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[=====================================>             ] 75%","replace":true}
+[=====================================>             ] 75%[debug] handling message: {"message":"[======================================>            ] 76%","replace":true}
+[======================================>            ] 76%[debug] handling message: {"message":"[======================================>            ] 76%","replace":true}
+[======================================>            ] 76%[debug] handling message: {"message":"[======================================>            ] 76%","replace":true}
+[======================================>            ] 76%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[======================================>            ] 77%","replace":true}
+[======================================>            ] 77%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[========================================>          ] 80%","replace":true}
+[========================================>          ] 80%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"message":"[==================================================>] 100%","replace":true}
+[==================================================>] 100%[debug] handling message: {"type":"metadata","resource":"cursor","value":"erase"}
+[debug] handling message: {"message":"\u001b[32m[Success]\u001b[39m           Successfully uploaded images"}
+[Success]           Successfully uploaded images
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              Built on c617b98"}
+[Info]              Built on c617b98
+[debug] handling message: {"message":"\u001b[32m[Success]\u001b[39m           Release successfully created!"}
+[Success]           Release successfully created!
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              Release: \u001b[34mc6c453c8d980ed0168990629fbf6335b\u001b[39m (id: \u001b[32m3627092\u001b[39m)"}
+[Info]              Release: c6c453c8d980ed0168990629fbf6335b (id: 3627092)
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m┌──────────────────\u001b[39m\u001b[90m┬────────────\u001b[39m\u001b[90m┬────────────\u001b[39m\u001b[90m┬───────────────────────┐\u001b[39m"}
+[Info]              ┌──────────────────┬────────────┬────────────┬───────────────────────┐
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m│\u001b[39m \u001b[1mService\u001b[22m          \u001b[90m│\u001b[39m \u001b[1mImage Size\u001b[22m \u001b[90m│\u001b[39m \u001b[1mDelta Size\u001b[22m \u001b[90m│\u001b[39m \u001b[1mBuild Time\u001b[22m            \u001b[90m│\u001b[39m"}
+[Info]              │ Service          │ Image Size │ Delta Size │ Build Time            │
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m├──────────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼───────────────────────┤\u001b[39m"}
+[Info]              ├──────────────────┼────────────┼────────────┼───────────────────────┤
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m│\u001b[39m gateway-service  \u001b[90m│\u001b[39m 217.78 MB  \u001b[90m│\u001b[39m 99.62 KB   \u001b[90m│\u001b[39m 54 seconds            \u001b[90m│\u001b[39m"}
+[Info]              │ gateway-service  │ 217.78 MB  │ 99.62 KB   │ 54 seconds            │
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m├──────────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼───────────────────────┤\u001b[39m"}
+[Info]              ├──────────────────┼────────────┼────────────┼───────────────────────┤
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m│\u001b[39m gwmp-mux         \u001b[90m│\u001b[39m 108.15 MB  \u001b[90m│\u001b[39m            \u001b[90m│\u001b[39m 2 minutes, 47 seconds \u001b[90m│\u001b[39m"}
+[Info]              │ gwmp-mux         │ 108.15 MB  │            │ 2 minutes, 47 seconds │
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m├──────────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼────────────\u001b[39m\u001b[90m┼───────────────────────┤\u001b[39m"}
+[Info]              ├──────────────────┼────────────┼────────────┼───────────────────────┤
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m│\u001b[39m packet-forwarder \u001b[90m│\u001b[39m 201.82 MB  \u001b[90m│\u001b[39m 0 bytes    \u001b[90m│\u001b[39m < 1 second            \u001b[90m│\u001b[39m"}
+[Info]              │ packet-forwarder │ 201.82 MB  │ 0 bytes    │ < 1 second            │
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              \u001b[90m└──────────────────\u001b[39m\u001b[90m┴────────────\u001b[39m\u001b[90m┴────────────\u001b[39m\u001b[90m┴───────────────────────┘\u001b[39m"}
+[Info]              └──────────────────┴────────────┴────────────┴───────────────────────┘
+[debug] handling message: {"message":"\u001b[36m[Info]\u001b[39m              Build finished in 4 minutes, 49 seconds"}
+[Info]              Build finished in 4 minutes, 49 seconds
+[debug] handling message: {"message":"\u001b[1m\u001b[34m\t\t\t    \\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t     \\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t      \\\\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t       \\\\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t        >\\/7\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t    _.-(6'  \\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t   (=___._/` \\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t        )  \\ |\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t       /   / |\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t      /    > /\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t     j    < _\\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t _.-' :      ``.\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t \\ r=._\\        `.\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t<`\\\\_  \\         .`-.\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t \\ r-7  `-. ._  ' .  `\\\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t  \\`,      `-.`7  7)   )\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t   \\/         \\|  \\'  / `-._\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t              ||    .'\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t               \\\\  (\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t                >\\  >\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t            ,.-' >.'\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t           <.'_.''\u001b[39m\u001b[22m\n\u001b[1m\u001b[34m\t\t\t             <'\u001b[39m\u001b[22m","isSuccess":true}
+                            \
+                             \
+                              \\
+                               \\
+                                >\/7
+                            _.-(6'  \
+                           (=___._/` \
+                                )  \ |
+                               /   / |
+                              /    > /
+                             j    < _\
+                         _.-' :      ``.
+                         \ r=._\        `.
+                        <`\\_  \         .`-.
+                         \ r-7  `-. ._  ' .  `\
+                          \`,      `-.`7  7)   )
+                           \/         \|  \'  / `-._
+                                      ||    .'
+                                       \\  (
+                                        >\  >
+                                    ,.-' >.'
+                                   <.'_.''
+                                     <'
+jt@mac helium-gateway-balena % 

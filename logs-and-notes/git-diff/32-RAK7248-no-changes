@@ -1,0 +1,1988 @@
+2025-10-03T13:36:46-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:36:46-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":426440375,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-119,"lsnr":-7.8,"foff":13112,"rssi":-111,"size":29,"data":"QG8wCCaAv98FpUkfFnyN/Mg7s32+eRO2M7hlYBA="}]}
+
+2025-10-03T13:36:46-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:36:46-07:00 <cs-mux> 2025-10-03T20:36:46.741367Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=15668
+
+2025-10-03T13:36:46-07:00 <cs-mux> 2025-10-03T20:36:46.741555Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:36:46-07:00 <cs-mux> 2025-10-03T20:36:46.741826Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:36:46-07:00 <gateway-rs> 2025-10-03T20:36:46.743579Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@426440375 us, 905300000 MHz, Sf8bw125, snr: -7.8, rssi: -119, len: 29 region=US915
+
+2025-10-03T13:36:46-07:00 <cs-mux> 2025-10-03T20:36:46.743623Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=15668
+
+2025-10-03T13:36:46-07:00 <cs-mux> 2025-10-03T20:36:46.744548Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=15668
+
+2025-10-03T13:36:48-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:36:48-07:00 <cs-mux> 2025-10-03T20:36:48.360129Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=48223
+
+2025-10-03T13:36:48-07:00 <cs-mux> 2025-10-03T20:36:48.360254Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:36:48-07:00 <cs-mux> 2025-10-03T20:36:48.360316Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:36:48-07:00 <cs-mux> 2025-10-03T20:36:48.361166Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=48223
+
+2025-10-03T13:36:48-07:00 <cs-mux> 2025-10-03T20:36:48.361269Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=48223
+
+2025-10-03T13:36:58-07:00 <cs-mux> 2025-10-03T20:36:58.560104Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=20087
+
+2025-10-03T13:36:58-07:00 <cs-mux> 2025-10-03T20:36:58.560302Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:36:58-07:00 <cs-mux> 2025-10-03T20:36:58.560421Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:36:58-07:00 <cs-mux> 2025-10-03T20:36:58.561411Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=20087
+
+2025-10-03T13:36:58-07:00 <cs-mux> 2025-10-03T20:36:58.561701Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=20087
+
+2025-10-03T13:36:58-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:37:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405B420826806DDF05AD1D023C7C9E41D1AE783BE59A36013DE2712D6F
+
+2025-10-03T13:37:06-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608425B (netid=0x000013, fcnt=57197)
+
+2025-10-03T13:37:06-07:00 <cs-mux> 2025-10-03T20:37:06.955247Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=64203
+
+2025-10-03T13:37:06-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:06-07:00 Warning: Suppressed 32 message(s) due to rate limiting
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:37:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:37:10-07:00 <cs-mux> 2025-10-03T20:37:10.346503Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=44166
+
+2025-10-03T13:37:10-07:00 <cs-mux> 2025-10-03T20:37:10.346691Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:37:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:37:10-07:00 <cs-mux> 2025-10-03T20:37:10.347189Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:37:10-07:00 <cs-mux> 2025-10-03T20:37:10.348698Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=44166
+
+2025-10-03T13:37:10-07:00 <cs-mux> 2025-10-03T20:37:10.348871Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=44166
+
+2025-10-03T13:37:18-07:00 <cs-mux> 2025-10-03T20:37:18.768115Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=8491
+
+2025-10-03T13:37:18-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:37:18-07:00 <cs-mux> 2025-10-03T20:37:18.768297Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:37:18-07:00 <cs-mux> 2025-10-03T20:37:18.768382Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:37:18-07:00 <cs-mux> 2025-10-03T20:37:18.770101Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=8491
+
+2025-10-03T13:37:18-07:00 <cs-mux> 2025-10-03T20:37:18.770367Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=8491
+
+2025-10-03T13:37:28-07:00 <cs-mux> 2025-10-03T20:37:28.968111Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=43546
+
+2025-10-03T13:37:28-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:37:28-07:00 <cs-mux> 2025-10-03T20:37:28.968318Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:37:28-07:00 <cs-mux> 2025-10-03T20:37:28.968474Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:37:28-07:00 <cs-mux> 2025-10-03T20:37:28.969864Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=43546
+
+2025-10-03T13:37:28-07:00 <cs-mux> 2025-10-03T20:37:28.970269Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=43546
+
+2025-10-03T13:37:29-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4009FB0826808EDF95817A0D5CBEE7E55EB5384DE93D68C1BC75155413
+
+2025-10-03T13:37:32-07:00 <cs-mux> 2025-10-03T20:37:32.379269Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T13:37:32-07:00 <cs-mux> 2025-10-03T20:37:32.379320Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:37:36-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40E76F08268061DE05E1D8C4353332B171F7FFF73423B189DE737A26BA
+
+2025-10-03T13:37:36-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26086FE7 (netid=0x000013, fcnt=56929)
+
+2025-10-03T13:37:36-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:36-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":476388767,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-125,"lsnr":-11.2,"foff":9851,"rssi":-113,"size":29,"data":"QOdvCCaAYd4F4djENTMysXH3//c0I7GJ3nN6Jro="}]}
+
+2025-10-03T13:37:36-07:00 <cs-mux> 2025-10-03T20:37:36.694055Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=48752
+
+2025-10-03T13:37:36-07:00 <cs-mux> 2025-10-03T20:37:36.695133Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:37:36-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:37:36-07:00 <cs-mux> 2025-10-03T20:37:36.695961Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:37:36-07:00 <cs-mux> 2025-10-03T20:37:36.698096Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=48752
+
+2025-10-03T13:37:36-07:00 <cs-mux> 2025-10-03T20:37:36.698304Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=48752
+
+2025-10-03T13:37:36-07:00 <gateway-rs> 2025-10-03T20:37:36.698091Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@476388767 us, 904700000 MHz, Sf8bw125, snr: -11.2, rssi: -125, len: 29 region=US915
+
+2025-10-03T13:37:39-07:00 <cs-mux> 2025-10-03T20:37:39.168116Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=46451
+
+2025-10-03T13:37:39-07:00 <cs-mux> 2025-10-03T20:37:39.168241Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:37:39-07:00 <cs-mux> 2025-10-03T20:37:39.168303Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:37:39-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:37:39-07:00 <cs-mux> 2025-10-03T20:37:39.169617Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=46451
+
+2025-10-03T13:37:39-07:00 <cs-mux> 2025-10-03T20:37:39.170008Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=46451
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:37:40 GMT #####
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 2
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # CRC_OK: 50.00%, CRC_FAIL: 50.00%, NO_CRC: 0.00%
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # RF packets forwarded: 1 (29 bytes)
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 2 (427 bytes)
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 480041559
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:37:40 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:37:40-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:37:40-07:00 <cs-mux> 2025-10-03T20:37:40.344770Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=15108
+
+2025-10-03T13:37:40-07:00 <cs-mux> 2025-10-03T20:37:40.345043Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:37:40-07:00 <cs-mux> 2025-10-03T20:37:40.345573Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:37:40-07:00 <cs-mux> 2025-10-03T20:37:40.346789Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=15108
+
+2025-10-03T13:37:40-07:00 <cs-mux> 2025-10-03T20:37:40.346960Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=15108
+
+2025-10-03T13:37:48-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40F69B08268094DF05E9A3D3FF38658F3F1E6AC6715D2E308D2926BB19
+
+2025-10-03T13:37:49-07:00 <cs-mux> 2025-10-03T20:37:49.368102Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=13972
+
+2025-10-03T13:37:49-07:00 <cs-mux> 2025-10-03T20:37:49.368230Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:37:49-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:37:49-07:00 <cs-mux> 2025-10-03T20:37:49.368289Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:37:49-07:00 <cs-mux> 2025-10-03T20:37:49.369168Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=13972
+
+2025-10-03T13:37:49-07:00 <cs-mux> 2025-10-03T20:37:49.370032Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=13972
+
+2025-10-03T13:37:51-07:00 <udp-packet-forwarder> INFO: [up] payload (23 bytes): 00024703D07ED5B3703C88470515E18000C76850D4B414
+
+2025-10-03T13:37:52-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4065BC082680A5E4054B85A2AD23684A4FCAD59FD6DD1937A0CFD1E5DF
+
+2025-10-03T13:37:52-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608BC65 (netid=0x000013, fcnt=58533)
+
+2025-10-03T13:37:52-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:37:52-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":491755316,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-117,"lsnr":-5.2,"foff":14237,"rssi":-111,"size":29,"data":"QGW8CCaApeQFS4WirSNoSk/K1Z/W3Rk3oM/R5d8="}]}
+
+2025-10-03T13:37:52-07:00 <cs-mux> 2025-10-03T20:37:52.058340Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=58096
+
+2025-10-03T13:37:52-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:37:52-07:00 <cs-mux> 2025-10-03T20:37:52.059109Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:37:52-07:00 <cs-mux> 2025-10-03T20:37:52.059474Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:37:52-07:00 <cs-mux> 2025-10-03T20:37:52.061440Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=58096
+
+2025-10-03T13:37:52-07:00 <cs-mux> 2025-10-03T20:37:52.061795Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=58096
+
+2025-10-03T13:37:52-07:00 <gateway-rs> 2025-10-03T20:37:52.061737Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@491755316 us, 904100000 MHz, Sf8bw125, snr: -5.2, rssi: -117, len: 29 region=US915
+
+2025-10-03T13:37:54-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40B0BC0826808EE405BB31CB05161742D983DA7A98BB507B8008B272CB
+
+2025-10-03T13:37:58-07:00 Taking update locks
+2025-10-03T13:37:59-07:00 Deleting image 'registry2.balena-cloud.com/v2/37d064af2343dd54e0b0a8ea6e4caff0@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-03T13:37:59-07:00 Deleting image 'registry2.balena-cloud.com/v2/b1e42516ecc5f94e4f880eb3bf2afbe0@sha256:d96aaa7791a29f273dd6dea593518827fb306bba0882d77c33de3128346aa404'
+2025-10-03T13:37:59-07:00 Deleting image 'registry2.balena-cloud.com/v2/66980eb78e6db164b2d817bb50482cf0@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-03T13:37:59-07:00 Deleted image 'registry2.balena-cloud.com/v2/66980eb78e6db164b2d817bb50482cf0@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-03T13:37:59-07:00 <cs-mux> 2025-10-03T20:37:59.576152Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=20274
+
+2025-10-03T13:37:59-07:00 <cs-mux> 2025-10-03T20:37:59.576267Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:37:59-07:00 <cs-mux> 2025-10-03T20:37:59.576317Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:37:59-07:00 <cs-mux> 2025-10-03T20:37:59.577165Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=20274
+
+2025-10-03T13:37:59-07:00 <cs-mux> 2025-10-03T20:37:59.577511Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=20274
+
+2025-10-03T13:37:59-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:37:59-07:00 Deleted image 'registry2.balena-cloud.com/v2/37d064af2343dd54e0b0a8ea6e4caff0@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-03T13:37:59-07:00 Deleted image 'registry2.balena-cloud.com/v2/b1e42516ecc5f94e4f880eb3bf2afbe0@sha256:d96aaa7791a29f273dd6dea593518827fb306bba0882d77c33de3128346aa404'
+2025-10-03T13:38:00-07:00 Releasing update locks
+2025-10-03T13:38:09-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40CDBF082680A9DF052CC9157F3E0D3FE2595994AC1E3857150E135439
+
+2025-10-03T13:38:09-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608BFCD (netid=0x000013, fcnt=57257)
+
+2025-10-03T13:38:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:38:09-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":508867165,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":2.2,"foff":10324,"rssi":-106,"size":29,"data":"QM2/CCaAqd8FLMkVfz4NP+JZWZSsHjhXFQ4TVDk="}]}
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.168851Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=5449
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.169141Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.169652Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:38:09-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.171316Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=5449
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.171869Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=5449
+
+2025-10-03T13:38:09-07:00 <gateway-rs> 2025-10-03T20:38:09.171325Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@508867165 us, 904700000 MHz, Sf8bw125, snr: 2.2, rssi: -108, len: 29 region=US915
+
+2025-10-03T13:38:09-07:00 <cs-mux> 2025-10-03T20:38:09.776082Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=64898
+
+2025-10-03T13:38:09-07:00 Warning: Suppressed 82 message(s) due to rate limiting
+2025-10-03T13:38:29-07:00 <cs-mux> 2025-10-03T20:38:29.645596Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=39434
+
+2025-10-03T13:38:29-07:00 <cs-mux> 2025-10-03T20:38:29.645727Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:38:29-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:38:29-07:00 <cs-mux> 2025-10-03T20:38:29.646064Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:38:29-07:00 <cs-mux> 2025-10-03T20:38:29.648003Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=39434
+
+2025-10-03T13:38:29-07:00 <cs-mux> 2025-10-03T20:38:29.648470Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=39434
+
+2025-10-03T13:38:29-07:00 <gateway-rs> 2025-10-03T20:38:29.648509Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@529344808 us, 904700000 MHz, Sf8bw125, snr: -10.5, rssi: -121, len: 29 region=US915
+
+2025-10-03T13:38:30-07:00 <cs-mux> 2025-10-03T20:38:30.180101Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=48341
+
+2025-10-03T13:38:30-07:00 <cs-mux> 2025-10-03T20:38:30.180284Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:38:30-07:00 <cs-mux> 2025-10-03T20:38:30.180349Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:38:30-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:38:30-07:00 <cs-mux> 2025-10-03T20:38:30.181922Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=48341
+
+2025-10-03T13:38:30-07:00 <cs-mux> 2025-10-03T20:38:30.182237Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=48341
+
+2025-10-03T13:38:32-07:00 <cs-mux> 2025-10-03T20:38:32.380728Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:38:32-07:00 <cs-mux> 2025-10-03T20:38:32.380775Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:38:40 GMT #####
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 4
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # RF packets forwarded: 4 (116 bytes)
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 5 (1205 bytes)
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # PULL_DATA sent: 2 (100.00% acknowledged)
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 540045113
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:38:40 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":4,"rxfw":4,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.344811Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=3608
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.345599Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.346106Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.347560Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=3608
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.347671Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=3608
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.380118Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=43076
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.380308Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.380426Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:38:40-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.381382Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=43076
+
+2025-10-03T13:38:40-07:00 <cs-mux> 2025-10-03T20:38:40.381565Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=43076
+
+2025-10-03T13:38:43-07:00 <cs-mux> 2025-10-03T20:38:43.972675Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=44123
+
+2025-10-03T13:38:43-07:00 <cs-mux> 2025-10-03T20:38:43.972877Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:38:43-07:00 <udp-packet-forwarder> INFO: [up] payload (31 bytes): 4076480826809EDF05B0323D4CEA3A7233018CB6D9F960EDEEF3DB7BD1CA6B
+
+2025-10-03T13:38:43-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26084876 (netid=0x000013, fcnt=57246)
+
+2025-10-03T13:38:43-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:38:43-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":543669611,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-118,"lsnr":-7.0,"foff":16638,"rssi":-111,"size":31,"data":"QHZICCaAnt8FsDI9TOo6cjMBjLbZ+WDt7vPbe9HKaw=="}]}
+
+2025-10-03T13:38:43-07:00 <cs-mux> 2025-10-03T20:38:43.973304Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:38:43-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:38:43-07:00 <cs-mux> 2025-10-03T20:38:43.975176Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=44123
+
+2025-10-03T13:38:43-07:00 <cs-mux> 2025-10-03T20:38:43.975832Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=44123
+
+2025-10-03T13:38:43-07:00 <gateway-rs> 2025-10-03T20:38:43.975566Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@543669611 us, 904500000 MHz, Sf8bw125, snr: -7, rssi: -118, len: 31 region=US915
+
+2025-10-03T13:38:50-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:38:50-07:00 <cs-mux> 2025-10-03T20:38:50.580118Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=62350
+
+2025-10-03T13:38:50-07:00 <cs-mux> 2025-10-03T20:38:50.580247Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:38:50-07:00 <cs-mux> 2025-10-03T20:38:50.580308Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:38:50-07:00 <cs-mux> 2025-10-03T20:38:50.581183Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=62350
+
+2025-10-03T13:38:50-07:00 <cs-mux> 2025-10-03T20:38:50.581289Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=62350
+
+2025-10-03T13:38:52-07:00 <udp-packet-forwarder> INFO: [up] payload (23 bytes): 00010016D0A4D5B370814610D4A4D5B370D99009C9EA40
+
+2025-10-03T13:38:52-07:00 <udp-packet-forwarder> INFO: [up] Join-Request from 70B3D5A4D4104681
+
+2025-10-03T13:38:52-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:38:52-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":552440514,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-123,"lsnr":-14.5,"foff":12377,"rssi":-111,"size":23,"data":"AAEAFtCk1bNwgUYQ1KTVs3DZkAnJ6kA="}]}
+
+2025-10-03T13:38:52-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:38:52-07:00 <cs-mux> 2025-10-03T20:38:52.745001Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=19671
+
+2025-10-03T13:38:52-07:00 <cs-mux> 2025-10-03T20:38:52.745196Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:38:52-07:00 <cs-mux> 2025-10-03T20:38:52.745520Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:38:52-07:00 <cs-mux> 2025-10-03T20:38:52.747577Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=19671
+
+2025-10-03T13:38:52-07:00 <cs-mux> 2025-10-03T20:38:52.747826Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=19671
+
+2025-10-03T13:38:52-07:00 <gateway-rs> 2025-10-03T20:38:52.748265Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@552440514 us, 904700000 MHz, Sf10bw125, snr: -14.5, rssi: -123, len: 23 region=US915
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40472208268095BE057D88FA0CAA37405732B6D150EEB1E2A0568E308B
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26082247 (netid=0x000013, fcnt=48789)
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":559931495,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-120,"lsnr":-7.2,"foff":10693,"rssi":-112,"size":29,"data":"QEciCCaAlb4FfYj6DKo3QFcyttFQ7rHioFaOMIs="}]}
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.236013Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=11675
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.236136Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.236349Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.238298Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=11675
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.238500Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=11675
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:39:00-07:00 <gateway-rs> 2025-10-03T20:39:00.238301Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@559931495 us, 903900000 MHz, Sf8bw125, snr: -7.2, rssi: -120, len: 29 region=US915
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.780156Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=2370
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.780487Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.780709Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:39:00-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.782096Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=2370
+
+2025-10-03T13:39:00-07:00 <cs-mux> 2025-10-03T20:39:00.782441Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=2370
+
+2025-10-03T13:39:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 408FD508268066E605E514303BE392397B91688491317502365B837CB7
+
+2025-10-03T13:39:06-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608D58F (netid=0x000013, fcnt=58982)
+
+2025-10-03T13:39:06-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:06-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":566221422,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-123,"lsnr":-10.0,"foff":8916,"rssi":-113,"size":29,"data":"QI/VCCaAZuYF5RQwO+OSOXuRaISRMXUCNluDfLc="}]}
+
+2025-10-03T13:39:06-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:39:06-07:00 <cs-mux> 2025-10-03T20:39:06.530682Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=58630
+
+2025-10-03T13:39:06-07:00 <cs-mux> 2025-10-03T20:39:06.531254Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:06-07:00 <cs-mux> 2025-10-03T20:39:06.531550Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:06-07:00 <gateway-rs> 2025-10-03T20:39:06.534041Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@566221422 us, 903900000 MHz, Sf8bw125, snr: -10, rssi: -123, len: 29 region=US915
+
+2025-10-03T13:39:06-07:00 <cs-mux> 2025-10-03T20:39:06.534078Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=58630
+
+2025-10-03T13:39:06-07:00 <cs-mux> 2025-10-03T20:39:06.534630Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=58630
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:39:10 GMT #####
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 4
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 4 (112 bytes)
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 5 (1202 bytes)
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 570045426
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:39:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":4,"rxfw":4,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.350196Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=50227
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.350520Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.351069Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.352741Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=50227
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.353174Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=50227
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.980127Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=45005
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.980445Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.981167Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:39:10-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.982340Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=45005
+
+2025-10-03T13:39:10-07:00 <cs-mux> 2025-10-03T20:39:10.982879Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=45005
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 408C8F082680B5EB050C659CB3BA8BA000D12616ADA5F17332CE48B168
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26088F8C (netid=0x000013, fcnt=60341)
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":572170753,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-118,"lsnr":-5.8,"foff":13455,"rssi":-112,"size":29,"data":"QIyPCCaAtesFDGWcs7qLoADRJhatpfFzMs5IsWg="}]}
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.472338Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=41860
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.472537Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.472847Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:12-07:00 <gateway-rs> 2025-10-03T20:39:12.474432Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@572170753 us, 904100000 MHz, Sf8bw125, snr: -5.8, rssi: -118, len: 29 region=US915
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.474926Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=41860
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.475517Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=41860
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4025FD0826803DE605526A8FD0F7E176CBCCF48CBFCBD8765E82166DEA
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608FD25 (netid=0x000013, fcnt=58941)
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":572323500,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-115,"lsnr":-3.0,"foff":9122,"rssi":-111,"size":29,"data":"QCX9CCaAPeYFUmqP0PfhdsvM9Iy/y9h2XoIWbeo="}]}
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.628516Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=32557
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.628944Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:12-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.629739Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.631481Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=32557
+
+2025-10-03T13:39:12-07:00 <gateway-rs> 2025-10-03T20:39:12.631508Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@572323500 us, 903900000 MHz, Sf8bw125, snr: -3, rssi: -115, len: 29 region=US915
+
+2025-10-03T13:39:12-07:00 <cs-mux> 2025-10-03T20:39:12.632568Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=32557
+
+2025-10-03T13:39:20-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 402AD4082680B3DF05BEAC02823DF66A41AA14E2E961DE8D0A24B2F289
+
+2025-10-03T13:39:20-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608D42A (netid=0x000013, fcnt=57267)
+
+2025-10-03T13:39:20-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:20-07:00 <cs-mux> 2025-10-03T20:39:20.434682Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=44500
+
+2025-10-03T13:39:20-07:00 <cs-mux> 2025-10-03T20:39:20.434900Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:20-07:00 <cs-mux> 2025-10-03T20:39:20.435260Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:20-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":580124768,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-116,"lsnr":-2.8,"foff":10586,"rssi":-112,"size":29,"data":"QCrUCCaAs98FvqwCgj32akGqFOLpYd6NCiSy8ok="}]}
+
+2025-10-03T13:39:20-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:39:20-07:00 <gateway-rs> 2025-10-03T20:39:20.436784Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@580124768 us, 903900000 MHz, Sf8bw125, snr: -2.8, rssi: -116, len: 29 region=US915
+
+2025-10-03T13:39:20-07:00 <cs-mux> 2025-10-03T20:39:20.437341Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=44500
+
+2025-10-03T13:39:20-07:00 <cs-mux> 2025-10-03T20:39:20.437454Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=44500
+
+2025-10-03T13:39:21-07:00 <cs-mux> 2025-10-03T20:39:21.184103Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=30279
+
+2025-10-03T13:39:21-07:00 <cs-mux> 2025-10-03T20:39:21.184411Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:21-07:00 <cs-mux> 2025-10-03T20:39:21.184649Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:39:21-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:39:21-07:00 <cs-mux> 2025-10-03T20:39:21.186592Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=30279
+
+2025-10-03T13:39:21-07:00 <cs-mux> 2025-10-03T20:39:21.186720Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=30279
+
+2025-10-03T13:39:31-07:00 <cs-mux> 2025-10-03T20:39:31.384133Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=56882
+
+2025-10-03T13:39:31-07:00 <cs-mux> 2025-10-03T20:39:31.384319Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:31-07:00 <cs-mux> 2025-10-03T20:39:31.385960Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=56882
+
+2025-10-03T13:39:32-07:00 <cs-mux> 2025-10-03T20:39:32.382301Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:39:32-07:00 <cs-mux> 2025-10-03T20:39:32.382349Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T13:39:39-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40F86E08268027E405FF74AD5015EFB664FF53F7BFA371A3BA9E89AECE
+
+2025-10-03T13:39:39-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26086EF8 (netid=0x000013, fcnt=58407)
+
+2025-10-03T13:39:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:39-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":599235060,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-121,"lsnr":-9.5,"foff":10343,"rssi":-112,"size":29,"data":"QPhuCCaAJ+QF/3StUBXvtmT/U/e/o3Gjup6Jrs4="}]}
+
+2025-10-03T13:39:39-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:39:39-07:00 <cs-mux> 2025-10-03T20:39:39.538451Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=7404
+
+2025-10-03T13:39:39-07:00 <cs-mux> 2025-10-03T20:39:39.538582Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:39-07:00 <cs-mux> 2025-10-03T20:39:39.539012Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:39-07:00 <cs-mux> 2025-10-03T20:39:39.541749Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=7404
+
+2025-10-03T13:39:39-07:00 <cs-mux> 2025-10-03T20:39:39.542264Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=7404
+
+2025-10-03T13:39:39-07:00 <gateway-rs> 2025-10-03T20:39:39.541013Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@599235060 us, 905100000 MHz, Sf8bw125, snr: -9.5, rssi: -121, len: 29 region=US915
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:39:40 GMT #####
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 4
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # RF packets forwarded: 4 (116 bytes)
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 5 (1203 bytes)
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 600045733
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:39:40-07:00 <cs-mux> 2025-10-03T20:39:40.352672Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=19140
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:39:40 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":4,"rxfw":4,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:39:40-07:00 <cs-mux> 2025-10-03T20:39:40.353175Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:40-07:00 <cs-mux> 2025-10-03T20:39:40.353515Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:40-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:39:40-07:00 <cs-mux> 2025-10-03T20:39:40.355122Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=19140
+
+2025-10-03T13:39:40-07:00 <cs-mux> 2025-10-03T20:39:40.355235Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=19140
+
+2025-10-03T13:39:41-07:00 <cs-mux> 2025-10-03T20:39:41.388123Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=12534
+
+2025-10-03T13:39:41-07:00 <cs-mux> 2025-10-03T20:39:41.388326Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:41-07:00 <cs-mux> 2025-10-03T20:39:41.388446Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:39:41-07:00 <cs-mux> 2025-10-03T20:39:41.389318Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=12534
+
+2025-10-03T13:39:41-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:39:41-07:00 <cs-mux> 2025-10-03T20:39:41.389486Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=12534
+
+2025-10-03T13:39:42-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40426E082680BDDF053C1E5D4FBA0AF3A85816763ABBA4E6231D393624
+
+2025-10-03T13:39:42-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26086E42 (netid=0x000013, fcnt=57277)
+
+2025-10-03T13:39:42-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:39:42-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":602212918,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-110,"lsnr":2.5,"foff":11944,"rssi":-109,"size":29,"data":"QEJuCCaAvd8FPB5dT7oK86hYFnY6u6TmIx05NiQ="}]}
+
+2025-10-03T13:39:42-07:00 <cs-mux> 2025-10-03T20:39:42.519438Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=8227
+
+2025-10-03T13:39:42-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:39:42-07:00 <cs-mux> 2025-10-03T20:39:42.519768Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:39:42-07:00 <cs-mux> 2025-10-03T20:39:42.520381Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:39:42-07:00 <gateway-rs> 2025-10-03T20:39:42.522621Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@602212918 us, 903900000 MHz, Sf8bw125, snr: 2.5, rssi: -110, len: 29 region=US915
+
+2025-10-03T13:39:42-07:00 <cs-mux> 2025-10-03T20:39:42.522479Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=8227
+
+2025-10-03T13:39:42-07:00 <cs-mux> 2025-10-03T20:39:42.522656Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=8227
+
+2025-10-03T13:39:51-07:00 <cs-mux> 2025-10-03T20:39:51.588102Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=34156
+
+2025-10-03T13:39:51-07:00 <cs-mux> 2025-10-03T20:39:51.588230Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:39:51-07:00 <cs-mux> 2025-10-03T20:39:51.588292Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:39:51-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:39:51-07:00 <cs-mux> 2025-10-03T20:39:51.589309Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=34156
+
+2025-10-03T13:39:51-07:00 <cs-mux> 2025-10-03T20:39:51.589496Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=34156
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405E7D08268069DD05027EC98FC8B179C1D8467554E0DB4833D30C1DA3
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26087D5E (netid=0x000013, fcnt=56681)
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":621340117,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-114,"lsnr":-3.0,"foff":12510,"rssi":-110,"size":29,"data":"QF59CCaAad0FAn7Jj8ixecHYRnVU4NtIM9MMHaM="}]}
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.649400Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=64434
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.649752Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.650787Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.653144Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=64434
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.653451Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=64434
+
+2025-10-03T13:40:01-07:00 <gateway-rs> 2025-10-03T20:40:01.653113Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@621340117 us, 904700000 MHz, Sf8bw125, snr: -3, rssi: -114, len: 29 region=US915
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.788099Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=1796
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.788398Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.788704Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.790141Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=1796
+
+2025-10-03T13:40:01-07:00 <cs-mux> 2025-10-03T20:40:01.790245Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=1796
+
+2025-10-03T13:40:01-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 2 ms
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:40:10 GMT #####
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 2
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 2 (58 bytes)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 3 (685 bytes)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 630046394
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:40:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.349525Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=62700
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.350099Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.351137Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.353188Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=62700
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.353614Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=62700
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.783813Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=3001
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4054430826806FDF051462E7E68F4DCD65BBB5D850C31F8070DFA151D1
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26084354 (netid=0x000013, fcnt=57199)
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":630477088,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-123,"lsnr":-9.8,"foff":13047,"rssi":-113,"size":29,"data":"QFRDCCaAb98FFGLn5o9NzWW7tdhQwx+AcN+hUdE="}]}
+
+2025-10-03T13:40:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.784156Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.784902Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.788145Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=3001
+
+2025-10-03T13:40:10-07:00 <cs-mux> 2025-10-03T20:40:10.788359Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=3001
+
+2025-10-03T13:40:10-07:00 <gateway-rs> 2025-10-03T20:40:10.788225Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@630477088 us, 903900000 MHz, Sf8bw125, snr: -9.8, rssi: -123, len: 29 region=US915
+
+2025-10-03T13:40:11-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:40:11-07:00 <cs-mux> 2025-10-03T20:40:11.988138Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=8378
+
+2025-10-03T13:40:11-07:00 <cs-mux> 2025-10-03T20:40:11.988263Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:40:11-07:00 <cs-mux> 2025-10-03T20:40:11.988325Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:40:11-07:00 <cs-mux> 2025-10-03T20:40:11.990185Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=8378
+
+2025-10-03T13:40:11-07:00 <cs-mux> 2025-10-03T20:40:11.990397Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=8378
+
+2025-10-03T13:40:12-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 802129210000B43864E8D9743470CD904FC3B8AD3D98DC2E
+
+2025-10-03T13:40:12-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x00212921 (netid=0x000000, fcnt=14516)
+
+2025-10-03T13:40:12-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:12-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":632435810,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-125,"lsnr":-14.2,"foff":-2359,"rssi":-112,"size":24,"data":"gCEpIQAAtDhk6Nl0NHDNkE/DuK09mNwu"}]}
+
+2025-10-03T13:40:12-07:00 <cs-mux> 2025-10-03T20:40:12.748469Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=34499
+
+2025-10-03T13:40:12-07:00 <cs-mux> 2025-10-03T20:40:12.748591Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:40:12-07:00 <cs-mux> 2025-10-03T20:40:12.749070Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:40:12-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:40:12-07:00 <cs-mux> 2025-10-03T20:40:12.750940Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=34499
+
+2025-10-03T13:40:12-07:00 <gateway-rs> 2025-10-03T20:40:12.750859Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@632435810 us, 904500000 MHz, Sf10bw125, snr: -14.2, rssi: -125, len: 24 region=US915
+
+2025-10-03T13:40:12-07:00 <cs-mux> 2025-10-03T20:40:12.751427Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=34499
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.383047Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.383093Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.388172Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=55655
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.388383Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:40:32-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.388615Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.389899Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=55655
+
+2025-10-03T13:40:32-07:00 <cs-mux> 2025-10-03T20:40:32.390079Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=55655
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:40:40 GMT #####
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 3
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # RF packets forwarded: 3 (82 bytes)
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 4 (938 bytes)
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 660048588
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:40:40 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:40:40-07:00 <cs-mux> 2025-10-03T20:40:40.356861Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=13239
+
+2025-10-03T13:40:40-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:40:40-07:00 <cs-mux> 2025-10-03T20:40:40.357067Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:40:40-07:00 <cs-mux> 2025-10-03T20:40:40.358396Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:40:40-07:00 <cs-mux> 2025-10-03T20:40:40.359853Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=13239
+
+2025-10-03T13:40:40-07:00 <cs-mux> 2025-10-03T20:40:40.360160Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=13239
+
+2025-10-03T13:40:42-07:00 <cs-mux> 2025-10-03T20:40:42.588105Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=39248
+
+2025-10-03T13:40:42-07:00 <cs-mux> 2025-10-03T20:40:42.588339Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:40:42-07:00 <cs-mux> 2025-10-03T20:40:42.588427Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:40:42-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:40:42-07:00 <cs-mux> 2025-10-03T20:40:42.589640Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=39248
+
+2025-10-03T13:40:42-07:00 <cs-mux> 2025-10-03T20:40:42.590465Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=39248
+
+2025-10-03T13:40:49-07:00 <gateway-rs> 2025-10-03T20:40:49.093570Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+2025-10-03T13:40:52-07:00 <cs-mux> 2025-10-03T20:40:52.788118Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=41955
+
+2025-10-03T13:40:52-07:00 <cs-mux> 2025-10-03T20:40:52.788248Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:40:52-07:00 <cs-mux> 2025-10-03T20:40:52.788306Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:40:52-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:40:52-07:00 <cs-mux> 2025-10-03T20:40:52.789829Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=41955
+
+2025-10-03T13:40:52-07:00 <cs-mux> 2025-10-03T20:40:52.790013Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=41955
+
+2025-10-03T13:40:55-07:00 <gateway-rs> 2025-10-03T20:40:55.726959Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14ATH6jNz1R1dDJRKGvtyYjqysH3o7FaQ8tHqZggYKMAigoFMov
+
+2025-10-03T13:41:02-07:00 <cs-mux> 2025-10-03T20:41:02.988133Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=5331
+
+2025-10-03T13:41:02-07:00 <cs-mux> 2025-10-03T20:41:02.988262Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:41:02-07:00 <cs-mux> 2025-10-03T20:41:02.988322Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:41:02-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:41:02-07:00 <cs-mux> 2025-10-03T20:41:02.990069Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=5331
+
+2025-10-03T13:41:02-07:00 <cs-mux> 2025-10-03T20:41:02.990371Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=5331
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:41:10 GMT #####
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 690048869
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:41:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:41:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:41:10-07:00 <cs-mux> 2025-10-03T20:41:10.357036Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=55604
+
+2025-10-03T13:41:10-07:00 <cs-mux> 2025-10-03T20:41:10.357264Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:41:10-07:00 <cs-mux> 2025-10-03T20:41:10.357714Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:41:10-07:00 <cs-mux> 2025-10-03T20:41:10.359555Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=55604
+
+2025-10-03T13:41:10-07:00 <cs-mux> 2025-10-03T20:41:10.359810Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=55604
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.188125Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=63326
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.188329Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.188481Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.190080Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=63326
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.190192Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=63326
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> INFO: [up] payload (23 bytes): 00024703D07ED5B37089C1460515E180009AEE8948A982
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> INFO: [up] Join-Request from 0080E1150546C189
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":692953768,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-118,"lsnr":-17.8,"foff":741,"rssi":-100,"size":23,"data":"AAJHA9B+1bNwicFGBRXhgACa7olIqYI="}]}
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.264298Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=41202
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.264505Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.264800Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:41:13-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.266625Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=41202
+
+2025-10-03T13:41:13-07:00 <cs-mux> 2025-10-03T20:41:13.266752Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=41202
+
+2025-10-03T13:41:13-07:00 <gateway-rs> 2025-10-03T20:41:13.266639Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@692953768 us, 904300000 MHz, Sf10bw125, snr: -17.8, rssi: -118, len: 23 region=US915
+
+2025-10-03T13:41:16-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 5D990C992641ACED0D39D5479EE52FC67E79F164D9F683BCAF94349BDD
+
+2025-10-03T13:41:53-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:41:53-07:00 <cs-mux> 2025-10-03T20:41:53.944111Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=20773
+
+2025-10-03T13:41:53-07:00 <cs-mux> 2025-10-03T20:41:53.944235Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:41:53-07:00 <cs-mux> 2025-10-03T20:41:53.944296Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:41:53-07:00 <cs-mux> 2025-10-03T20:41:53.945162Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=20773
+
+2025-10-03T13:41:53-07:00 <cs-mux> 2025-10-03T20:41:53.945449Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=20773
+
+2025-10-03T13:41:56-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40EFF10826808CE10526C1FF32B2DE85E885BB9518ACFEBBCD00EDEDF6
+
+2025-10-03T13:41:56-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608F1EF (netid=0x000013, fcnt=57740)
+
+2025-10-03T13:41:56-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:41:56-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":736463900,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-119,"lsnr":-8.0,"foff":14154,"rssi":-111,"size":29,"data":"QO/xCCaAjOEFJsH/MrLeheiFu5UYrP67zQDt7fY="}]}
+
+2025-10-03T13:41:56-07:00 <cs-mux> 2025-10-03T20:41:56.771794Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=45896
+
+2025-10-03T13:41:56-07:00 <cs-mux> 2025-10-03T20:41:56.772060Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:41:56-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:41:56-07:00 <cs-mux> 2025-10-03T20:41:56.772613Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:41:56-07:00 <gateway-rs> 2025-10-03T20:41:56.774304Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@736463900 us, 904900000 MHz, Sf8bw125, snr: -8, rssi: -119, len: 29 region=US915
+
+2025-10-03T13:41:56-07:00 <cs-mux> 2025-10-03T20:41:56.774586Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=45896
+
+2025-10-03T13:41:56-07:00 <cs-mux> 2025-10-03T20:41:56.774775Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=45896
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.144118Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=33875
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.144242Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.144303Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.145301Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=33875
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.145412Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=33875
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 802EC8D600005A126455B2EF93B8715571DE7E8AE0F5C2E9
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x00D6C82E (netid=0x000000, fcnt=4698)
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":744199927,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-127,"lsnr":-15.8,"foff":-6049,"rssi":-112,"size":24,"data":"gC7I1gAAWhJkVbLvk7hxVXHeforg9cLp"}]}
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.508786Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=14996
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.508909Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.509608Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:42:04-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.511918Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=14996
+
+2025-10-03T13:42:04-07:00 <cs-mux> 2025-10-03T20:42:04.512169Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=14996
+
+2025-10-03T13:42:04-07:00 <gateway-rs> 2025-10-03T20:42:04.512572Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@744199927 us, 904300000 MHz, Sf10bw125, snr: -15.8, rssi: -127, len: 24 region=US915
+
+2025-10-03T13:42:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405B420826806EDF05C5C2EB5B2BA502BA6F7DEA32CC1069CA0593D1D7
+
+2025-10-03T13:42:06-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608425B (netid=0x000013, fcnt=57198)
+
+2025-10-03T13:42:06-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:06-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":746633191,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-114,"lsnr":-3.0,"foff":13777,"rssi":-110,"size":29,"data":"QFtCCCaAbt8FxcLrWyulArpvfeoyzBBpygWT0dc="}]}
+
+2025-10-03T13:42:06-07:00 <cs-mux> 2025-10-03T20:42:06.936268Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=64305
+
+2025-10-03T13:42:06-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:42:06-07:00 <cs-mux> 2025-10-03T20:42:06.936688Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:42:06-07:00 <cs-mux> 2025-10-03T20:42:06.937389Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:42:06-07:00 <cs-mux> 2025-10-03T20:42:06.939280Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=64305
+
+2025-10-03T13:42:06-07:00 <cs-mux> 2025-10-03T20:42:06.940026Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=64305
+
+2025-10-03T13:42:06-07:00 <gateway-rs> 2025-10-03T20:42:06.938998Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@746633191 us, 904500000 MHz, Sf8bw125, snr: -3, rssi: -114, len: 29 region=US915
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:42:10 GMT #####
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 4
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 4 (111 bytes)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 5 (1198 bytes)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 750052021
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:42:10-07:00 <cs-mux> 2025-10-03T20:42:10.360099Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=39312
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:42:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":4,"rxfw":4,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:42:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:42:10-07:00 <cs-mux> 2025-10-03T20:42:10.360219Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:42:10-07:00 <cs-mux> 2025-10-03T20:42:10.360882Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:42:10-07:00 <cs-mux> 2025-10-03T20:42:10.362050Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=39312
+
+2025-10-03T13:42:10-07:00 <cs-mux> 2025-10-03T20:42:10.362520Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=39312
+
+2025-10-03T13:42:14-07:00 <cs-mux> 2025-10-03T20:42:14.344113Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=12887
+
+2025-10-03T13:42:14-07:00 <cs-mux> 2025-10-03T20:42:14.344317Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:42:14-07:00 <cs-mux> 2025-10-03T20:42:14.344483Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:42:14-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:42:14-07:00 <cs-mux> 2025-10-03T20:42:14.345610Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=12887
+
+2025-10-03T13:42:14-07:00 <cs-mux> 2025-10-03T20:42:14.345835Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=12887
+
+2025-10-03T13:42:24-07:00 <cs-mux> 2025-10-03T20:42:24.544104Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=17646
+
+2025-10-03T13:42:24-07:00 <cs-mux> 2025-10-03T20:42:24.544323Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:42:24-07:00 <cs-mux> 2025-10-03T20:42:24.547053Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=17646
+
+2025-10-03T13:42:32-07:00 <cs-mux> 2025-10-03T20:42:32.385385Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T13:42:32-07:00 <cs-mux> 2025-10-03T20:42:32.385428Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:42:34-07:00 <cs-mux> 2025-10-03T20:42:34.744104Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=39868
+
+2025-10-03T13:42:34-07:00 <cs-mux> 2025-10-03T20:42:34.744238Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:42:34-07:00 <cs-mux> 2025-10-03T20:42:34.744296Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:42:34-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:42:34-07:00 <cs-mux> 2025-10-03T20:42:34.745342Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=39868
+
+2025-10-03T13:42:34-07:00 <cs-mux> 2025-10-03T20:42:34.745611Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=39868
+
+2025-10-03T13:42:36-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40E76F08268062DE05712B98FF15B3ECCB595A0859335E276C41327079
+
+2025-10-03T13:42:36-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26086FE7 (netid=0x000013, fcnt=56930)
+
+2025-10-03T13:42:36-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:36-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":776372345,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-123,"lsnr":-10.0,"foff":9862,"rssi":-113,"size":29,"data":"QOdvCCaAYt4FcSuY/xWz7MtZWghZM14nbEEycHk="}]}
+
+2025-10-03T13:42:36-07:00 <cs-mux> 2025-10-03T20:42:36.679058Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=59877
+
+2025-10-03T13:42:36-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:42:36-07:00 <cs-mux> 2025-10-03T20:42:36.679433Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:42:36-07:00 <gateway-rs> 2025-10-03T20:42:36.681471Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@776372345 us, 903900000 MHz, Sf8bw125, snr: -10, rssi: -123, len: 29 region=US915
+
+2025-10-03T13:42:36-07:00 <cs-mux> 2025-10-03T20:42:36.679953Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:42:36-07:00 <cs-mux> 2025-10-03T20:42:36.681465Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=59877
+
+2025-10-03T13:42:36-07:00 <cs-mux> 2025-10-03T20:42:36.681750Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=59877
+
+2025-10-03T13:42:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:42:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:42:40 GMT #####
+
+2025-10-03T13:42:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:42:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 1
+
+2025-10-03T13:42:40-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:42:40-07:00 Warning: Suppressed 214 message(s) due to rate limiting
+2025-10-03T13:43:32-07:00 <cs-mux> 2025-10-03T20:43:32.387863Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T13:43:34-07:00 <udp-packet-forwarder> INFO: [up] payload (22 bytes): 1044E94B01000F0A081ECFE51BF46936FEB5615653CF
+
+2025-10-03T13:43:35-07:00 <cs-mux> 2025-10-03T20:43:35.944123Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=35150
+
+2025-10-03T13:43:35-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:43:35-07:00 <cs-mux> 2025-10-03T20:43:35.944252Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:43:35-07:00 <cs-mux> 2025-10-03T20:43:35.944312Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:43:35-07:00 <cs-mux> 2025-10-03T20:43:35.945506Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=35150
+
+2025-10-03T13:43:35-07:00 <cs-mux> 2025-10-03T20:43:35.945617Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=35150
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:43:40 GMT #####
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 8
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # CRC_OK: 75.00%, CRC_FAIL: 25.00%, NO_CRC: 0.00%
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # RF packets forwarded: 6 (159 bytes)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 7 (1701 bytes)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 840054330
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:43:40 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":8,"rxok":6,"rxfw":6,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:43:40-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:43:40-07:00 <cs-mux> 2025-10-03T20:43:40.364267Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=22361
+
+2025-10-03T13:43:40-07:00 <cs-mux> 2025-10-03T20:43:40.364393Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:43:40-07:00 <cs-mux> 2025-10-03T20:43:40.364668Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:43:40-07:00 <cs-mux> 2025-10-03T20:43:40.365869Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=22361
+
+2025-10-03T13:43:40-07:00 <cs-mux> 2025-10-03T20:43:40.366164Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=22361
+
+2025-10-03T13:43:43-07:00 <udp-packet-forwarder> INFO: [up] payload (31 bytes): 4076480826809FDF05A8F4D8FB669437541701306D91F8A81E513CD4F91290
+
+2025-10-03T13:43:43-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26084876 (netid=0x000013, fcnt=57247)
+
+2025-10-03T13:43:43-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:43:43-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":843654166,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-117,"lsnr":-3.5,"foff":16705,"rssi":-112,"size":31,"data":"QHZICCaAn98FqPTY+2aUN1QXATBtkfioHlE81PkSkA=="}]}
+
+2025-10-03T13:43:43-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:43:43-07:00 <cs-mux> 2025-10-03T20:43:43.957625Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=54097
+
+2025-10-03T13:43:43-07:00 <cs-mux> 2025-10-03T20:43:43.957744Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:43:43-07:00 <cs-mux> 2025-10-03T20:43:43.957964Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:43:43-07:00 <cs-mux> 2025-10-03T20:43:43.959524Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=54097
+
+2025-10-03T13:43:43-07:00 <cs-mux> 2025-10-03T20:43:43.959822Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=54097
+
+2025-10-03T13:43:43-07:00 <gateway-rs> 2025-10-03T20:43:43.960214Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@843654166 us, 903900000 MHz, Sf8bw125, snr: -3.5, rssi: -117, len: 31 region=US915
+
+2025-10-03T13:43:46-07:00 <cs-mux> 2025-10-03T20:43:46.144129Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=44460
+
+2025-10-03T13:43:46-07:00 <cs-mux> 2025-10-03T20:43:46.144253Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:43:46-07:00 <cs-mux> 2025-10-03T20:43:46.144315Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:43:46-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:43:46-07:00 <cs-mux> 2025-10-03T20:43:46.145613Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=44460
+
+2025-10-03T13:43:46-07:00 <cs-mux> 2025-10-03T20:43:46.146024Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=44460
+
+2025-10-03T13:43:56-07:00 <cs-mux> 2025-10-03T20:43:56.344118Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=34453
+
+2025-10-03T13:43:56-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:43:56-07:00 <cs-mux> 2025-10-03T20:43:56.344314Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:43:56-07:00 <cs-mux> 2025-10-03T20:43:56.344377Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:43:56-07:00 <cs-mux> 2025-10-03T20:43:56.345356Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=34453
+
+2025-10-03T13:43:56-07:00 <cs-mux> 2025-10-03T20:43:56.345730Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=34453
+
+2025-10-03T13:44:00-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): D047680826839AAE958D46CE4B444F49DA821CC91F7F060243D6C9E48D
+
+2025-10-03T13:44:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 408FD508268067E6051D22A5F1F62D88011AD39EE74C73B2E039BF78CF
+
+2025-10-03T13:44:06-07:00 <cs-mux> 2025-10-03T20:44:06.544162Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=34289
+
+2025-10-03T13:44:06-07:00 <cs-mux> 2025-10-03T20:44:06.544484Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:44:06-07:00 <cs-mux> 2025-10-03T20:44:06.544871Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:44:06-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:44:06-07:00 <cs-mux> 2025-10-03T20:44:06.546347Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=34289
+
+2025-10-03T13:44:06-07:00 <cs-mux> 2025-10-03T20:44:06.546618Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=34289
+
+2025-10-03T13:44:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 707ED40B15B310E800E299A94F2D20CC0435E5A0F14D78005798C0395E
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:44:10 GMT #####
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 4
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # CRC_OK: 25.00%, CRC_FAIL: 75.00%, NO_CRC: 0.00%
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 1 (31 bytes)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 2 (431 bytes)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 870055402
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:44:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":4,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:44:10-07:00 <cs-mux> 2025-10-03T20:44:10.364017Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=26353
+
+2025-10-03T13:44:10-07:00 <cs-mux> 2025-10-03T20:44:10.364150Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:44:10-07:00 <cs-mux> 2025-10-03T20:44:10.364480Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:44:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:44:10-07:00 <cs-mux> 2025-10-03T20:44:10.365991Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=26353
+
+2025-10-03T13:44:10-07:00 <cs-mux> 2025-10-03T20:44:10.366615Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=26353
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 408C8F082680B6EB05FBF8C76A3F9BCA7611C94FFC8E56EC2860689575
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4025FD0826803EE605BE5E44C018B0AD75DD74FA97FA695BA1B2355237
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608FD25 (netid=0x000013, fcnt=58942)
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":872307212,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-118,"lsnr":-7.2,"foff":9073,"rssi":-111,"size":29,"data":"QCX9CCaAPuYFvl5EwBiwrXXddPqX+mlbobI1Ujc="}]}
+
+2025-10-03T13:44:12-07:00 <cs-mux> 2025-10-03T20:44:12.614011Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=31931
+
+2025-10-03T13:44:12-07:00 <cs-mux> 2025-10-03T20:44:12.614466Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:44:12-07:00 <cs-mux> 2025-10-03T20:44:12.615167Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:44:12-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:44:12-07:00 <gateway-rs> 2025-10-03T20:44:12.617297Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@872307212 us, 904700000 MHz, Sf8bw125, snr: -7.2, rssi: -118, len: 29 region=US915
+
+2025-10-03T13:44:12-07:00 <cs-mux> 2025-10-03T20:44:12.617495Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=31931
+
+2025-10-03T13:44:12-07:00 <cs-mux> 2025-10-03T20:44:12.617889Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=31931
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> INFO: [up] payload (52 bytes): E09475A622607C0EDC627E354B8FF4C5D57826809BAEA124E50B529001F46B460254AC707230076490FD0590038735212A66EA5B
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x22A67594 (netid=0x000011, fcnt=3708)
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":875868687,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF9BW125","codr":"4/5","rssis":-93,"lsnr":10.0,"foff":454,"rssi":-92,"size":52,"data":"4JR1piJgfA7cYn41S4/0xdV4JoCbrqEk5QtSkAH0a0YCVKxwcjAHZJD9BZADhzUhKmbqWw=="}]}
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.181086Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=8956
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.181951Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.182703Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.185647Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=8956
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.185848Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=8956
+
+2025-10-03T13:44:16-07:00 <gateway-rs> 2025-10-03T20:44:16.185965Z  INFO run: gateway_rs::gateway: received potential beacon downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@875868687 us, 904700000 MHz, Sf9bw125, snr: 10, rssi: -93, len: 52
+
+2025-10-03T13:44:16-07:00 <gateway-rs> 2025-10-03T20:44:16.191015Z  INFO run: gateway_rs::beaconer: poc witness report submitted beacon_id="lHWmImB8DtxifjVLj/TF1XgmgJuuoSTlC1KQAfRrRgJUrHByMAdkkP0FkAOHNSEqZupb"
+
+2025-10-03T13:44:16-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.744188Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=58470
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.744313Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.744373Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.745323Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=58470
+
+2025-10-03T13:44:16-07:00 <cs-mux> 2025-10-03T20:44:16.745428Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=58470
+
+2025-10-03T13:44:20-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 402AD4082680B4DF050D67912D54696EBEC96C15448C4D28D75520A343
+
+2025-10-03T13:44:57-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-03T13:44:57-07:00 <cs-mux> 2025-10-03T20:44:57.548134Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=47213
+
+2025-10-03T13:44:57-07:00 <cs-mux> 2025-10-03T20:44:57.548433Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:44:57-07:00 <cs-mux> 2025-10-03T20:44:57.548827Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:44:57-07:00 <cs-mux> 2025-10-03T20:44:57.550159Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=47213
+
+2025-10-03T13:44:57-07:00 <cs-mux> 2025-10-03T20:44:57.550879Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=47213
+
+2025-10-03T13:45:01-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405E7D0826806ADD058A1637AC33674DB31B58F6B672054841F4436751
+
+2025-10-03T13:45:01-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26087D5E (netid=0x000013, fcnt=56682)
+
+2025-10-03T13:45:01-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:01-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":921327540,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-116,"lsnr":-4.2,"foff":12467,"rssi":-111,"size":29,"data":"QF59CCaAat0FihY3rDNnTbMbWPa2cgVIQfRDZ1E="}]}
+
+2025-10-03T13:45:01-07:00 <cs-mux> 2025-10-03T20:45:01.635955Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=4404
+
+2025-10-03T13:45:01-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:45:01-07:00 <cs-mux> 2025-10-03T20:45:01.636432Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:01-07:00 <cs-mux> 2025-10-03T20:45:01.637341Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:01-07:00 <cs-mux> 2025-10-03T20:45:01.639790Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=4404
+
+2025-10-03T13:45:01-07:00 <cs-mux> 2025-10-03T20:45:01.640144Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=4404
+
+2025-10-03T13:45:01-07:00 <gateway-rs> 2025-10-03T20:45:01.639771Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@921327540 us, 904100000 MHz, Sf8bw125, snr: -4.2, rssi: -116, len: 29 region=US915
+
+2025-10-03T13:45:02-07:00 <udp-packet-forwarder> INFO: [up] payload (23 bytes): 00024703D07ED5B3703C88470515E18000D092B6F797F1
+
+2025-10-03T13:45:02-07:00 <udp-packet-forwarder> INFO: [up] Join-Request from 0080E1150547883C
+
+2025-10-03T13:45:02-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:02-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":922409830,"chan":2,"rfch":0,"freq":904.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-117,"lsnr":-6.5,"foff":-31,"rssi":-111,"size":23,"data":"AAJHA9B+1bNwPIhHBRXhgADQkrb3l/E="}]}
+
+2025-10-03T13:45:02-07:00 <cs-mux> 2025-10-03T20:45:02.718861Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=11661
+
+2025-10-03T13:45:02-07:00 <cs-mux> 2025-10-03T20:45:02.719067Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:02-07:00 <cs-mux> 2025-10-03T20:45:02.719537Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:02-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:45:02-07:00 <gateway-rs> 2025-10-03T20:45:02.721349Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@922409830 us, 904300000 MHz, Sf10bw125, snr: -6.5, rssi: -117, len: 23 region=US915
+
+2025-10-03T13:45:02-07:00 <cs-mux> 2025-10-03T20:45:02.721376Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=11661
+
+2025-10-03T13:45:02-07:00 <cs-mux> 2025-10-03T20:45:02.721761Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=11661
+
+2025-10-03T13:45:07-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:45:07-07:00 <cs-mux> 2025-10-03T20:45:07.748102Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=61263
+
+2025-10-03T13:45:07-07:00 <cs-mux> 2025-10-03T20:45:07.748229Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:45:07-07:00 <cs-mux> 2025-10-03T20:45:07.748291Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:45:07-07:00 <cs-mux> 2025-10-03T20:45:07.749646Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=61263
+
+2025-10-03T13:45:07-07:00 <cs-mux> 2025-10-03T20:45:07.749889Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=61263
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ##### 2025-10-03 20:45:10 GMT #####
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 5
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # RF packets forwarded: 5 (133 bytes)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 6 (1446 bytes)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 930056702
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 20:45:10 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":5,"rxok":5,"rxfw":5,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.361760Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=35284
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.361887Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.363197Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 2 ms
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.364786Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=35284
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.365096Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=35284
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> INFO: [up] payload (23 bytes): 00010016D0A4D5D516872610D4A4D5B3703631E0764A6D
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40544308268070DF056731BFC7BB2D5FECE9A09C6B539A208EE4D78C9B
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26084354 (netid=0x000013, fcnt=57200)
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":930459517,"chan":1,"rfch":0,"freq":904.100000,"mid": 9,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-117,"lsnr":-4.2,"foff":12940,"rssi":-111,"size":29,"data":"QFRDCCaAcN8FZzG/x7stX+zpoJxrU5ogjuTXjJs="}]}
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.765139Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=46691
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.766278Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.767080Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:10-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 3 ms
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.769392Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=46691
+
+2025-10-03T13:45:10-07:00 <cs-mux> 2025-10-03T20:45:10.772069Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=46691
+
+2025-10-03T13:45:10-07:00 <gateway-rs> 2025-10-03T20:45:10.771870Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@930459517 us, 904100000 MHz, Sf8bw125, snr: -4.2, rssi: -117, len: 29 region=US915
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> INFO: [up] payload (52 bytes): E0BDC7F3049C41CAA9D338A8E40B4809167B0E7B571078D424BE95391A1C42B27AA63D6A3CAF6451855995B2456855BEE7007569
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x04F3C7BD (netid=0x000002, fcnt=51777)
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":933298316,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF9BW125","codr":"4/5","rssis":-113,"lsnr":-2.5,"foff":183,"rssi":-109,"size":52,"data":"4L3H8wScQcqp0zio5AtICRZ7DntXEHjUJL6VORocQrJ6pj1qPK9kUYVZlbJFaFW+5wB1aQ=="}]}
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.613315Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=13761
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.613435Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.613629Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:13-07:00 <gateway-rs> 2025-10-03T20:45:13.615250Z  INFO run: gateway_rs::gateway: received potential beacon downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@933298316 us, 904900000 MHz, Sf9bw125, snr: -2.5, rssi: -113, len: 52
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.615868Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=13761
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.616658Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=13761
+
+2025-10-03T13:45:13-07:00 <gateway-rs> 2025-10-03T20:45:13.618151Z  INFO run: gateway_rs::beaconer: poc witness report submitted beacon_id="vcfzBJxByqnTOKjkC0gJFnsOe1cQeNQkvpU5GhxCsnqmPWo8r2RRhVmVskVoVb7nAHVp"
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40BB5C082680AAEB0569FC493C8457A870DF17861165E17643D9B98B96
+
+2025-10-03T13:45:13-07:00 <cs-mux> 2025-10-03T20:45:13.996719Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=51172
+
+2025-10-03T13:45:13-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26085CBB (netid=0x000013, fcnt=60330)
+
+2025-10-03T13:45:14-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:14-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":933688339,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-120,"lsnr":-10.0,"foff":10633,"rssi":-111,"size":29,"data":"QLtcCCaAqusFafxJPIRXqHDfF4YRZeF2Q9m5i5Y="}]}
+
+2025-10-03T13:45:14-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:45:14-07:00 <cs-mux> 2025-10-03T20:45:13.997309Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:14-07:00 <cs-mux> 2025-10-03T20:45:13.998086Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:14-07:00 <gateway-rs> 2025-10-03T20:45:14.000854Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@933688339 us, 905300000 MHz, Sf8bw125, snr: -10, rssi: -120, len: 29 region=US915
+
+2025-10-03T13:45:14-07:00 <cs-mux> 2025-10-03T20:45:14.000881Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=51172
+
+2025-10-03T13:45:14-07:00 <cs-mux> 2025-10-03T20:45:14.001245Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=51172
+
+2025-10-03T13:45:17-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T13:45:17-07:00 <cs-mux> 2025-10-03T20:45:17.952095Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=9347
+
+2025-10-03T13:45:17-07:00 <cs-mux> 2025-10-03T20:45:17.952219Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863
+
+2025-10-03T13:45:17-07:00 <cs-mux> 2025-10-03T20:45:17.952281Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T13:45:17-07:00 <cs-mux> 2025-10-03T20:45:17.953059Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=9347
+
+2025-10-03T13:45:17-07:00 <cs-mux> 2025-10-03T20:45:17.953459Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=9347
+
+2025-10-03T13:45:22-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 407AD0082680BDDF050C5A3E5868DFFC3591815DDE68868ADB1FB2123F
+
+2025-10-03T13:45:22-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608D07A (netid=0x000013, fcnt=57277)
+
+2025-10-03T13:45:22-07:00 <udp-packet-forwarder> 
+
+2025-10-03T13:45:22-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":942147697,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-100,"lsnr":8.8,"foff":14367,"rssi":-99,"size":29,"data":"QHrQCCaAvd8FDFo+WGjf/DWRgV3eaIaK2x+yEj8="}]}
+
+2025-10-03T13:45:22-07:00 <cs-mux> 2025-10-03T20:45:22.460646Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110004 token=26584
+
+2025-10-03T13:45:22-07:00 <cs-mux> 2025-10-03T20:45:22.461154Z  INFO {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T13:45:22-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T13:45:22-07:00 <cs-mux> 2025-10-03T20:45:22.461824Z DEBUG {addr=172.17.0.4:48330}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T13:45:22-07:00 <cs-mux> 2025-10-03T20:45:22.463876Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=26584
+
+2025-10-03T13:45:22-07:00 <cs-mux> 2025-10-03T20:45:22.463996Z  INFO {addr=172.17.0.2:1680 gateway_id=0242acfffe110004}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=26584
+
+2025-10-03T13:45:22-07:00 <gateway-rs> 2025-10-03T20:45:22.463900Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:04 uplink=@942147697 us, 905300000 MHz, Sf8bw125, snr: 8.8, rssi: -100, len: 29 region=US915
+
+2025-10-03T13:45:28-07:00 <cs-mux> 2025-10-03T20:45:28.152144Z  INFO {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110004 token=60822
+
+2025-10-03T13:45:28-07:00 <cs-mux> 2025-10-03T20:45:28.152376Z TRACE {addr=172.17.0.4:34863}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110004 addr=172.17.0.4:34863

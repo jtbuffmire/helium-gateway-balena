@@ -1,0 +1,96 @@
+root@d4ce50b703f8:/usr/bin# ps aux | grep helium
+root          34  0.0  0.3  11652  6648 pts/0    Sl+  03:59   0:00 /usr/bin/helium_gateway -c /etc/helium_gateway/settings.toml server
+root         566  0.0  0.0   3504  1788 pts/27   S+   04:25   0:00 grep helium
+root@d4ce50b703f8:/usr/bin# ls -la /etc/helium_gateway/
+total 16
+drwxr-xr-x 2 root root 4096 Aug 20 03:59 .
+drwxr-xr-x 1 root root 4096 Aug 20 03:59 ..
+-rw-r--r-- 1 root root 2113 Aug 20 03:59 settings.toml
+-rw-r--r-- 1 root root 2079 Aug 19 01:05 settings.toml.template
+root@d4ce50b703f8:/usr/bin# cat /etc/helium_gateway/settings.toml
+keypair = "ecc://i2c-1:96?slot=0"
+## gateway-rs configuration file
+
+## Keypair is a string that supports specifying different locations for 
+## the secrets. The default one is file based one since all devices 
+## can support it.
+## Note: The keypair configuration is dynamically set by the start script
+## based on whether an ECC chip is detected.
+
+# Ecc608 based (for original hotspots):
+onboarding = "ecc://i2c-1:96?slot=15"
+
+# The address to listen on for the (semtech) packet forwarder
+listen = "0.0.0.0:1680"
+
+# The local port to serve the local grpc on. Supports both a simple port number
+# or full ip:port listen address. Do NOT expose this port outside of the host
+# network for security
+api = 4467
+
+# The default region to use until a region is received from the Helium network.
+# This value should line up with the configured region of the semtech packet
+# forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+# packet and poc beaconing until the correct asserted region is retrieved. 
+# Note: The region configuration is dynamically set by the start script
+# based on the REGION_OVERRIDE environment variable.
+
+[log]
+# The logging level to assume on startup
+level = "debug"
+# Whether the logged output should include timestamps
+timestamp = true
+
+[poc]
+# Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+# dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+#
+disable = true
+
+# The uri to fetch entropy for poc beacons
+entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+# The uri for IOT ingest services to deliver beacons and witnesses
+ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+# The config service is used to fetch and monitor region parameters and other
+# configuration items
+[config]
+pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+uri = "http://mainnet-config.helium.io:6080/"
+
+# The router uri is where lorawan packets are delivered to the helium packet
+# router. 
+[router]
+uri = "http://mainnet-router.helium.io:8080/"
+# Maximum number of packets to queue up for the packet router
+queue = 20root@d4ce50b703f8:/usr/bin# 
+
+root@d4ce50b703f8:/usr/bin# ls -la /tmp/
+total 96
+drwxrwxrwt 1 root root 4096 Aug 20 04:14 .
+drwxr-xr-x 1 root root 4096 Aug 20 03:59 ..
+drwxrwxrwt 2 root root   40 Aug 20 03:59 balena
+-rw-r--r-- 1 root root    4 Aug 20 04:04 balena-enter-10114-rcxRarxT.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:08 balena-enter-10636-5B6HcOe9.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:08 balena-enter-10736-ArOysp5b.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:09 balena-enter-10988-SFb5txn4.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:09 balena-enter-11029-OET76Fax.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:09 balena-enter-11152-AM3Nt7kB.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:13 balena-enter-11316-DuMuXYS7.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11454-ImRTOPpp.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11504-xvFkOyZx.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11569-F1JobkU2.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11625-HXytKiG6.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11665-UwLqYkB4.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11684-mEjkCHsG.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11851-Jv86AVF1.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11918-pc1OCRr3.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-11964-okueRpwx.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-12023-GVllxwhd.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:14 balena-enter-12068-Fq0lUM7u.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:02 balena-enter-9631-u9WFTHl5.pid
+-rw-r--r-- 1 root root    4 Aug 20 04:04 balena-enter-9952-V5KBhz1t.pid
+-rw-r--r-- 1 root root   56 Aug 20 03:56 build_timestamp
+drwxrwxrwt 2 root root   40 Aug 20 03:59 resin
+-rw-r--r-- 1 root root 2113 Aug 20 03:59 settings.toml
+root@d4ce50b703f8:/usr/bin# 

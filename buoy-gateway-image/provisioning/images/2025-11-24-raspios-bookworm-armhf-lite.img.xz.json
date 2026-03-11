@@ -1,0 +1,22 @@
+{
+  "imager": {
+    "matching_type": "sha256",
+    "matching_digest": "dfe7ce7e8f382b0d0cabca603bea187384b80685ff1965fb19df50024849e68c"
+  },
+  "os_name": "Raspberry Pi OS Lite (32-bit)",
+  "description": "Bookworm armhf lite - 2025-11-24",
+  "icon": "",
+  "url": "file:///Users/jt/buoy-fish-tech/network/helium-gateway-balena/buoy-gateway-image/provisioning/images/2025-11-24-raspios-bookworm-armhf-lite.img.xz",
+  "extract_size": 2147483648,
+  "image_download_size": 106835882,
+  "extract_sha256": "",
+  "image_download_sha256": "dfe7ce7e8f382b0d0cabca603bea187384b80685ff1965fb19df50024849e68c",
+  "init_format": "systemd",
+  "devices": ["pi4-32bit", "pi4-64bit", "pi3", "pi2"],
+  "os_info": {
+    "name": "Raspberry Pi OS",
+    "version": "bookworm",
+    "variant": "lite",
+    "architecture": "armhf"
+  }
+}

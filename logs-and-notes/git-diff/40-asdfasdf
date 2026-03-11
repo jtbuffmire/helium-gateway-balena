@@ -1,0 +1,325 @@
+2025-10-04T00:08:06-07:00 Downloading image 'registry2.balena-cloud.com/v2/9a9c8aff6a3f759e98e9ad1feb6fa55b@sha256:6a5e0ddf0af63525d051f22217062b2b131bb8b0fd0b07354006d91e1eeb7353'
+2025-10-04T00:08:06-07:00 Downloading image 'registry2.balena-cloud.com/v2/3d4e774d7ea69be8de1d53ec173e9a12@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-04T00:08:06-07:00 Downloading image 'registry2.balena-cloud.com/v2/3f11c7d876f29f6411376be163098e77@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-04T00:08:06-07:00 Removing network 'default'
+2025-10-04T00:08:16-07:00 Downloaded image 'registry2.balena-cloud.com/v2/9a9c8aff6a3f759e98e9ad1feb6fa55b@sha256:6a5e0ddf0af63525d051f22217062b2b131bb8b0fd0b07354006d91e1eeb7353'
+2025-10-04T00:08:16-07:00 Downloaded image 'registry2.balena-cloud.com/v2/3f11c7d876f29f6411376be163098e77@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-04T00:08:43-07:00 Creating network 'default'
+2025-10-04T00:08:43-07:00 Taking update locks
+2025-10-04T00:08:44-07:00 Installing service 'cs-mux sha256:89649f8c5d87a2f0206e1676804d9d2f7dd2ffe432470a130b7b2010622abae1'
+2025-10-04T00:08:44-07:00 Installed service 'cs-mux sha256:89649f8c5d87a2f0206e1676804d9d2f7dd2ffe432470a130b7b2010622abae1'
+2025-10-04T00:08:44-07:00 Starting service 'cs-mux sha256:89649f8c5d87a2f0206e1676804d9d2f7dd2ffe432470a130b7b2010622abae1'
+2025-10-04T00:08:46-07:00 Started service 'cs-mux sha256:89649f8c5d87a2f0206e1676804d9d2f7dd2ffe432470a130b7b2010622abae1'
+2025-10-04T00:08:45-07:00 <cs-mux> 2025-10-04T07:08:45.993605Z  INFO chirpstack_packet_multiplexer: Starting ChirpStack Packet Multiplexer (version: 4.0.0-test.2, docs: https://github.com/chirpstack/chirpstack-package-multiplexer/)
+
+2025-10-04T00:08:45-07:00 <cs-mux> 2025-10-04T07:08:45.993787Z  INFO chirpstack_packet_multiplexer::listener: Setting up listener host="0.0.0.0:1700"
+
+2025-10-04T00:08:45-07:00 <cs-mux> 2025-10-04T07:08:45.994504Z  INFO chirpstack_packet_multiplexer::forwarder: Setting up forwarder
+
+2025-10-04T00:08:45-07:00 <cs-mux> 2025-10-04T07:08:45.994623Z  INFO chirpstack_packet_multiplexer::forwarder: Adding server host="gateway-rs:1680" uplink_only=false gateway_id_prefixes=[]
+
+2025-10-04T00:08:45-07:00 <cs-mux> 2025-10-04T07:08:45.994720Z  INFO chirpstack_packet_multiplexer::monitoring: Setting up monitoring endpoint bind="0.0.0.0:9090"
+
+2025-10-04T00:08:46-07:00 Installing service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-04T00:08:46-07:00 Installing service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:46-07:00 Installed service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-04T00:08:46-07:00 Starting service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-04T00:08:46-07:00 Installed service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:46-07:00 Starting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:42-07:00 Downloaded image 'registry2.balena-cloud.com/v2/3d4e774d7ea69be8de1d53ec173e9a12@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-04T00:08:48-07:00 Started service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:48-07:00 Started service 'udp-packet-forwarder sha256:36d3502b319fa9561ae82c807114b57a4ce958525288ce4b1363bd613a2583c0'
+2025-10-04T00:08:48-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> UDP Packet Forwarder Container v2.4.8
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> (c) RAKWireless 2022-2024
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Based on:
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * lora_gateway v5.0.1
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * packet_forwarder v4.0.1
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * sx1302_hal v2.1.0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * picoGW_hal v0.2.3
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Protocol
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Mode:          DYNAMIC
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Protocol:      UDP
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Server:        cs-mux:1700
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Band:          us_902_928
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Gateway EUI:   0242ACFFFE110003
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> EUI Source:    eth0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Radio
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Model:         RAK2287
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Concentrator:  SX1302
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Design:        CORECELL
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Interface:     SPI
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Radio Device:  /dev/spidev0.0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> SPI Speed:     8000000
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> GPIO chip:     gpiochip0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Reset GPIO:    17
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Enable GPIO:   0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Extra
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> ------------------------------------------------------------------
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Stat interval: 30
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Push timeout:  100
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Use fake GPS:  TRUE
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Latitude:      38.851137
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Longitude:     -121.269953
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> Altitude:      0
+
+2025-10-04T00:08:48-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+
+2025-10-04T00:08:49-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> *** Packet Forwarder ***
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> Version: 2.1.0
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> *** SX1302 HAL library version info ***
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> Version: 2.1.0;
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> ***
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Little endian host
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+2025-10-04T00:08:49-07:00 Releasing update locks
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: antenna_gain 0 dBi
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Configuring legacy timestamp
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: no configuration for SX1261
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: FSK channel 8 disabled
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing channel number is set to 8
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: got 2 debug reference payload
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: server hostname or IP address is configured to "cs-mux"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: upstream port is configured to "1700"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: downstream port is configured to "1700"
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: GPS serial port path is configured to ""
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> INFO: fake GPS is enabled
+
+2025-10-04T00:08:49-07:00 <udp-packet-forwarder> Concentrator reset through gpiochip0:17 (using libgpiod)
+
+2025-10-04T00:08:51-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:08:51-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:51-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:52-07:00 <udp-packet-forwarder> INFO: [main] concentrator started, packet can now be received
+
+2025-10-04T00:08:52-07:00 <udp-packet-forwarder> INFO: concentrator EUI: 0x0016c001ff18b07a
+
+2025-10-04T00:08:52-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 1 ms
+
+2025-10-04T00:08:52-07:00 <cs-mux> 2025-10-04T07:08:52.167944Z  INFO {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=26566
+
+2025-10-04T00:08:52-07:00 <cs-mux> 2025-10-04T07:08:52.168368Z TRACE {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:48980
+
+2025-10-04T00:08:52-07:00 <cs-mux> 2025-10-04T07:08:52.168536Z  INFO {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-04T00:08:52-07:00 <cs-mux> 2025-10-04T07:08:52.169523Z  INFO chirpstack_packet_multiplexer::forwarder: Initializing forwarder to server gateway_id=0242acfffe110003 server=gateway-rs:1680
+
+2025-10-04T00:08:53-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:08:53-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:53-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:55-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:55-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:08:56-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:58-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:08:58-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:08:58-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:09:01-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:09:01-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:09:02-07:00 <cs-mux> 2025-10-04T07:09:02.183971Z  INFO {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=26995
+
+2025-10-04T00:09:02-07:00 <cs-mux> 2025-10-04T07:09:02.184087Z TRACE {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:48980
+
+2025-10-04T00:09:02-07:00 <cs-mux> 2025-10-04T07:09:02.184133Z  INFO {addr=172.17.0.3:48980}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-04T00:09:02-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-04T00:09:02-07:00 <cs-mux> 2025-10-04T07:09:02.184956Z ERROR chirpstack_packet_multiplexer::forwarder: Handle uplink error error=Send UDP packet: Connection refused (os error 111)
+
+2025-10-04T00:09:02-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:09:04-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 407DE4082680EDDD05512A519CDDE37FD0E1CB8E164C23D95F9B7A3396
+
+2025-10-04T00:09:04-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608E47D (netid=0x000013, fcnt=56813)
+
+2025-10-04T00:09:04-07:00 <cs-mux> 2025-10-04T07:09:04.614974Z  INFO {addr=172.17.0.3:43325}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=20991
+
+2025-10-04T00:09:04-07:00 <cs-mux> 2025-10-04T07:09:04.615069Z  INFO {addr=172.17.0.3:43325}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-04T00:09:04-07:00 <udp-packet-forwarder> 
+
+2025-10-04T00:09:04-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":13084624,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-118,"lsnr":-11.2,"foff":14646,"rssi":-107,"size":29,"data":"QH3kCCaA7d0FUSpRnN3jf9Dhy44WTCPZX5t6M5Y="}]}
+
+2025-10-04T00:09:04-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-04T00:09:04-07:00 <cs-mux> 2025-10-04T07:09:04.615382Z DEBUG {addr=172.17.0.3:43325}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-04T00:09:07-07:00 <gateway-rs> Error: Config(decode error: keypair uri: could not load ecc keypair in slot 0: Ecc608(Timeout))
+
+2025-10-04T00:09:08-07:00 Restarting service 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'
+2025-10-04T00:09:08-07:00 Service exited 'gateway-rs sha256:89725781b6d00f96195f5665ef4487a41971233390b3cb406927f0ddb5d9d8d0'

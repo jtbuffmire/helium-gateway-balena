@@ -1,0 +1,1808 @@
+<gateway-service> 2025-08-20T17:38:38.295129Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T17:38:38.295260Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T17:38:38.295948Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T17:38:38.296059Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T17:38:38.296128Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T17:38:38.296183Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T17:38:43.540581Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=12x8h1YmuVanRVS7mQovAVpntPSxPYNPZFfYXVZyT1oWTa4QQxu
+
+<gateway-service> 2025-08-20T17:38:43.642688Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13u1rMzVVFnYTGpKvVM9LRffBQV1PzhXnM2MpGDBqfihMGRAXAV
+
+Releasing update locks
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T17:38:51.104185Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-20T17:38:51.104440Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-20 17:54:07.0 +00:00:00
+
+<gateway-service> 2025-08-20T17:38:51.104495Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-20T17:38:51.104545Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Purging data for app 2288040
+Taking update locks
+Killing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped, removing container 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service exited 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Failed to kill service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564' due to '(HTTP code 409) unexpected - removal of container 9b3e71bf33a34b3df0ad3518d83324e4965d27b2a8e675c79b5e2462c564cfb5 is already in progress '
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service is already stopped and the container removed 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Removing network 'default'
+Removing volume 'gateway-data'
+Removing volume 'gateway-logs'
+Creating volume 'gateway-data'
+Creating volume 'gateway-logs'
+Creating network 'default'
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Starting service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Started service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> Starting start-gateway-service.sh
+
+<gateway-service> Checking for I2C device
+
+<gateway-service> â ECC chip found at address 0x60
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Writing ECC keypair: ecc://i2c-1:96?slot=0
+
+<gateway-service> Verifying keypair was written:
+
+<gateway-service> â settings.toml exists, contents:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1700"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-20T17:48:35.885708Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+<gateway-service> 2025-08-20T17:48:35.959381Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T17:48:35.959513Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T17:48:35.959603Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T17:48:35.959660Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T17:48:35.959701Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T17:48:35.959744Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Releasing update locks
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Purged data
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<gateway-service> 2025-08-20T17:48:41.111933Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=134MDwxjHxjnwjvaXAEYxPEzjHTob8X84o2rqjuT8euYBa7xd2j
+
+<gateway-service> 2025-08-20T17:48:41.349967Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13suvL9Nzqzm3irssBxZDwB2h7BGJGjChKpThNLhSPvnyjkcfGB
+
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+<gateway-service> 2025-08-20T17:48:45.139247Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-20T17:48:45.139512Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-20 17:57:24.0 +00:00:00
+
+<gateway-service> 2025-08-20T17:48:45.139553Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-20T17:48:45.139631Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Downloading delta for image 'registry2.balena-cloud.com/v2/d9ac0a2b3aed2cd05f0ba07f722de97a@sha256:ce686605c3c7e332333b207663b16c89b9a3e6eafc853d7f0bcf9aa14b545a61'
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Downloading delta for image 'registry2.balena-cloud.com/v2/d9ac0a2b3aed2cd05f0ba07f722de97a@sha256:ce686605c3c7e332333b207663b16c89b9a3e6eafc853d7f0bcf9aa14b545a61'
+Delta still processing remotely. Will retry...
+<packet-forwarder> /usr/bin/sh: 4: Syntax error: "(" unexpected (expecting "done")
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Downloading delta for image 'registry2.balena-cloud.com/v2/d9ac0a2b3aed2cd05f0ba07f722de97a@sha256:ce686605c3c7e332333b207663b16c89b9a3e6eafc853d7f0bcf9aa14b545a61'
+Delta still processing remotely. Will retry...
+Taking update locks
+Killing service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Killing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Killed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Deleting image 'registry2.balena-cloud.com/v2/8168b516a318b5b6a8c58e30889a788d@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Deleted image 'registry2.balena-cloud.com/v2/8168b516a318b5b6a8c58e30889a788d@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Downloaded image 'registry2.balena-cloud.com/v2/d9ac0a2b3aed2cd05f0ba07f722de97a@sha256:ce686605c3c7e332333b207663b16c89b9a3e6eafc853d7f0bcf9aa14b545a61'
+Killed service 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Deleting image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+Deleted image 'registry2.balena-cloud.com/v2/2d91a39580848922f1c279fd1cda910f@sha256:8bbaec51dadf5d979f796e95eb96166e3b42417a2c441b6f4839adfeb10a87c7'
+Installing service 'gateway-service sha256:8f02e9782c80b0286613a5f40ffd5fa30a0a3eb6d7035b527d7a357750f473b2'
+Installed service 'gateway-service sha256:8f02e9782c80b0286613a5f40ffd5fa30a0a3eb6d7035b527d7a357750f473b2'
+Starting service 'gateway-service sha256:8f02e9782c80b0286613a5f40ffd5fa30a0a3eb6d7035b527d7a357750f473b2'
+Service exited 'gateway-service sha256:39f6ac2930cd088def9a2bfa03235c300f2a09b93e014b8c2b456c6c39933564'
+Started service 'gateway-service sha256:8f02e9782c80b0286613a5f40ffd5fa30a0a3eb6d7035b527d7a357750f473b2'
+<gateway-service> Starting start-gateway-service.sh
+
+<gateway-service> Checking for I2C device
+
+<gateway-service> â ECC chip found at address 0x60
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Writing ECC keypair: ecc://i2c-1:96?slot=0
+
+<gateway-service> Verifying keypair was written:
+
+<gateway-service> â settings.toml exists, contents:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> ==========================
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> # Now receiving packets from gwmp-mux instead of directly from packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1700"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20==========================
+
+<gateway-service> Copying to final location...
+
+<gateway-service> Verifying final config file:
+
+<gateway-service> Checking for keypair line:
+
+<gateway-service> â Keypair configuration found:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-20T17:53:50.237213Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+<gateway-service> 2025-08-20T17:53:50.313273Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-20T17:53:50.313419Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-20T17:53:50.313543Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-20T17:53:50.313616Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1700"
+
+<gateway-service> 2025-08-20T17:53:50.313666Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-20T17:53:50.313719Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installing service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Installed service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Starting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Started service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> UDP Packet Forwarder Container v2.4.7
+
+<packet-forwarder> (c) RAKWireless 2022-2024
+
+<packet-forwarder> 
+
+<packet-forwarder> Based on:
+
+<packet-forwarder>  * lora_gateway v5.0.1
+
+<packet-forwarder>  * packet_forwarder v4.0.1
+
+<packet-forwarder>  * sx1302_hal v2.1.0
+
+<packet-forwarder>  * picoGW_hal v0.2.3
+
+<packet-forwarder>  * picoGW_packet_forwarder v0.1.0
+
+<packet-forwarder>  * gateway_2g4_hal v1.1.0
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> 
+
+<packet-forwarder> Protocol
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Mode:          DYNAMIC
+
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gateway-service:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110003
+
+<packet-forwarder> EUI Source:    eth0
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         SX1302
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+Releasing update locks
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110003
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gateway-service"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<gateway-service> 2025-08-20T17:53:55.557065Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13tZRoiyhCM664gcFCnkzAQKbC6BXtPV8srC73vhZo6PnhqGJMA
+
+<gateway-service> 2025-08-20T17:53:55.653344Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=148FUhhmftxYfjkbMXdHmrFK1tFUnSWxrvTFGfWdztUFsN8m4ES
+
+<packet-forwarder> INFO: [main] concentrator started, packet can now be received
+
+<packet-forwarder> INFO: concentrator EUI: 0x0016c001ff10aa97
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:53:57.432545Z  INFO run: gateway_rs::gateway: new packet forwarder client mac=02:42:AC:FF:FE:11:00:03 addr=172.17.0.3:36224
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:54:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 0.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 30625573
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:54:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:54:27.441033Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:54:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(0.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (17 bytes): 409201007880CC000264EB745FE0D63908
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000192 (netid=0x00003C, fcnt=204)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":47477166,"chan":4,"rfch":1,"freq":904.700000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-63,"lsnr":13.8,"foff":-181,"rssi":-63,"size":17,"data":"QJIBAHiAzAACZOt0X+DWOQg="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:54:44.288813Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@47477166 us, 904700000 MHz, Sf7bw125, snr: 13.8, rssi: -63, len: 17 region=US915
+
+<gateway-service> 2025-08-20T17:54:44.289008Z DEBUG run:run: gateway_rs::packet_router: sending packet packet_hash="tKJDxD8MFD94nNUPryu3E8pHax+CbzSOg0FXpriBN2M="
+
+<gateway-service> 2025-08-20T17:54:44.919131Z  INFO gateway_rs::gateway: rx1 downlink @48477166 us, 925.70 MHz, DataRate(SF7, BW500), len: 13 downlink_mac=02:42:AC:FF:FE:11:00:03
+
+<packet-forwarder> INFO: [down] PULL_RESP received  - token[221:91] :)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON down: {"txpk":{"imme":false,"tmst":48477166,"freq":925.7,"rfch":0,"powe":34,"modu":"LORA","datr":"SF7BW500","codr":"4/5","ipol":true,"prea":null,"data":"YJIBAHiBsgAGzh80sw==","size":13}}
+
+<packet-forwarder> WARNING: Requested TX power is not supported (34dBm), actual power used: 27dBm
+
+<gateway-service> 2025-08-20T17:54:44.921307Z  WARN gateway_rs::gateway: rx1 downlink sent with adjusted transmit power
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:54:57 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (17 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (405 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 1 (184 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 1 (13 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 60625921
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:54:57 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":1,"txnb":1,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:54:57.437390Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:54:57 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 1, rxok: 1, rxfw: 1, ackr: Some(100.0), dwnb: 1, txnb: 1, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:55:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 90626279
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:55:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:55:27.441752Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:55:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:55:57 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 120626669
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:55:57 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:55:57.444394Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:55:57 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:56:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 150627224
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:56:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gateway-service> 2025-08-20T17:56:27.436920Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:56:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:56:57 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 180628724
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:56:57 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:56:57.440725Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:56:57 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:57:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:1, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:1, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 210629100
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:57:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<gateway-service> 2025-08-20T17:57:27.441240Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:57:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007880A800017EA90C8D0173CABA89FAE873E690
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=168)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":236961947,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-22,"lsnr":13.2,"foff":1847,"rssi":-22,"size":23,"data":"gJYBAHiAqAABfqkMjQFzyrqJ+uhz5pA="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:57:53.784993Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@236961947 us, 903900000 MHz, Sf10bw125, snr: 13.2, rssi: -22, len: 23 region=US915
+
+<gateway-service> 2025-08-20T17:57:53.785176Z DEBUG run:run: gateway_rs::packet_router: sending packet packet_hash="qAtMu8mC+ATpZ24hYY4eNTAgvR0uhgnHZXUiM8l9wds="
+
+<gateway-service> 2025-08-20T17:57:54.409032Z  INFO gateway_rs::gateway: rx1 downlink @237961947 us, 923.30 MHz, DataRate(SF10, BW500), len: 17 downlink_mac=02:42:AC:FF:FE:11:00:03
+
+<packet-forwarder> INFO: [down] PULL_RESP received  - token[216:178] :)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON down: {"txpk":{"imme":false,"tmst":237961947,"freq":923.3,"rfch":0,"powe":34,"modu":"LORA","datr":"SF10BW500","codr":"4/5","ipol":true,"prea":null,"data":"YJYBAHilqAADMQD/AQ1es24=","size":17}}
+
+<packet-forwarder> WARNING: Requested TX power is not supported (34dBm), actual power used: 27dBm
+
+<gateway-service> 2025-08-20T17:57:54.410907Z  WARN gateway_rs::gateway: rx1 downlink sent with adjusted transmit power
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:57:57 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (23 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (417 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 1 (190 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 1 (17 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:2, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:2, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:2, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:2, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 240630464
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:57:57 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":1,"txnb":1,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:57:57.450299Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:57:57 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 1, rxok: 1, rxfw: 1, ackr: Some(100.0), dwnb: 1, txnb: 1, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007882A90003070158B22DC62AC38AD0ABCA41A8
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=169)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":240874756,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-29,"lsnr":14.0,"foff":1817,"rssi":-28,"size":23,"data":"gJYBAHiCqQADBwFYsi3GKsOK0KvKQag="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:57:57.688600Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@240874756 us, 905100000 MHz, Sf7bw125, snr: 14, rssi: -29, len: 23 region=US915
+
+<gateway-service> 2025-08-20T17:57:57.688761Z DEBUG run:run: gateway_rs::packet_router: sending packet packet_hash="eENEB+cTA0GsAHIJWV0zngdI+YgjgkDqZTh+t7mJSFo="
+
+<gateway-service> 2025-08-20T17:57:58.294992Z  INFO gateway_rs::gateway: rx1 downlink @241874756 us, 926.90 MHz, DataRate(SF7, BW500), len: 17 downlink_mac=02:42:AC:FF:FE:11:00:03
+
+<packet-forwarder> INFO: [down] PULL_RESP received  - token[183:165] :)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON down: {"txpk":{"imme":false,"tmst":241874756,"freq":926.9,"rfch":0,"powe":34,"modu":"LORA","datr":"SF7BW500","codr":"4/5","ipol":true,"prea":null,"data":"YJYBAHilqQADMwD/AR2BZYk=","size":17}}
+
+<packet-forwarder> WARNING: Requested TX power is not supported (34dBm), actual power used: 27dBm
+
+<gateway-service> 2025-08-20T17:57:58.296663Z  WARN gateway_rs::gateway: rx1 downlink sent with adjusted transmit power
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [up] payload (25 bytes): 809601007882AA000307010C355F6FBA873860E6870B5A6EB0
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=170)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":244886877,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-18,"lsnr":13.0,"foff":1866,"rssi":-17,"size":25,"data":"gJYBAHiCqgADBwEMNV9vuoc4YOaHC1pusA=="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:58:01.707144Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@244886877 us, 905300000 MHz, Sf7bw125, snr: 13, rssi: -18, len: 25 region=US915
+
+<gateway-service> 2025-08-20T17:58:01.707325Z DEBUG run:run: gateway_rs::packet_router: sending packet packet_hash="fQaNeeWJnPUxtIG05Uz8LC30fl1mryMScUk6uEELGTo="
+
+<gateway-service> 2025-08-20T17:58:02.309820Z  INFO gateway_rs::gateway: rx1 downlink @245886877 us, 927.50 MHz, DataRate(SF7, BW500), len: 17 downlink_mac=02:42:AC:FF:FE:11:00:03
+
+<packet-forwarder> INFO: [down] PULL_RESP received  - token[104:73] :)
+
+<packet-forwarder> 
+
+<gateway-service> 2025-08-20T17:58:02.312160Z  WARN gateway_rs::gateway: rx1 downlink sent with adjusted transmit power
+
+<packet-forwarder> JSON down: {"txpk":{"imme":false,"tmst":245886877,"freq":927.5,"rfch":0,"powe":34,"modu":"LORA","datr":"SF7BW500","codr":"4/5","ipol":true,"prea":null,"data":"YJYBAHilqgADNAD/Adw2HtY=","size":17}}
+
+<packet-forwarder> WARNING: Requested TX power is not supported (34dBm), actual power used: 27dBm
+
+<packet-forwarder> INFO: [up] payload (23 bytes): 809601007882AB0003070197178171C84C4F3E33BDE0FC
+
+<packet-forwarder> INFO: [up] pkt from mote: 0x78000196 (netid=0x00003C, fcnt=171)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":248882580,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssis":-18,"lsnr":13.5,"foff":1887,"rssi":-17,"size":23,"data":"gJYBAHiCqwADBwGXF4FxyExPPjO94Pw="}]}
+
+<gateway-service> 2025-08-20T17:58:05.698591Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@248882580 us, 904500000 MHz, Sf7bw125, snr: 13.5, rssi: -18, len: 23 region=US915
+
+<gateway-service> 2025-08-20T17:58:05.698761Z DEBUG run:run: gateway_rs::packet_router: sending packet packet_hash="4c4Hiu76Rm837CTu8hb1QXNw7p4ye5rlJPHC8sppA1g="
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<packet-forwarder> INFO: [down] PULL_RESP received  - token[80:202] :)
+
+<packet-forwarder> 
+
+<gateway-service> 2025-08-20T17:58:06.288938Z  INFO gateway_rs::gateway: rx1 downlink @249882580 us, 925.10 MHz, DataRate(SF7, BW500), len: 17 downlink_mac=02:42:AC:FF:FE:11:00:03
+
+<gateway-service> 2025-08-20T17:58:06.290599Z  WARN gateway_rs::gateway: rx1 downlink sent with adjusted transmit power
+
+<packet-forwarder> JSON down: {"txpk":{"imme":false,"tmst":249882580,"freq":925.1,"rfch":0,"powe":34,"modu":"LORA","datr":"SF7BW500","codr":"4/5","ipol":true,"prea":null,"data":"YJYBAHilqwADNgD/ASR3CRE=","size":17}}
+
+<packet-forwarder> WARNING: Requested TX power is not supported (34dBm), actual power used: 27dBm
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:58:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 3
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 3 (71 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 4 (916 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 3 (567 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 3 (51 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:5, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 270631604
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:58:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":3,"txnb":3,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:58:27.447108Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:58:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 3, rxok: 3, rxfw: 3, ackr: Some(100.0), dwnb: 3, txnb: 3, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:58:57 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 0
+
+<packet-forwarder> # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 0 (0 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 1 (168 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:5, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 300631981
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:58:57 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:58:57.446751Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:58:57 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 0, rxok: 0, rxfw: 0, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [up] payload (52 bytes): E0585FAAC1FED79FC46369C1CB34A097E3B77A1819918D6C638093C6E613B406B6984E1F48EFBEF52CB40477416B80708ABDB10A
+
+<packet-forwarder> INFO: [up] pkt from mote: 0xC1AA5F58 (netid=0x40001A, fcnt=40919)
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":305044805,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF9BW125","codr":"4/5","rssis":-110,"lsnr":-0.2,"foff":491,"rssi":-108,"size":52,"data":"4FhfqsH+15/EY2nByzSgl+O3ehgZkY1sY4CTxuYTtAa2mE4fSO++9Sy0BHdBa4Bwir2xCg=="}]}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+<gateway-service> 2025-08-20T17:59:01.864007Z  INFO run: gateway_rs::gateway: received potential beacon downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@305044805 us, 903900000 MHz, Sf9bw125, snr: -0.2, rssi: -110, len: 52
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+<packet-forwarder> 
+
+<packet-forwarder> ##### 2025-08-20 17:59:27 GMT #####
+
+<packet-forwarder> ### [UPSTREAM] ###
+
+<packet-forwarder> # RF packets received by concentrator: 1
+
+<packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+<packet-forwarder> # RF packets forwarded: 1 (52 bytes)
+
+<packet-forwarder> # PUSH_DATA datagrams sent: 2 (457 bytes)
+
+<packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+<packet-forwarder> ### [DOWNSTREAM] ###
+
+<packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+<packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+<packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+<packet-forwarder> # TX errors: 0
+
+<packet-forwarder> # TX rejected (collision packet): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (collision beacon): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too late): 0.00% (req:5, rej:0)
+
+<packet-forwarder> # TX rejected (too early): 0.00% (req:5, rej:0)
+
+<packet-forwarder> ### SX1302 Status ###
+
+<packet-forwarder> # SX1302 counter (INST): 330632423
+
+<packet-forwarder> # SX1302 counter (PPS):  0
+
+<packet-forwarder> # BEACON queued: 0
+
+<packet-forwarder> # BEACON sent so far: 0
+
+<packet-forwarder> # BEACON rejected: 0
+
+<packet-forwarder> ### [JIT] ###
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> #--------
+
+<packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+<packet-forwarder> ### [GPS] ###
+
+<packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+<packet-forwarder> ##### END #####
+
+<packet-forwarder> 
+
+<packet-forwarder> JSON up: {"stat":{"time":"2025-08-20 17:59:27 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+<packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+<gateway-service> 2025-08-20T17:59:27.446402Z DEBUG run: gateway_rs::gateway: received stat mac=02:42:AC:FF:FE:11:00:03 stat=Stat { time: "2025-08-20 17:59:27 GMT", lati: Some(38.85114), long: Some(-121.26995), alti: Some(0), rxnb: 1, rxok: 1, rxfw: 1, ackr: Some(100.0), dwnb: 0, txnb: 0, temp: Some(30.0) }
+
+<packet-forwarder> INFO: [down] PULL_ACK received in 0 ms

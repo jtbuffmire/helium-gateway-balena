@@ -1,0 +1,28 @@
+# ChirpStack Packet Multiplexer Configuration
+# Fans UDP packets from the packet forwarder to multiple LNS endpoints.
+# Add/remove [[multiplexer.server]] blocks to route to different networks.
+
+[logging]
+  level = "debug"
+
+[multiplexer]
+  bind = "0.0.0.0:1700"
+
+  # Server 1: Helium gateway-rs
+  [[multiplexer.server]]
+    server = "gateway-rs:1680"
+    uplink_only = false
+
+  # Server 2: Direct to Buoy.fish ChirpStack LNS (bypasses Helium)
+  # Used for Join Request troubleshooting — confirms radio path works
+  [[multiplexer.server]]
+    server = "console.buoy.fish:1701"
+    uplink_only = false
+
+  # Server 3: Local packet logger — decodes PHYPayloads for debugging
+  [[multiplexer.server]]
+    server = "pkt-logger:1702"
+    uplink_only = true
+
+[monitoring]
+  bind = "0.0.0.0:9090"

@@ -1,0 +1,1904 @@
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:33:26.715636Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:33:26.717945Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:34:26.717531Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:34:26.718897Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:35:26.719500Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:35:26.719564Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:36:26.721007Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:36:26.721066Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<gateway-rs> 2025-11-07T02:36:50.104625Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:36:50.105047Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:36:56.579378Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13Yf2oY3vVFqoFJ3VAAkjucf6XLZ2YprkS27cvhgyd1A7mkMSB1
+
+<gateway-rs> 2025-11-07T02:36:56.762215Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13cGHKhTZ4KHtCS479kumf3so6mFaWgn6mGfRrBReQZsVzoSG9N
+
+<cs-mux> 2025-11-07T02:37:26.721591Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:37:26.721650Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:38:26.723094Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:38:26.723154Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:39:26.723984Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:39:26.724043Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+<cs-mux> 2025-11-07T02:40:26.725439Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:40:26.725461Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:41:26.727455Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:41:26.727512Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<gateway-rs> 2025-11-07T02:42:01.403825Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:42:01.404351Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:42:06.550019Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14gSZLNAF51kBJyagtTxM1HQDijC4ovS5wKte94Gqr8Hdrx8K4U
+
+<gateway-rs> 2025-11-07T02:42:06.605753Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13ab5yz4PJ7fTDKJz88mhEji8Hf2otzXG4TCRapHDn4J1ZGLQvi
+
+<cs-mux> 2025-11-07T02:42:26.728964Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:42:26.729023Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:43:26.730583Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:43:26.730641Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:44:26.732093Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:44:26.732150Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:45:26.732640Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:45:26.732697Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:46:26.734180Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:46:26.734241Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<gateway-rs> 2025-11-07T02:47:12.699674Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:47:12.703956Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:47:18.758151Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13MbuCJGLxRWDBMyZmYxFNKEdTVf3hWq4FY4CoqVJ2yA1MrXSLJ
+
+<gateway-rs> 2025-11-07T02:47:19.202543Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=1372M6QRMdfa7jFwgqmTcFT1mf6hS7oFueRJoexaKKAsw13FVtz
+
+<cs-mux> 2025-11-07T02:47:26.736017Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:47:26.736075Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:48:26.738485Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:48:26.738543Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:49:26.740092Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:49:26.740154Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:50:26.740621Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:50:26.740682Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<gateway-rs> 2025-11-07T02:52:23.999155Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:52:23.999671Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<cs-mux> 2025-11-07T02:52:26.742935Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:52:26.744651Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<gateway-rs> 2025-11-07T02:52:29.143682Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14WXZLLMe3n5XkzJu8QaiWzHJkFVDx1rcx1bG93ph65jXYMiran
+
+<gateway-rs> 2025-11-07T02:52:30.087456Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13j8fN6CyuNGpg3Ayfr919inrnm7vbiXqWLtZYofuGn5sP5LcpK
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:53:26.744550Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:53:26.745899Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:54:26.746325Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:54:26.746570Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:55:26.748132Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:55:26.748266Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:56:26.748808Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:56:26.748877Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:57:26.750281Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:57:26.750348Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<gateway-rs> 2025-11-07T02:57:35.293586Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:57:35.294586Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T02:57:40.443975Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13tE9NbfVgrWjTJytsTREoKzKiGDgkQ48w2c3ei8jFmemA2fUJV
+
+<gateway-rs> 2025-11-07T02:57:41.263956Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13AnoMeVrFdNMLQPgQdUS1ytXAuMLPwdB1Jv3hPoHpr3L6ixeK3
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:58:26.751791Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T02:58:26.751859Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T02:59:26.753250Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T02:59:26.753318Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:00:26.753777Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:00:26.755170Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:01:26.754730Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:01:26.756663Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:03:26.794075Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:03:26.794263Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:04:26.796083Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:04:26.796216Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:05:26.796848Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:05:26.797033Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:07:26.799868Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:07:26.799999Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<gateway-rs> 2025-11-07T03:07:57.886511Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:07:57.894438Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:08:03.868573Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13LpYrkh9mB7FmVNf7HQweagy5cSbazXZAJgPRDZz4EDQBgZMss
+
+<gateway-rs> 2025-11-07T03:08:04.030922Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14B2GcqZc5uZJqV38NqZ1TVgKPjytkNe9gPEoBiAuVSDMu8DFPb
+
+<cs-mux> 2025-11-07T03:08:26.802507Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:08:26.802645Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:09:26.803639Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:09:26.803775Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:10:26.804738Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:10:26.804868Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:11:26.806403Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:11:26.806459Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:12:26.808350Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:12:26.808535Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<gateway-rs> 2025-11-07T03:13:09.179045Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:13:09.192260Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:13:15.354388Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14diYjtgkQS2ohLqoDneGyGp5P8UCsqMz8UXZ7HCAfY7cfKgaKq
+
+<gateway-rs> 2025-11-07T03:13:15.633764Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13zFg4ymEzBnL5b7uG998rbqNwyjYdcp69eeuY7H1UoRKhQ1ukM
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:14:26.810589Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:14:26.810647Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:16:26.813314Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:16:26.813372Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+Taking update locks
+Downloading delta for image 'registry2.balena-cloud.com/v2/4d5365df6e5e081781afcb6facae213f@sha256:a80c490c9167c52b43966af0af8919832468659d9cbde01e52bd25596aa20a73'
+<cs-mux> 2025-11-07T03:17:26.814937Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:17:26.814994Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+Delta still processing remotely. Will retry...
+Downloading delta for image 'registry2.balena-cloud.com/v2/4d5365df6e5e081781afcb6facae213f@sha256:a80c490c9167c52b43966af0af8919832468659d9cbde01e52bd25596aa20a73'
+<gateway-rs> 2025-11-07T03:18:20.484719Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:18:20.485282Z  WARN run:run: gateway_rs::packet_router: router error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+<gateway-rs> 2025-11-07T03:18:25.714006Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=14j4nHo1WU8wbaC8t1VcV6UGqrQu9K51JHcdwUoXQmkwx7UPhoR
+
+<gateway-rs> 2025-11-07T03:18:26.555182Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14ps9tGvmJYVvAkZrX4YyjkodJrBP9jVYBsnGqG9AcMmDCuRidr
+
+<cs-mux> 2025-11-07T03:18:26.816620Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:18:26.816679Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+<cs-mux> 2025-11-07T03:19:26.817950Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:19:26.818004Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Delta still processing remotely. Will retry...
+Downloading delta for image 'registry2.balena-cloud.com/v2/4d5365df6e5e081781afcb6facae213f@sha256:a80c490c9167c52b43966af0af8919832468659d9cbde01e52bd25596aa20a73'
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:20:26.819443Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:20:26.819521Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+Delta still processing remotely. Will retry...
+Downloading delta for image 'registry2.balena-cloud.com/v2/4d5365df6e5e081781afcb6facae213f@sha256:a80c490c9167c52b43966af0af8919832468659d9cbde01e52bd25596aa20a73'
+Restarting service 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Buoy Fish Gateway Init
+
+<udp-packet-forwarder> ==========================================
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Running power cycle script...
+
+<udp-packet-forwarder> [INFO] Detected board: Raspberry Pi 4 Model B Rev 1.4
+
+<udp-packet-forwarder> [INFO] Pi 4 or earlier detected: Using gpiochip0
+
+<udp-packet-forwarder> [INFO] Reset GPIO: 17
+
+<udp-packet-forwarder> [INFO] Power Enable GPIO: 18
+
+<udp-packet-forwarder> [INFO] Power Enable Logic: 1 (1=active-high, 0=active-low)
+
+<udp-packet-forwarder> [INFO] Using GPIOD (gpioset) for power cycling
+
+<udp-packet-forwarder> [INFO] Powering OFF concentrator (GPIO 18 = LOW)
+
+<udp-packet-forwarder> [INFO] Waiting 500ms for complete power discharge...
+
+<udp-packet-forwarder> [INFO] Powering ON concentrator (GPIO 18 = HIGH)
+
+<udp-packet-forwarder> [INFO] Waiting 100ms for power stabilization...
+
+<udp-packet-forwarder> [INFO] Starting reset sequence on GPIO 17
+
+<udp-packet-forwarder> [INFO] Power cycle and reset sequence completed successfully.
+
+<udp-packet-forwarder> [STARTUP-WRAPPER] Launching RAK packet forwarder...
+
+<udp-packet-forwarder> /usr/local/bin/startup-wrapper.sh: line 14: /app/start.sh: No such file or directory
+
+Service exited 'udp-packet-forwarder sha256:fd172aaf3d7a2549b82fd3fcce2d63dafe62f48edc388bfbf403aefbb10ec47c'
+<cs-mux> 2025-11-07T03:21:26.820770Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+<cs-mux> 2025-11-07T03:21:26.820829Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets

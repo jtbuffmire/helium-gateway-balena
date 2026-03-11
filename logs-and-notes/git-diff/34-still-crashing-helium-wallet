@@ -1,0 +1,3017 @@
+2025-10-03T15:46:44-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:46:44-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":31781922,"chan":5,"rfch":1,"freq":904.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":-9.0,"foff":15352,"rssi":-99,"size":29,"data":"QOrJCCaAiN0FhYW3k5tIvUAFTa2iclN+L6QtxLY="}]}
+
+2025-10-03T15:46:44-07:00 <cs-mux> 2025-10-03T22:46:44.958221Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:46:44-07:00 <gateway-rs> 2025-10-03T22:46:44.959587Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@31781922 us, 904900000 MHz, Sf8bw125, snr: -9, rssi: -108, len: 29 region=US915
+
+2025-10-03T15:46:44-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:46:44-07:00 <cs-mux> 2025-10-03T22:46:44.960205Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=22282
+
+2025-10-03T15:46:44-07:00 <cs-mux> 2025-10-03T22:46:44.963463Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=22282
+
+2025-10-03T15:46:44-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 30%
+
+Reading package lists... 60%
+
+Reading package lists... 84%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:46:45-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 60%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:46:45-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:46:45-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:46:45-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:46:45-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:46:45-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:46:45-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:46:46-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:46:46-07:00 <helium-wallet> --2025-10-03 22:46:46--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:46:46-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.3
+
+2025-10-03T15:46:46-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+
+2025-10-03T15:46:47-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:46:47-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:46:47-07:00 <helium-wallet> --2025-10-03 22:46:47--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:46:47-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:46:47-07:00 <cs-mux> 2025-10-03T22:46:47.216892Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=31764
+
+2025-10-03T15:46:47-07:00 <cs-mux> 2025-10-03T22:46:47.216968Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:46:47-07:00 <cs-mux> 2025-10-03T22:46:47.217001Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:46:47-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:46:47-07:00 <cs-mux> 2025-10-03T22:46:47.218241Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=31764
+
+2025-10-03T15:46:47-07:00 <cs-mux> 2025-10-03T22:46:47.218411Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=31764
+
+2025-10-03T15:46:47-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:46:47-07:00 <helium-wallet> 2025-10-03 22:46:47 ERROR 404: Not Found.
+
+2025-10-03T15:46:47-07:00 <helium-wallet> 
+
+2025-10-03T15:46:47-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:46:56-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40EFF1082680A5E1054CE65E96A7BE8AE12E895791CA39E6B96B2D9EEC
+
+2025-10-03T15:46:56-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608F1EF (netid=0x000013, fcnt=57765)
+
+2025-10-03T15:46:56-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:46:56-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":43258886,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-115,"lsnr":-9.8,"foff":13986,"rssi":-104,"size":29,"data":"QO/xCCaApeEFTOZelqe+iuEuiVeRyjnmuWstnuw="}]}
+
+2025-10-03T15:46:56-07:00 <cs-mux> 2025-10-03T22:46:56.436604Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=55498
+
+2025-10-03T15:46:56-07:00 <cs-mux> 2025-10-03T22:46:56.436796Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:46:56-07:00 <cs-mux> 2025-10-03T22:46:56.437066Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:46:56-07:00 <cs-mux> 2025-10-03T22:46:56.437960Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=55498
+
+2025-10-03T15:46:56-07:00 <cs-mux> 2025-10-03T22:46:56.438059Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=55498
+
+2025-10-03T15:46:56-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:46:56-07:00 <gateway-rs> 2025-10-03T22:46:56.438347Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@43258886 us, 905100000 MHz, Sf8bw125, snr: -9.8, rssi: -115, len: 29 region=US915
+
+2025-10-03T15:46:57-07:00 <cs-mux> 2025-10-03T22:46:57.416992Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=19192
+
+2025-10-03T15:46:57-07:00 <cs-mux> 2025-10-03T22:46:57.417151Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:46:57-07:00 <cs-mux> 2025-10-03T22:46:57.417256Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:46:57-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:46:57-07:00 <cs-mux> 2025-10-03T22:46:57.418102Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=19192
+
+2025-10-03T15:46:57-07:00 <cs-mux> 2025-10-03T22:46:57.418229Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=19192
+
+2025-10-03T15:47:02-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:47:02-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:47:02-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:47:02-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:47:06-07:00 <cs-mux> 2025-10-03T22:47:06.603794Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=37339
+
+2025-10-03T15:47:06-07:00 <cs-mux> 2025-10-03T22:47:06.604185Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:06-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405B4208268087DF05CE84FDBF0F83010A2B4C717A7E7EB2A42DB4E0FF
+
+2025-10-03T15:47:06-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608425B (netid=0x000013, fcnt=57223)
+
+2025-10-03T15:47:06-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:06-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":53431206,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":-8.5,"foff":14031,"rssi":-99,"size":29,"data":"QFtCCCaAh98FzoT9vw+DAQorTHF6fn6ypC204P8="}]}
+
+2025-10-03T15:47:06-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:47:06-07:00 <cs-mux> 2025-10-03T22:47:06.604603Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:06-07:00 <cs-mux> 2025-10-03T22:47:06.607037Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=37339
+
+2025-10-03T15:47:06-07:00 <cs-mux> 2025-10-03T22:47:06.607181Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=37339
+
+2025-10-03T15:47:06-07:00 <gateway-rs> 2025-10-03T22:47:06.606384Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@53431206 us, 903900000 MHz, Sf8bw125, snr: -8.5, rssi: -108, len: 29 region=US915
+
+2025-10-03T15:47:07-07:00 <helium-wallet> 
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 24%
+
+Reading package lists... 54%
+
+Reading package lists... 83%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:07-07:00 <cs-mux> 2025-10-03T22:47:07.437064Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=49212
+
+2025-10-03T15:47:07-07:00 <cs-mux> 2025-10-03T22:47:07.437227Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:07-07:00 <cs-mux> 2025-10-03T22:47:07.437320Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:07-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:07-07:00 <cs-mux> 2025-10-03T22:47:07.438833Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=49212
+
+2025-10-03T15:47:07-07:00 <cs-mux> 2025-10-03T22:47:07.439113Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=49212
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:47:08 GMT #####
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 3
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # RF packets forwarded: 3 (87 bytes)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 4 (940 bytes)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:09-07:00 <cs-mux> 2025-10-03T22:47:09.003414Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=54726
+
+2025-10-03T15:47:09-07:00 <cs-mux> 2025-10-03T22:47:09.003708Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:09-07:00 <cs-mux> 2025-10-03T22:47:09.004579Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:09-07:00 <cs-mux> 2025-10-03T22:47:09.006174Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=54726
+
+2025-10-03T15:47:09-07:00 <cs-mux> 2025-10-03T22:47:09.006493Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=54726
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 55833791
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:47:08 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:47:09-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:47:09-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 33%
+
+Reading package lists... 65%
+
+Reading package lists... 92%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:10-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:47:10-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:47:10-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:47:10-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:47:10-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:47:10-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:47:10-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:47:11-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:47:11-07:00 <helium-wallet> --2025-10-03 22:47:11--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:11-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:47:11-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:47:11-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:47:11-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:47:11-07:00 <helium-wallet> --2025-10-03 22:47:11--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:11-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:47:11-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:47:11-07:00 <helium-wallet> 2025-10-03 22:47:11 ERROR 404: Not Found.
+
+2025-10-03T15:47:11-07:00 <helium-wallet> 
+
+2025-10-03T15:47:12-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:47:17-07:00 <cs-mux> 2025-10-03T22:47:17.452997Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=24760
+
+2025-10-03T15:47:17-07:00 <cs-mux> 2025-10-03T22:47:17.453178Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:17-07:00 <cs-mux> 2025-10-03T22:47:17.453310Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:17-07:00 <cs-mux> 2025-10-03T22:47:17.454826Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=24760
+
+2025-10-03T15:47:17-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:17-07:00 <cs-mux> 2025-10-03T22:47:17.455280Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=24760
+
+2025-10-03T15:47:19-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405B3D082680AFE405FB2E130DDF736439D9009ADC1581AFD4B70727D7
+
+2025-10-03T15:47:19-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26083D5B (netid=0x000013, fcnt=58543)
+
+2025-10-03T15:47:19-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:19-07:00 <cs-mux> 2025-10-03T22:47:19.410205Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=52450
+
+2025-10-03T15:47:19-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":66240504,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-110,"lsnr":-10.2,"foff":14323,"rssi":-101,"size":29,"data":"QFs9CCaAr+QF+y4TDd9zZDnZAJrcFYGv1LcHJ9c="}]}
+
+2025-10-03T15:47:19-07:00 <cs-mux> 2025-10-03T22:47:19.410511Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:19-07:00 <cs-mux> 2025-10-03T22:47:19.411166Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:19-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:47:19-07:00 <gateway-rs> 2025-10-03T22:47:19.412295Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@66240504 us, 904500000 MHz, Sf8bw125, snr: -10.2, rssi: -110, len: 29 region=US915
+
+2025-10-03T15:47:19-07:00 <cs-mux> 2025-10-03T22:47:19.413127Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=52450
+
+2025-10-03T15:47:19-07:00 <cs-mux> 2025-10-03T22:47:19.413232Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=52450
+
+2025-10-03T15:47:27-07:00 <cs-mux> 2025-10-03T22:47:27.457024Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=60760
+
+2025-10-03T15:47:27-07:00 <cs-mux> 2025-10-03T22:47:27.457138Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:27-07:00 <cs-mux> 2025-10-03T22:47:27.457192Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:27-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:27-07:00 <cs-mux> 2025-10-03T22:47:27.458062Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=60760
+
+2025-10-03T15:47:27-07:00 <cs-mux> 2025-10-03T22:47:27.458153Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=60760
+
+2025-10-03T15:47:32-07:00 <cs-mux> 2025-10-03T22:47:32.247407Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T15:47:32-07:00 <cs-mux> 2025-10-03T22:47:32.254643Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T15:47:40-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:47:37-07:00 <cs-mux> 2025-10-03T22:47:37.661055Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=36865
+
+2025-10-03T15:47:37-07:00 <cs-mux> 2025-10-03T22:47:37.661169Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:37-07:00 <cs-mux> 2025-10-03T22:47:37.661222Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:37-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:37-07:00 <cs-mux> 2025-10-03T22:47:37.662050Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=36865
+
+2025-10-03T15:47:37-07:00 <cs-mux> 2025-10-03T22:47:37.663090Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=36865
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:47:38 GMT #####
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 1
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # RF packets forwarded: 1 (29 bytes)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 2 (427 bytes)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 85834793
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:47:38 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":1,"rxok":1,"rxfw":1,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:47:39-07:00 <cs-mux> 2025-10-03T22:47:39.009663Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=1444
+
+2025-10-03T15:47:39-07:00 <cs-mux> 2025-10-03T22:47:39.010316Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:39-07:00 <cs-mux> 2025-10-03T22:47:39.011599Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:39-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 2 ms
+
+2025-10-03T15:47:39-07:00 <cs-mux> 2025-10-03T22:47:39.013990Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=1444
+
+2025-10-03T15:47:39-07:00 <cs-mux> 2025-10-03T22:47:39.014151Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=1444
+
+2025-10-03T15:47:40-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:47:40-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:47:40-07:00 <helium-wallet> 
+0% [Waiting for headers]
+                        
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:47:44-07:00 <helium-wallet> 
+                        
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 24%
+
+Reading package lists... 48%
+
+Reading package lists... 71%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:47-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 34%
+
+Reading package lists... 67%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:47-07:00 <cs-mux> 2025-10-03T22:47:47.673097Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=37886
+
+2025-10-03T15:47:47-07:00 <cs-mux> 2025-10-03T22:47:47.673238Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:47-07:00 <cs-mux> 2025-10-03T22:47:47.673337Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:47-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:47-07:00 <cs-mux> 2025-10-03T22:47:47.674314Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=37886
+
+2025-10-03T15:47:47-07:00 <cs-mux> 2025-10-03T22:47:47.674553Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=37886
+
+2025-10-03T15:47:48-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:47:48-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:47:48-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:47:48-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:47:48-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:47:48-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:47:48-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:47:49-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:47:49-07:00 <helium-wallet> --2025-10-03 22:47:49--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:49-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:47:49-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:47:49-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:47:49-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:47:49-07:00 <helium-wallet> --2025-10-03 22:47:49--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:49-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:47:49-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:47:49-07:00 <helium-wallet> 2025-10-03 22:47:49 ERROR 404: Not Found.
+
+2025-10-03T15:47:49-07:00 <helium-wallet> 
+
+2025-10-03T15:47:50-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:47:51-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:47:51-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4065BC082680BFE405BDE5EBD90048BDBD49915F15F6BCAAD2B5C1C2C4
+
+2025-10-03T15:47:51-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608BC65 (netid=0x000013, fcnt=58559)
+
+2025-10-03T15:47:51-07:00 <cs-mux> 2025-10-03T22:47:51.659788Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=40318
+
+2025-10-03T15:47:51-07:00 <cs-mux> 2025-10-03T22:47:51.660076Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:51-07:00 <cs-mux> 2025-10-03T22:47:51.660534Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:51-07:00 <cs-mux> 2025-10-03T22:47:51.662161Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=40318
+
+2025-10-03T15:47:51-07:00 <cs-mux> 2025-10-03T22:47:51.662661Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=40318
+
+2025-10-03T15:47:51-07:00 <gateway-rs> 2025-10-03T22:47:51.662878Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@98481854 us, 905100000 MHz, Sf8bw125, snr: -10.2, rssi: -108, len: 29 region=US915
+
+2025-10-03T15:47:51-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:51-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":98481854,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":-10.2,"foff":14669,"rssi":-99,"size":29,"data":"QGW8CCaAv+QFveXr2QBIvb1JkV8V9ryq0rXBwsQ="}]}
+
+2025-10-03T15:47:51-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:47:51-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:47:51-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:47:51-07:00 <helium-wallet> 
+0% [Waiting for headers]
+                        
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:47:54-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40B0BC082680A8E4054E1FAA85C27B2DF44DF9D5BD2FD28C6579D50093
+
+2025-10-03T15:47:54-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608BCB0 (netid=0x000013, fcnt=58536)
+
+2025-10-03T15:47:54-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:47:54-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":101041223,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-110,"lsnr":-11.2,"foff":11529,"rssi":-100,"size":29,"data":"QLC8CCaAqOQFTh+qhcJ7LfRN+dW9L9KMZXnVAJM="}]}
+
+2025-10-03T15:47:54-07:00 <cs-mux> 2025-10-03T22:47:54.213079Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=56890
+
+2025-10-03T15:47:54-07:00 <cs-mux> 2025-10-03T22:47:54.213446Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:47:54-07:00 <cs-mux> 2025-10-03T22:47:54.214029Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:47:54-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:47:54-07:00 <gateway-rs> 2025-10-03T22:47:54.215033Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@101041223 us, 905100000 MHz, Sf8bw125, snr: -11.2, rssi: -110, len: 29 region=US915
+
+2025-10-03T15:47:54-07:00 <cs-mux> 2025-10-03T22:47:54.215033Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=56890
+
+2025-10-03T15:47:54-07:00 <cs-mux> 2025-10-03T22:47:54.215586Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=56890
+
+2025-10-03T15:47:54-07:00 <helium-wallet> 
+                        
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 45%
+
+Reading package lists... 85%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:56-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 44%
+
+Reading package lists... 83%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:47:56-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 90%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:47:56-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:47:56-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:47:56-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:47:56-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:47:56-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:47:56-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:47:57-07:00 <cs-mux> 2025-10-03T22:47:57.697160Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=64309
+
+2025-10-03T15:47:57-07:00 <cs-mux> 2025-10-03T22:47:57.697317Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:47:57-07:00 <cs-mux> 2025-10-03T22:47:57.697403Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:47:57-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:47:57-07:00 <cs-mux> 2025-10-03T22:47:57.698366Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=64309
+
+2025-10-03T15:47:57-07:00 <cs-mux> 2025-10-03T22:47:57.698450Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=64309
+
+2025-10-03T15:47:57-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:47:57-07:00 <helium-wallet> --2025-10-03 22:47:57--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:58-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:47:58-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:47:58-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:47:58-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:47:58-07:00 <helium-wallet> --2025-10-03 22:47:58--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:47:58-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:47:58-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:47:58-07:00 <helium-wallet> 2025-10-03 22:47:58 ERROR 404: Not Found.
+
+2025-10-03T15:47:58-07:00 <helium-wallet> 
+
+2025-10-03T15:47:59-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:00-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:00-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:48:01-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:48:01-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:48:04-07:00 <helium-wallet> 
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 33%
+
+Reading package lists... 65%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:06-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 35%
+
+Reading package lists... 68%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:07-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:48:07-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:48:07-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:48:07-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:48:07-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:48:07-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:48:07-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:48:07-07:00 <cs-mux> 2025-10-03T22:48:07.705300Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=17527
+
+2025-10-03T15:48:07-07:00 <cs-mux> 2025-10-03T22:48:07.705444Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:07-07:00 <cs-mux> 2025-10-03T22:48:07.705495Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:07-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:07-07:00 <cs-mux> 2025-10-03T22:48:07.707440Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=17527
+
+2025-10-03T15:48:07-07:00 <cs-mux> 2025-10-03T22:48:07.707759Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=17527
+
+2025-10-03T15:48:08-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:48:08-07:00 <helium-wallet> --2025-10-03 22:48:08--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:08-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:48:08-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:48:08-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40CDBF082680C3DF053C17907C9BBDFCCC9B20A0CF4AD0F3456DECEFDD
+
+2025-10-03T15:48:08-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608BFCD (netid=0x000013, fcnt=57283)
+
+2025-10-03T15:48:08-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:08-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":115645813,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-106,"lsnr":-5.0,"foff":10359,"rssi":-100,"size":29,"data":"QM2/CCaAw98FPBeQfJu9/MybIKDPStDzRW3s790="}]}
+
+2025-10-03T15:48:08-07:00 <cs-mux> 2025-10-03T22:48:08.825131Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=18716
+
+2025-10-03T15:48:08-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:08-07:00 <cs-mux> 2025-10-03T22:48:08.825293Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:08-07:00 <cs-mux> 2025-10-03T22:48:08.825773Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:08-07:00 <gateway-rs> 2025-10-03T22:48:08.826699Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@115645813 us, 904500000 MHz, Sf8bw125, snr: -5, rssi: -106, len: 29 region=US915
+
+2025-10-03T15:48:08-07:00 <cs-mux> 2025-10-03T22:48:08.826704Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=18716
+
+2025-10-03T15:48:08-07:00 <cs-mux> 2025-10-03T22:48:08.827051Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=18716
+
+2025-10-03T15:48:08-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:48:08-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:48:08-07:00 <helium-wallet> --2025-10-03 22:48:08--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:08-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:48:08-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:48:08-07:00 <helium-wallet> 2025-10-03 22:48:08 ERROR 404: Not Found.
+
+2025-10-03T15:48:08-07:00 <helium-wallet> 
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:48:08 GMT #####
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 3
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # RF packets forwarded: 3 (87 bytes)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 4 (945 bytes)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 115835815
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:48:08 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:48:09-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:09-07:00 <cs-mux> 2025-10-03T22:48:09.011496Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=16787
+
+2025-10-03T15:48:09-07:00 <cs-mux> 2025-10-03T22:48:09.011836Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:09-07:00 <cs-mux> 2025-10-03T22:48:09.012244Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:09-07:00 <cs-mux> 2025-10-03T22:48:09.013813Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=16787
+
+2025-10-03T15:48:09-07:00 <cs-mux> 2025-10-03T22:48:09.016810Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=16787
+
+2025-10-03T15:48:09-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:11-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:11-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:48:11-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:48:11-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:48:13-07:00 <cs-mux> 2025-10-03T22:48:13.165568Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=5330
+
+2025-10-03T15:48:13-07:00 <cs-mux> 2025-10-03T22:48:13.165683Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:13-07:00 <cs-mux> 2025-10-03T22:48:13.165917Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:13-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 405A10082680B1DF05E042C80B51047FAB77E0B7B66F5A1EE88539C5B0
+
+2025-10-03T15:48:13-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608105A (netid=0x000013, fcnt=57265)
+
+2025-10-03T15:48:13-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:13-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":119987774,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-110,"lsnr":-11.0,"foff":13959,"rssi":-100,"size":29,"data":"QFoQCCaAsd8F4ELIC1EEf6t34Le2b1oe6IU5xbA="}]}
+
+2025-10-03T15:48:13-07:00 <cs-mux> 2025-10-03T22:48:13.166721Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=5330
+
+2025-10-03T15:48:13-07:00 <cs-mux> 2025-10-03T22:48:13.166846Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=5330
+
+2025-10-03T15:48:13-07:00 <gateway-rs> 2025-10-03T22:48:13.167185Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@119987774 us, 905300000 MHz, Sf8bw125, snr: -11, rssi: -110, len: 29 region=US915
+
+2025-10-03T15:48:13-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:14-07:00 <helium-wallet> 
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 39%
+
+Reading package lists... 76%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:16-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 39%
+
+Reading package lists... 72%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:17-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:48:17-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:48:17-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:48:17-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:48:17-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:48:17-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:48:17-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:48:17-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:17-07:00 <cs-mux> 2025-10-03T22:48:17.729136Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=28372
+
+2025-10-03T15:48:17-07:00 <cs-mux> 2025-10-03T22:48:17.729295Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:17-07:00 <cs-mux> 2025-10-03T22:48:17.729386Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:17-07:00 <cs-mux> 2025-10-03T22:48:17.730324Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=28372
+
+2025-10-03T15:48:17-07:00 <cs-mux> 2025-10-03T22:48:17.730662Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=28372
+
+2025-10-03T15:48:18-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:48:18-07:00 <helium-wallet> --2025-10-03 22:48:18--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:18-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:48:18-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:48:18-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:48:18-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:48:18-07:00 <helium-wallet> --2025-10-03 22:48:18--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:18-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:48:19-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:48:19-07:00 <helium-wallet> 2025-10-03 22:48:19 ERROR 404: Not Found.
+
+2025-10-03T15:48:19-07:00 <helium-wallet> 
+
+2025-10-03T15:48:19-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:20-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 408D000048807F8102712A55E088DF6CDB1EECD438DD9C87
+
+2025-10-03T15:48:20-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x4800008D (netid=0x000024, fcnt=33151)
+
+2025-10-03T15:48:20-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:20-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":127454852,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-84,"lsnr":10.5,"foff":-6871,"rssi":-83,"size":24,"data":"QI0AAEiAf4ECcSpV4IjfbNse7NQ43ZyH"}]}
+
+2025-10-03T15:48:20-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:20-07:00 <cs-mux> 2025-10-03T22:48:20.635259Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=3652
+
+2025-10-03T15:48:20-07:00 <cs-mux> 2025-10-03T22:48:20.635568Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:20-07:00 <cs-mux> 2025-10-03T22:48:20.635813Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:20-07:00 <cs-mux> 2025-10-03T22:48:20.636735Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=3652
+
+2025-10-03T15:48:20-07:00 <cs-mux> 2025-10-03T22:48:20.636863Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=3652
+
+2025-10-03T15:48:20-07:00 <gateway-rs> 2025-10-03T22:48:20.636998Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@127454852 us, 904500000 MHz, Sf10bw125, snr: 10.5, rssi: -84, len: 24 region=US915
+
+2025-10-03T15:48:21-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:22-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:48:22-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:48:22-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:48:25-07:00 <helium-wallet> 
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 36%
+
+Reading package lists... 71%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 40E68E082680BBDF05EEBE17945374D5670978FF9D3EDB5176F4DCD5EB
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.419295Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=39534
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.419424Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.419631Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26088EE6 (netid=0x000013, fcnt=57275)
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.421475Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=39534
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.421880Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=39534
+
+2025-10-03T15:48:27-07:00 <gateway-rs> 2025-10-03T22:48:27.422398Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@134243387 us, 904500000 MHz, Sf8bw125, snr: -9.8, rssi: -108, len: 29 region=US915
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":134243387,"chan":3,"rfch":0,"freq":904.500000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":-9.8,"foff":12252,"rssi":-99,"size":29,"data":"QOaOCCaAu98F7r4XlFN01WcJeP+dPttRdvTc1es="}]}
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:27-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.745035Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=64615
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.745132Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.745171Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.746691Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=64615
+
+2025-10-03T15:48:27-07:00 <cs-mux> 2025-10-03T22:48:27.746845Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=64615
+
+2025-10-03T15:48:27-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 32%
+
+Reading package lists... 67%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:28-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:48:28-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:48:28-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:48:28-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:48:28-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:48:28-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:48:28-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:48:29-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:48:29-07:00 <helium-wallet> --2025-10-03 22:48:29--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:29-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:48:29-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:48:29-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:48:29-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:48:29-07:00 <helium-wallet> --2025-10-03 22:48:29--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:29-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:48:29-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:48:29-07:00 <helium-wallet> 2025-10-03 22:48:29 ERROR 404: Not Found.
+
+2025-10-03T15:48:29-07:00 <helium-wallet> 
+
+2025-10-03T15:48:30-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:32-07:00 <cs-mux> 2025-10-03T22:48:32.248724Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T15:48:32-07:00 <cs-mux> 2025-10-03T22:48:32.255933Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T15:48:33-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:33-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:48:33-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:48:33-07:00 <helium-wallet> 
+0% [Waiting for headers]
+                        
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:48:36-07:00 <helium-wallet> 
+                        
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 38%
+
+Reading package lists... 74%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:37-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:37-07:00 <cs-mux> 2025-10-03T22:48:37.765092Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=20969
+
+2025-10-03T15:48:37-07:00 <cs-mux> 2025-10-03T22:48:37.765248Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:37-07:00 <cs-mux> 2025-10-03T22:48:37.765333Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:37-07:00 <cs-mux> 2025-10-03T22:48:37.766159Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=20969
+
+2025-10-03T15:48:37-07:00 <cs-mux> 2025-10-03T22:48:37.766284Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=20969
+
+2025-10-03T15:48:38-07:00 Taking update locks
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:48:39 GMT #####
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 3
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # RF packets forwarded: 3 (82 bytes)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 4 (936 bytes)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 145845121
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:48:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:48:39-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:39-07:00 <cs-mux> 2025-10-03T22:48:39.023601Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=49121
+
+2025-10-03T15:48:39-07:00 <cs-mux> 2025-10-03T22:48:39.023754Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:39-07:00 <cs-mux> 2025-10-03T22:48:39.023996Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:39-07:00 <cs-mux> 2025-10-03T22:48:39.025222Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=49121
+
+2025-10-03T15:48:39-07:00 <cs-mux> 2025-10-03T22:48:39.028488Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=49121
+
+2025-10-03T15:48:39-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 33%
+
+Reading package lists... 63%
+
+Reading package lists... 88%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:39-07:00 Killing service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:39-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 71%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:48:39-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:48:39-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:48:39-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:48:39-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:48:39-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:48:39-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:48:40-07:00 Deleting image 'registry2.balena-cloud.com/v2/6018599898ee087764776f4d7840a7ad@sha256:d96aaa7791a29f273dd6dea593518827fb306bba0882d77c33de3128346aa404'
+2025-10-03T15:48:40-07:00 Deleting image 'registry2.balena-cloud.com/v2/fbd161adb8732a82e681629c680d2484@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-03T15:48:40-07:00 Deleting image 'registry2.balena-cloud.com/v2/86b8b43fe8063101c61be843ab53ab1a@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-03T15:48:40-07:00 Deleted image 'registry2.balena-cloud.com/v2/6018599898ee087764776f4d7840a7ad@sha256:d96aaa7791a29f273dd6dea593518827fb306bba0882d77c33de3128346aa404'
+2025-10-03T15:48:40-07:00 Deleted image 'registry2.balena-cloud.com/v2/fbd161adb8732a82e681629c680d2484@sha256:20f6885d5b40170b650faa2ccbdded9328e160398556fbc24b04638085b4095b'
+2025-10-03T15:48:40-07:00 Deleted image 'registry2.balena-cloud.com/v2/86b8b43fe8063101c61be843ab53ab1a@sha256:b77cff9e914e2c3b05a79c8eb8785172ffd786c481e05a3240e6a93c4d787251'
+2025-10-03T15:48:41-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:48:41-07:00 <helium-wallet> --2025-10-03 22:48:41--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:41-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.4
+
+2025-10-03T15:48:41-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+
+2025-10-03T15:48:41-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:48:41-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu [following]
+
+2025-10-03T15:48:41-07:00 <helium-wallet> --2025-10-03 22:48:41--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-x86_64-unknown-linux-gnu
+
+2025-10-03T15:48:41-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:48:41-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:48:41-07:00 <helium-wallet> 2025-10-03 22:48:41 ERROR 404: Not Found.
+
+2025-10-03T15:48:41-07:00 <helium-wallet> 
+
+2025-10-03T15:48:42-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:42-07:00 Killed service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:43-07:00 Deleting image 'registry2.balena-cloud.com/v2/976b53d078ca9502cae8c4810a4917ac@sha256:89b35a4a1edcf01d05f00c5ddabd558bfa38d497e0c3ba8406fc8428e2a62c34'
+2025-10-03T15:48:43-07:00 Deleted image 'registry2.balena-cloud.com/v2/976b53d078ca9502cae8c4810a4917ac@sha256:89b35a4a1edcf01d05f00c5ddabd558bfa38d497e0c3ba8406fc8428e2a62c34'
+2025-10-03T15:48:43-07:00 <udp-packet-forwarder> INFO: [up] payload (31 bytes): 407648082680B8DF0571156F5327E134AA7C1938C25D670B92AB9D0AA56B72
+
+2025-10-03T15:48:43-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26084876 (netid=0x000013, fcnt=57272)
+
+2025-10-03T15:48:43-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:43-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":150432218,"chan":1,"rfch":0,"freq":904.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-109,"lsnr":-9.2,"foff":16522,"rssi":-100,"size":31,"data":"QHZICCaAuN8FcRVvUyfhNKp8GTjCXWcLkqudCqVrcg=="}]}
+
+2025-10-03T15:48:43-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:48:43-07:00 <cs-mux> 2025-10-03T22:48:43.609642Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=60100
+
+2025-10-03T15:48:43-07:00 <cs-mux> 2025-10-03T22:48:43.609749Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:43-07:00 <cs-mux> 2025-10-03T22:48:43.609884Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:43-07:00 <cs-mux> 2025-10-03T22:48:43.610379Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=60100
+
+2025-10-03T15:48:43-07:00 <cs-mux> 2025-10-03T22:48:43.610462Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=60100
+
+2025-10-03T15:48:43-07:00 <gateway-rs> 2025-10-03T22:48:43.611714Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@150432218 us, 904100000 MHz, Sf8bw125, snr: -9.2, rssi: -109, len: 31 region=US915
+
+2025-10-03T15:48:44-07:00 Installing service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:44-07:00 Installed service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:44-07:00 Starting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:46-07:00 Started service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:48:46-07:00 <helium-wallet> 
+0% [Working]
+            
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+
+2025-10-03T15:48:46-07:00 <helium-wallet> 
+0% [1 InRelease 0 B/151 kB 0%]
+                              
+0% [Working]
+            
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+
+2025-10-03T15:48:46-07:00 <helium-wallet> 
+0% [2 InRelease 20.2 kB/55.4 kB 36%]
+                                    
+0% [Working]
+            
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+
+2025-10-03T15:48:46-07:00 <helium-wallet> 
+0% [3 InRelease 1444 B/48.0 kB 3%]
+                                  
+0% [Working]
+0% [Working]
+            
+Get:4 http://deb.debian.org/debian bookworm/main arm64 Packages [8693 kB]
+
+2025-10-03T15:48:47-07:00 Releasing update locks
+2025-10-03T15:48:47-07:00 <cs-mux> 2025-10-03T22:48:47.772895Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=34430
+
+2025-10-03T15:48:47-07:00 <cs-mux> 2025-10-03T22:48:47.772969Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:47-07:00 <cs-mux> 2025-10-03T22:48:47.773000Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:47-07:00 <cs-mux> 2025-10-03T22:48:47.773955Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=34430
+
+2025-10-03T15:48:47-07:00 <cs-mux> 2025-10-03T22:48:47.774020Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=34430
+
+2025-10-03T15:48:47-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:48-07:00 <helium-wallet> 
+0% [4 Packages 7220 B/8693 kB 0%]
+0% [4 Packages 549 kB/8693 kB 6%]
+29% [4 Packages 1564 kB/8693 kB 18%]
+53% [4 Packages 4268 kB/8693 kB 49%]
+77% [4 Packages 7076 kB/8693 kB 81%]
+91% [4 Packages 8693 kB/8693 kB 100%]
+                                     
+91% [Working]
+91% [4 Packages store 0 B] [Waiting for headers]
+                                                
+Get:5 http://deb.debian.org/debian bookworm-updates/main arm64 Packages [6936 B]
+
+2025-10-03T15:48:48-07:00 <helium-wallet> 
+91% [4 Packages store 0 B] [5 Packages 6936 B/6936 B 100%]
+                                                          
+Get:6 http://deb.debian.org/debian-security bookworm-security/main arm64 Packages [276 kB]
+
+2025-10-03T15:48:52-07:00 <helium-wallet> 
+91% [4 Packages store 0 B] [6 Packages 30.3 kB/276 kB 11%]
+                                                          
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]
+93% [4 Packages store 0 B]                                         1526 kB/s 0s
+93% [4 Packages store 0 B]                                         1526 kB/s 0s
+96% [Working]                                                      1526 kB/s 0s
+96% [5 Packages store 0 B]                                         1526 kB/s 0s
+98% [Working]                                                      1526 kB/s 0s
+98% [6 Packages store 0 B]                                         1526 kB/s 0s
+100% [Working]                                                     1526 kB/s 0s
+                                                                               
+Fetched 9230 kB in 7s (1376 kB/s)
+
+2025-10-03T15:48:55-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 29%
+
+Reading package lists... 59%
+
+Reading package lists... 88%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:57-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:48:57-07:00 <cs-mux> 2025-10-03T22:48:57.820994Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=49955
+
+2025-10-03T15:48:57-07:00 <cs-mux> 2025-10-03T22:48:57.821081Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:48:57-07:00 <cs-mux> 2025-10-03T22:48:57.821112Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:48:57-07:00 <cs-mux> 2025-10-03T22:48:57.824191Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=49955
+
+2025-10-03T15:48:57-07:00 <cs-mux> 2025-10-03T22:48:57.824389Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=49955
+
+2025-10-03T15:48:58-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 39%
+
+Reading package lists... 76%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:48:58-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 53%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:48:58-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 1%
+
+Reading state information... Done
+
+
+2025-10-03T15:48:59-07:00 <helium-wallet> The following additional packages will be installed:
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   krb5-locales libbrotli1 libcurl4 libgdbm-compat4 libgdbm6 libgssapi-krb5-2
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libi2c0 libjq1 libk5crypto3 libkeyutils1 libkmod2 libkrb5-3 libkrb5support0
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libldap-2.5-0 libldap-common libnghttp2-14 libonig5 libperl5.36 libpsl5
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh2-1 libssl3
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   netbase openssl perl perl-modules-5.36 publicsuffix read-edid udev
+
+2025-10-03T15:48:59-07:00 <helium-wallet> Suggested packages:
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libi2c-dev python3-smbus gdbm-l10n krb5-doc krb5-user sensible-utils
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql perl-doc
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libterm-readline-gnu-perl | libterm-readline-perl-perl make
+
+2025-10-03T15:48:59-07:00 <helium-wallet>   libtap-harness-archive-perl
+
+2025-10-03T15:48:59-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 404722082680AFBE0513C31D8B4EF728D38C69E0FFA84CA7B02AA2C2B0
+
+2025-10-03T15:48:59-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x26082247 (netid=0x000013, fcnt=48815)
+
+2025-10-03T15:48:59-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:48:59-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":166719428,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-109,"lsnr":-10.5,"foff":11228,"rssi":-100,"size":29,"data":"QEciCCaAr74FE8Mdi073KNOMaeD/qEynsCqiwrA="}]}
+
+2025-10-03T15:48:59-07:00 <cs-mux> 2025-10-03T22:48:59.896423Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=64673
+
+2025-10-03T15:48:59-07:00 <cs-mux> 2025-10-03T22:48:59.896822Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:48:59-07:00 <cs-mux> 2025-10-03T22:48:59.897303Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:48:59-07:00 <cs-mux> 2025-10-03T22:48:59.898812Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=64673
+
+2025-10-03T15:48:59-07:00 <cs-mux> 2025-10-03T22:48:59.899018Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=64673
+
+2025-10-03T15:48:59-07:00 <gateway-rs> 2025-10-03T22:48:59.898811Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@166719428 us, 905100000 MHz, Sf8bw125, snr: -10.5, rssi: -109, len: 29 region=US915
+
+2025-10-03T15:48:59-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:49:00-07:00 <helium-wallet> The following NEW packages will be installed:
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   ca-certificates curl i2c-tools jq krb5-locales libbrotli1 libcurl4
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   libgdbm-compat4 libgdbm6 libgssapi-krb5-2 libi2c0 libjq1 libk5crypto3
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   libkeyutils1 libkmod2 libkrb5-3 libkrb5support0 libldap-2.5-0 libldap-common
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   libnghttp2-14 libonig5 libperl5.36 libpsl5 librtmp1 libsasl2-2
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   libsasl2-modules libsasl2-modules-db libssh2-1 libssl3 netbase openssl perl
+
+2025-10-03T15:49:00-07:00 <helium-wallet>   perl-modules-5.36 publicsuffix read-edid udev wget
+
+2025-10-03T15:49:00-07:00 <helium-wallet> 0 upgraded, 37 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:49:00-07:00 <helium-wallet> Need to get 16.1 MB of archives.
+
+2025-10-03T15:49:00-07:00 <helium-wallet> After this operation, 84.1 MB of additional disk space will be used.
+
+2025-10-03T15:49:00-07:00 <helium-wallet> 
+0% [Working]
+            
+Get:1 http://deb.debian.org/debian bookworm/main arm64 perl-modules-5.36 all 5.36.0-7+deb12u3 [2815 kB]
+
+2025-10-03T15:49:01-07:00 <helium-wallet> 
+0% [1 perl-modules-5.36 6289 B/2815 kB 0%]
+6% [1 perl-modules-5.36 1190 kB/2815 kB 42%]
+14% [1 perl-modules-5.36 2815 kB/2815 kB 100%]
+                                              
+15% [Working]
+             
+Get:2 http://deb.debian.org/debian bookworm/main arm64 libgdbm6 arm64 1.23-3 [70.9 kB]
+
+2025-10-03T15:49:01-07:00 <helium-wallet> 
+15% [2 libgdbm6 0 B/70.9 kB 0%]
+                               
+15% [Working]
+             
+Get:3 http://deb.debian.org/debian bookworm/main arm64 libgdbm-compat4 arm64 1.23-3 [48.0 kB]
+
+2025-10-03T15:49:01-07:00 <helium-wallet> 
+15% [3 libgdbm-compat4 425 B/48.0 kB 1%]
+                                        
+16% [Working]
+             
+Get:4 http://deb.debian.org/debian bookworm/main arm64 libperl5.36 arm64 5.36.0-7+deb12u3 [4009 kB]
+
+2025-10-03T15:49:03-07:00 <helium-wallet> 
+16% [4 libperl5.36 4934 B/4009 kB 0%]
+27% [4 libperl5.36 2194 kB/4009 kB 55%]
+35% [4 libperl5.36 3754 kB/4009 kB 94%]
+                                       
+37% [Working]
+             
+Get:5 http://deb.debian.org/debian bookworm/main arm64 perl arm64 5.36.0-7+deb12u3 [239 kB]
+
+2025-10-03T15:49:03-07:00 <helium-wallet> 
+37% [5 perl 3313 B/239 kB 1%]
+                             
+38% [Waiting for headers]
+                         
+Get:6 http://deb.debian.org/debian bookworm/main arm64 netbase all 6.4 [12.8 kB]
+
+2025-10-03T15:49:03-07:00 <helium-wallet> 
+39% [6 netbase 10.5 kB/12.8 kB 82%]
+                                   
+39% [Working]
+             
+Get:7 http://deb.debian.org/debian-security bookworm-security/main arm64 libssl3 arm64 3.0.17-1~deb12u3 [1817 kB]
+
+2025-10-03T15:49:03-07:00 <helium-wallet> 
+39% [7 libssl3 9730 B/1817 kB 1%]
+47% [7 libssl3 1585 kB/1817 kB 87%]
+                                   
+49% [Working]
+             
+Get:8 http://deb.debian.org/debian bookworm/main arm64 libkmod2 arm64 30+20221128-1 [54.4 kB]
+
+2025-10-03T15:49:03-07:00 <helium-wallet> 
+49% [8 libkmod2 1524 B/54.4 kB 3%]
+                                  
+49% [Working]
+             
+Get:9 http://deb.debian.org/debian bookworm/main arm64 udev arm64 252.39-1~deb12u1 [1656 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+49% [9 udev 0 B/1656 kB 0%]
+                           
+58% [Working]
+             
+Get:10 http://deb.debian.org/debian-security bookworm-security/main arm64 openssl arm64 3.0.17-1~deb12u3 [1400 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+58% [10 openssl 4293 B/1400 kB 0%]
+                                  
+66% [Waiting for headers]
+                         
+Get:11 http://deb.debian.org/debian bookworm/main arm64 ca-certificates all 20230311+deb12u1 [155 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+66% [11 ca-certificates 7512 B/155 kB 5%]
+                                         
+67% [Working]
+             
+Get:12 http://deb.debian.org/debian bookworm/main arm64 krb5-locales all 1.20.1-2+deb12u4 [63.4 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+67% [12 krb5-locales 13.1 kB/63.4 kB 21%]
+                                         
+68% [Waiting for headers]
+                         
+Get:13 http://deb.debian.org/debian bookworm/main arm64 libpsl5 arm64 0.21.2-1 [58.6 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+68% [13 libpsl5 18.1 kB/58.6 kB 31%]
+                                    
+69% [Working]
+             
+Get:14 http://deb.debian.org/debian bookworm/main arm64 wget arm64 1.21.3-1+deb12u1 [922 kB]
+
+2025-10-03T15:49:04-07:00 <helium-wallet> 
+69% [14 wget 3393 B/922 kB 0%]
+                              
+Get:15 http://deb.debian.org/debian bookworm/main arm64 libbrotli1 arm64 1.0.9-2+b6 [269 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+74% [15 libbrotli1 39.7 kB/269 kB 15%]
+                                      
+Get:16 http://deb.debian.org/debian bookworm/main arm64 libkrb5support0 arm64 1.20.1-2+deb12u4 [32.5 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+76% [16 libkrb5support0 28.2 kB/32.5 kB 87%]
+                                            
+77% [Working]
+             
+Get:17 http://deb.debian.org/debian bookworm/main arm64 libk5crypto3 arm64 1.20.1-2+deb12u4 [80.2 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+77% [17 libk5crypto3 49.6 kB/80.2 kB 62%]
+                                         
+77% [Working]
+             
+Get:18 http://deb.debian.org/debian bookworm/main arm64 libkeyutils1 arm64 1.6.3-2 [8844 B]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+77% [18 libkeyutils1 0 B/8844 B 0%]
+                                   
+78% [Working]
+             
+Get:19 http://deb.debian.org/debian bookworm/main arm64 libkrb5-3 arm64 1.20.1-2+deb12u4 [314 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+78% [19 libkrb5-3 12.2 kB/314 kB 4%]
+                                    
+80% [Working]
+             
+Get:20 http://deb.debian.org/debian bookworm/main arm64 libgssapi-krb5-2 arm64 1.20.1-2+deb12u4 [124 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+80% [20 libgssapi-krb5-2 26.9 kB/124 kB 22%]
+                                            
+81% [Working]
+             
+Get:21 http://deb.debian.org/debian bookworm/main arm64 libsasl2-modules-db arm64 2.1.28+dfsg-10 [20.8 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+81% [21 libsasl2-modules-db 8644 B/20.8 kB 42%]
+                                               
+82% [Waiting for headers]
+                         
+Get:22 http://deb.debian.org/debian bookworm/main arm64 libsasl2-2 arm64 2.1.28+dfsg-10 [58.0 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+82% [22 libsasl2-2 5746 B/58.0 kB 10%]
+                                      
+83% [Waiting for headers]
+                         
+Get:23 http://deb.debian.org/debian bookworm/main arm64 libldap-2.5-0 arm64 2.5.13+dfsg-5 [171 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+83% [23 libldap-2.5-0 16.2 kB/171 kB 9%]
+                                        
+84% [Waiting for headers]
+                         
+Get:24 http://deb.debian.org/debian bookworm/main arm64 libnghttp2-14 arm64 1.52.0-1+deb12u2 [68.6 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+84% [24 libnghttp2-14 0 B/68.6 kB 0%]
+                                     
+85% [Waiting for headers]
+                         
+Get:25 http://deb.debian.org/debian bookworm/main arm64 librtmp1 arm64 2.4+20151223.gitfa8646d.1-2+b2 [59.4 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+85% [25 librtmp1 0 B/59.4 kB 0%]
+                                
+86% [Waiting for headers]
+                         
+Get:26 http://deb.debian.org/debian bookworm/main arm64 libssh2-1 arm64 1.10.0-3+b1 [172 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+86% [26 libssh2-1 1884 B/172 kB 1%]
+                                   
+87% [Waiting for headers]
+                         
+Get:27 http://deb.debian.org/debian bookworm/main arm64 libcurl4 arm64 7.88.1-10+deb12u14 [367 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+87% [27 libcurl4 5171 B/367 kB 1%]
+                                  
+90% [Waiting for headers]
+                         
+Get:28 http://deb.debian.org/debian bookworm/main arm64 curl arm64 7.88.1-10+deb12u14 [309 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+90% [28 curl 28.0 kB/309 kB 9%]
+                               
+92% [Waiting for headers]
+                         
+Get:29 http://deb.debian.org/debian bookworm/main arm64 libi2c0 arm64 4.3-2+b3 [9456 B]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+92% [29 libi2c0 8192 B/9456 B 87%]
+                                  
+92% [Working]
+             
+Get:30 http://deb.debian.org/debian bookworm/main arm64 i2c-tools arm64 4.3-2+b3 [78.6 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+92% [30 i2c-tools 7599 B/78.6 kB 10%]
+                                     
+93% [Waiting for headers]
+                         
+Get:31 http://deb.debian.org/debian bookworm/main arm64 libonig5 arm64 6.9.8-1 [179 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+93% [31 libonig5 17.7 kB/179 kB 10%]
+                                    
+95% [Working]
+             
+Get:32 http://deb.debian.org/debian bookworm/main arm64 libjq1 arm64 1.6-2.1+deb12u1 [120 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+95% [32 libjq1 9539 B/120 kB 8%]
+                                
+96% [Working]
+             
+Get:33 http://deb.debian.org/debian bookworm/main arm64 jq arm64 1.6-2.1+deb12u1 [63.3 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+96% [33 jq 5839 B/63.3 kB 9%]
+                             
+97% [Working]
+             
+Get:34 http://deb.debian.org/debian bookworm/main arm64 libldap-common all 2.5.13+dfsg-5 [29.3 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+97% [34 libldap-common 5234 B/29.3 kB 18%]
+                                          
+97% [Working]
+             
+Get:35 http://deb.debian.org/debian bookworm/main arm64 libsasl2-modules arm64 2.1.28+dfsg-10 [63.1 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+97% [35 libsasl2-modules 2463 B/63.1 kB 4%]
+                                           
+98% [Working]
+             
+Get:36 http://deb.debian.org/debian bookworm/main arm64 publicsuffix all 20230209.2326-1 [126 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+98% [36 publicsuffix 9177 B/126 kB 7%]
+                                      
+99% [Working]
+             
+Get:37 http://deb.debian.org/debian bookworm/main arm64 read-edid arm64 3.0.2-1.1 [16.1 kB]
+
+2025-10-03T15:49:05-07:00 <helium-wallet> 
+99% [37 read-edid 1742 B/16.1 kB 11%]
+                                     
+100% [Working]
+              
+Fetched 16.1 MB in 5s (3113 kB/s)
+
+2025-10-03T15:49:06-07:00 <helium-wallet> debconf: delaying package configuration, since apt-utils is not installed
+
+2025-10-03T15:49:06-07:00 <helium-wallet> Selecting previously unselected package perl-modules-5.36.
+
+2025-10-03T15:49:06-07:00 <helium-wallet> (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 6089 files and directories currently installed.)
+
+2025-10-03T15:49:06-07:00 <helium-wallet> Preparing to unpack .../00-perl-modules-5.36_5.36.0-7+deb12u3_all.deb ...
+
+2025-10-03T15:49:06-07:00 <helium-wallet> Unpacking perl-modules-5.36 (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Selecting previously unselected package libgdbm6:arm64.
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Preparing to unpack .../01-libgdbm6_1.23-3_arm64.deb ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Unpacking libgdbm6:arm64 (1.23-3) ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Selecting previously unselected package libgdbm-compat4:arm64.
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Preparing to unpack .../02-libgdbm-compat4_1.23-3_arm64.deb ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Unpacking libgdbm-compat4:arm64 (1.23-3) ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Selecting previously unselected package libperl5.36:arm64.
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Preparing to unpack .../03-libperl5.36_5.36.0-7+deb12u3_arm64.deb ...
+
+2025-10-03T15:49:07-07:00 <helium-wallet> Unpacking libperl5.36:arm64 (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:07-07:00 <cs-mux> 2025-10-03T22:49:07.837030Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=24055
+
+2025-10-03T15:49:07-07:00 <cs-mux> 2025-10-03T22:49:07.837703Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:49:07-07:00 <cs-mux> 2025-10-03T22:49:07.837915Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:49:07-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 2 ms
+
+2025-10-03T15:49:07-07:00 <cs-mux> 2025-10-03T22:49:07.839597Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=24055
+
+2025-10-03T15:49:07-07:00 <cs-mux> 2025-10-03T22:49:07.839755Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=24055
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:49:09 GMT #####
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 2
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # CRC_OK: 100.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # RF packets forwarded: 2 (60 bytes)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 3 (691 bytes)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 175847222
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:49:09-07:00 <cs-mux> 2025-10-03T22:49:09.019943Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=54945
+
+2025-10-03T15:49:09-07:00 <cs-mux> 2025-10-03T22:49:09.020264Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:09-07:00 <cs-mux> 2025-10-03T22:49:09.020553Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:49:09 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":2,"rxok":2,"rxfw":2,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:49:09-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:49:09-07:00 <cs-mux> 2025-10-03T22:49:09.024084Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=54945
+
+2025-10-03T15:49:09-07:00 <cs-mux> 2025-10-03T22:49:09.024185Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=54945
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Selecting previously unselected package perl.
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Preparing to unpack .../04-perl_5.36.0-7+deb12u3_arm64.deb ...
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Unpacking perl (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Selecting previously unselected package netbase.
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Preparing to unpack .../05-netbase_6.4_all.deb ...
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Unpacking netbase (6.4) ...
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Selecting previously unselected package libssl3:arm64.
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Preparing to unpack .../06-libssl3_3.0.17-1~deb12u3_arm64.deb ...
+
+2025-10-03T15:49:09-07:00 <helium-wallet> Unpacking libssl3:arm64 (3.0.17-1~deb12u3) ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Selecting previously unselected package libkmod2:arm64.
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Preparing to unpack .../07-libkmod2_30+20221128-1_arm64.deb ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Unpacking libkmod2:arm64 (30+20221128-1) ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Selecting previously unselected package udev.
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Preparing to unpack .../08-udev_252.39-1~deb12u1_arm64.deb ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Unpacking udev (252.39-1~deb12u1) ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Selecting previously unselected package openssl.
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Preparing to unpack .../09-openssl_3.0.17-1~deb12u3_arm64.deb ...
+
+2025-10-03T15:49:10-07:00 <helium-wallet> Unpacking openssl (3.0.17-1~deb12u3) ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Selecting previously unselected package ca-certificates.
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Preparing to unpack .../10-ca-certificates_20230311+deb12u1_all.deb ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Unpacking ca-certificates (20230311+deb12u1) ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Selecting previously unselected package krb5-locales.
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Preparing to unpack .../11-krb5-locales_1.20.1-2+deb12u4_all.deb ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Unpacking krb5-locales (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Selecting previously unselected package libpsl5:arm64.
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Preparing to unpack .../12-libpsl5_0.21.2-1_arm64.deb ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Unpacking libpsl5:arm64 (0.21.2-1) ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Selecting previously unselected package wget.
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Preparing to unpack .../13-wget_1.21.3-1+deb12u1_arm64.deb ...
+
+2025-10-03T15:49:11-07:00 <helium-wallet> Unpacking wget (1.21.3-1+deb12u1) ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libbrotli1:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../14-libbrotli1_1.0.9-2+b6_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libbrotli1:arm64 (1.0.9-2+b6) ...
+
+2025-10-03T15:49:12-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 4025FD08268057E605CA5211BBB3ED6A93E25987B727BC2FE4C21C0A39
+
+2025-10-03T15:49:12-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608FD25 (netid=0x000013, fcnt=58967)
+
+2025-10-03T15:49:12-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:12-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":179089330,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-108,"lsnr":-7.8,"foff":9088,"rssi":-100,"size":29,"data":"QCX9CCaAV+YFylIRu7PtapPiWYe3J7wv5MIcCjk="}]}
+
+2025-10-03T15:49:12-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:49:12-07:00 <cs-mux> 2025-10-03T22:49:12.265406Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=28191
+
+2025-10-03T15:49:12-07:00 <cs-mux> 2025-10-03T22:49:12.265562Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:12-07:00 <cs-mux> 2025-10-03T22:49:12.265856Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:12-07:00 <gateway-rs> 2025-10-03T22:49:12.266753Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@179089330 us, 905100000 MHz, Sf8bw125, snr: -7.8, rssi: -108, len: 29 region=US915
+
+2025-10-03T15:49:12-07:00 <cs-mux> 2025-10-03T22:49:12.266965Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=28191
+
+2025-10-03T15:49:12-07:00 <cs-mux> 2025-10-03T22:49:12.267281Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=28191
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libkrb5support0:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../15-libkrb5support0_1.20.1-2+deb12u4_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libkrb5support0:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libk5crypto3:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../16-libk5crypto3_1.20.1-2+deb12u4_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libk5crypto3:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libkeyutils1:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../17-libkeyutils1_1.6.3-2_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libkeyutils1:arm64 (1.6.3-2) ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libkrb5-3:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../18-libkrb5-3_1.20.1-2+deb12u4_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libkrb5-3:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Selecting previously unselected package libgssapi-krb5-2:arm64.
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Preparing to unpack .../19-libgssapi-krb5-2_1.20.1-2+deb12u4_arm64.deb ...
+
+2025-10-03T15:49:12-07:00 <helium-wallet> Unpacking libgssapi-krb5-2:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libsasl2-modules-db:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../20-libsasl2-modules-db_2.1.28+dfsg-10_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libsasl2-modules-db:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libsasl2-2:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../21-libsasl2-2_2.1.28+dfsg-10_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libsasl2-2:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libldap-2.5-0:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../22-libldap-2.5-0_2.5.13+dfsg-5_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libldap-2.5-0:arm64 (2.5.13+dfsg-5) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libnghttp2-14:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../23-libnghttp2-14_1.52.0-1+deb12u2_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libnghttp2-14:arm64 (1.52.0-1+deb12u2) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package librtmp1:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../24-librtmp1_2.4+20151223.gitfa8646d.1-2+b2_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libssh2-1:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../25-libssh2-1_1.10.0-3+b1_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libssh2-1:arm64 (1.10.0-3+b1) ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Selecting previously unselected package libcurl4:arm64.
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Preparing to unpack .../26-libcurl4_7.88.1-10+deb12u14_arm64.deb ...
+
+2025-10-03T15:49:13-07:00 <helium-wallet> Unpacking libcurl4:arm64 (7.88.1-10+deb12u14) ...
+
+2025-10-03T15:49:14-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 802129210000DF3864F275C557254FE84B835563953AD36D
+
+2025-10-03T15:49:14-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x00212921 (netid=0x000000, fcnt=14559)
+
+2025-10-03T15:49:14-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:14-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":180911284,"chan":7,"rfch":1,"freq":905.300000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-116,"lsnr":-16.2,"foff":-2359,"rssi":-101,"size":24,"data":"gCEpIQAA3zhk8nXFVyVP6EuDVWOVOtNt"}]}
+
+2025-10-03T15:49:14-07:00 <cs-mux> 2025-10-03T22:49:14.091145Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=48559
+
+2025-10-03T15:49:14-07:00 <cs-mux> 2025-10-03T22:49:14.091348Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:14-07:00 <cs-mux> 2025-10-03T22:49:14.091723Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:14-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:49:14-07:00 <cs-mux> 2025-10-03T22:49:14.093526Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=48559
+
+2025-10-03T15:49:14-07:00 <cs-mux> 2025-10-03T22:49:14.093677Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=48559
+
+2025-10-03T15:49:14-07:00 <gateway-rs> 2025-10-03T22:49:14.093853Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@180911284 us, 905300000 MHz, Sf10bw125, snr: -16.2, rssi: -116, len: 24 region=US915
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package curl.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../27-curl_7.88.1-10+deb12u14_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking curl (7.88.1-10+deb12u14) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package libi2c0:arm64.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../28-libi2c0_4.3-2+b3_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking libi2c0:arm64 (4.3-2+b3) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package i2c-tools.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../29-i2c-tools_4.3-2+b3_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking i2c-tools (4.3-2+b3) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package libonig5:arm64.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../30-libonig5_6.9.8-1_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking libonig5:arm64 (6.9.8-1) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package libjq1:arm64.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../31-libjq1_1.6-2.1+deb12u1_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking libjq1:arm64 (1.6-2.1+deb12u1) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package jq.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../32-jq_1.6-2.1+deb12u1_arm64.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking jq (1.6-2.1+deb12u1) ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Selecting previously unselected package libldap-common.
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Preparing to unpack .../33-libldap-common_2.5.13+dfsg-5_all.deb ...
+
+2025-10-03T15:49:14-07:00 <helium-wallet> Unpacking libldap-common (2.5.13+dfsg-5) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Selecting previously unselected package libsasl2-modules:arm64.
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Preparing to unpack .../34-libsasl2-modules_2.1.28+dfsg-10_arm64.deb ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Unpacking libsasl2-modules:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Selecting previously unselected package publicsuffix.
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Preparing to unpack .../35-publicsuffix_20230209.2326-1_all.deb ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Unpacking publicsuffix (20230209.2326-1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Selecting previously unselected package read-edid.
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Preparing to unpack .../36-read-edid_3.0.2-1.1_arm64.deb ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Unpacking read-edid (3.0.2-1.1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libkeyutils1:arm64 (1.6.3-2) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libpsl5:arm64 (0.21.2-1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up wget (1.21.3-1+deb12u1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libi2c0:arm64 (4.3-2+b3) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libbrotli1:arm64 (1.0.9-2+b6) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up read-edid (3.0.2-1.1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libssl3:arm64 (3.0.17-1~deb12u3) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libnghttp2-14:arm64 (1.52.0-1+deb12u2) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up krb5-locales (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libldap-common (2.5.13+dfsg-5) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libkrb5support0:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libsasl2-modules-db:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up perl-modules-5.36 (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libk5crypto3:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libsasl2-2:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libssh2-1:arm64 (1.10.0-3+b1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up netbase (6.4) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libkrb5-3:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up openssl (3.0.17-1~deb12u3) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up publicsuffix (20230209.2326-1) ...
+
+2025-10-03T15:49:15-07:00 <helium-wallet> Setting up libonig5:arm64 (6.9.8-1) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up libkmod2:arm64 (30+20221128-1) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up libgdbm6:arm64 (1.23-3) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up libjq1:arm64 (1.6-2.1+deb12u1) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up libsasl2-modules:arm64 (2.1.28+dfsg-10) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up libldap-2.5-0:arm64 (2.5.13+dfsg-5) ...
+
+2025-10-03T15:49:16-07:00 <helium-wallet> Setting up ca-certificates (20230311+deb12u1) ...
+
+2025-10-03T15:49:17-07:00 <cs-mux> 2025-10-03T22:49:17.849261Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=45778
+
+2025-10-03T15:49:17-07:00 <cs-mux> 2025-10-03T22:49:17.849394Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:49:17-07:00 <cs-mux> 2025-10-03T22:49:17.849450Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:49:17-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:49:17-07:00 <cs-mux> 2025-10-03T22:49:17.851029Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=45778
+
+2025-10-03T15:49:17-07:00 <cs-mux> 2025-10-03T22:49:17.851165Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=45778
+
+2025-10-03T15:49:18-07:00 <helium-wallet> Updating certificates in /etc/ssl/certs...
+
+2025-10-03T15:49:19-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 802129A10000DF3864F275C557254FE84B839963953AD36D
+
+2025-10-03T15:49:20-07:00 <cs-mux> 2025-10-03T22:49:20.095266Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=42640
+
+2025-10-03T15:49:20-07:00 <udp-packet-forwarder> INFO: [up] payload (29 bytes): 402AD4082680CDDF0559D1F02C72C24B7435926B72EFD4B352A53E8267
+
+2025-10-03T15:49:20-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x2608D42A (netid=0x000013, fcnt=57293)
+
+2025-10-03T15:49:20-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:20-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":186920808,"chan":6,"rfch":1,"freq":905.100000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF8BW125","codr":"4/5","rssis":-110,"lsnr":-11.2,"foff":10622,"rssi":-100,"size":29,"data":"QCrUCCaAzd8FWdHwLHLCS3Q1kmty79SzUqU+gmc="}]}
+
+2025-10-03T15:49:20-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:49:20-07:00 <cs-mux> 2025-10-03T22:49:20.095389Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:20-07:00 <cs-mux> 2025-10-03T22:49:20.095884Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:20-07:00 <cs-mux> 2025-10-03T22:49:20.096866Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=42640
+
+2025-10-03T15:49:20-07:00 <cs-mux> 2025-10-03T22:49:20.097104Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=42640
+
+2025-10-03T15:49:20-07:00 <gateway-rs> 2025-10-03T22:49:20.097387Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@186920808 us, 905100000 MHz, Sf8bw125, snr: -11.2, rssi: -110, len: 29 region=US915
+
+2025-10-03T15:49:20-07:00 <helium-wallet> 142 added, 0 removed; done.
+
+2025-10-03T15:49:20-07:00 <helium-wallet> Setting up libgssapi-krb5-2:arm64 (1.20.1-2+deb12u4) ...
+
+2025-10-03T15:49:20-07:00 <helium-wallet> Setting up udev (252.39-1~deb12u1) ...
+
+2025-10-03T15:49:23-07:00 <udp-packet-forwarder> INFO: [up] payload (24 bytes): 802129210000DF3864F275C557254FE84B835563953AD36D
+
+2025-10-03T15:49:23-07:00 <udp-packet-forwarder> INFO: [up] pkt from mote: 0x00212921 (netid=0x000000, fcnt=14559)
+
+2025-10-03T15:49:23-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:23-07:00 <udp-packet-forwarder> JSON up: {"rxpk":[{"jver":1,"tmst":190002023,"chan":0,"rfch":0,"freq":903.900000,"mid": 8,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","rssis":-117,"lsnr":-18.0,"foff":-2354,"rssi":-100,"size":24,"data":"gCEpIQAA3zhk8nXFVyVP6EuDVWOVOtNt"}]}
+
+2025-10-03T15:49:23-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 0 ms
+
+2025-10-03T15:49:23-07:00 <cs-mux> 2025-10-03T22:49:23.182140Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=25921
+
+2025-10-03T15:49:23-07:00 <cs-mux> 2025-10-03T22:49:23.182353Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:23-07:00 <cs-mux> 2025-10-03T22:49:23.182843Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:23-07:00 <cs-mux> 2025-10-03T22:49:23.184836Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=25921
+
+2025-10-03T15:49:23-07:00 <cs-mux> 2025-10-03T22:49:23.184951Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=25921
+
+2025-10-03T15:49:23-07:00 <gateway-rs> 2025-10-03T22:49:23.184048Z  INFO run: gateway_rs::gateway: received uplink downlink_mac=02:42:AC:FF:FE:11:00:03 uplink=@190002023 us, 903900000 MHz, Sf10bw125, snr: -18, rssi: -117, len: 24 region=US915
+
+2025-10-03T15:49:23-07:00 <helium-wallet> invoke-rc.d: could not determine current runlevel
+
+2025-10-03T15:49:23-07:00 <helium-wallet> invoke-rc.d: policy-rc.d denied execution of start.
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up libgdbm-compat4:arm64 (1.23-3) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up jq (1.6-2.1+deb12u1) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up libcurl4:arm64 (7.88.1-10+deb12u14) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up curl (7.88.1-10+deb12u14) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up libperl5.36:arm64 (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up perl (5.36.0-7+deb12u3) ...
+
+2025-10-03T15:49:23-07:00 <helium-wallet> Setting up i2c-tools (4.3-2+b3) ...
+
+2025-10-03T15:49:24-07:00 <helium-wallet> Failed to send reload request: No such file or directory
+
+
+2025-10-03T15:49:24-07:00 <helium-wallet> i2c-1: Failed to write 'change' to '/sys/devices/platform/soc/fe804000.i2c/i2c-1/i2c-dev/i2c-1/uevent': Read-only file system
+
+
+2025-10-03T15:49:24-07:00 <helium-wallet> Processing triggers for libc-bin (2.36-9+deb12u13) ...
+
+2025-10-03T15:49:24-07:00 <helium-wallet> Processing triggers for ca-certificates (20230311+deb12u1) ...
+
+2025-10-03T15:49:24-07:00 <helium-wallet> Updating certificates in /etc/ssl/certs...
+
+2025-10-03T15:49:26-07:00 <helium-wallet> 0 added, 0 removed; done.
+
+2025-10-03T15:49:26-07:00 <helium-wallet> Running hooks in /etc/ca-certificates/update.d...
+
+2025-10-03T15:49:26-07:00 <helium-wallet> done.
+
+2025-10-03T15:49:26-07:00 <helium-wallet> --2025-10-03 22:49:26--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-aarch64-unknown-linux-gnu
+
+2025-10-03T15:49:26-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.3
+
+2025-10-03T15:49:26-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+
+2025-10-03T15:49:26-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:49:26-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-aarch64-unknown-linux-gnu [following]
+
+2025-10-03T15:49:26-07:00 <helium-wallet> --2025-10-03 22:49:26--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-aarch64-unknown-linux-gnu
+
+2025-10-03T15:49:26-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:49:26-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:49:26-07:00 <helium-wallet> 2025-10-03 22:49:26 ERROR 404: Not Found.
+
+2025-10-03T15:49:26-07:00 <helium-wallet> 
+
+2025-10-03T15:49:27-07:00 <cs-mux> 2025-10-03T22:49:27.860994Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=65121
+
+2025-10-03T15:49:27-07:00 <cs-mux> 2025-10-03T22:49:27.861217Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:49:27-07:00 <cs-mux> 2025-10-03T22:49:27.861402Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:49:27-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:49:27-07:00 <cs-mux> 2025-10-03T22:49:27.863349Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=65121
+
+2025-10-03T15:49:27-07:00 <cs-mux> 2025-10-03T22:49:27.863654Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=65121
+
+2025-10-03T15:49:29-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:49:31-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:49:31-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:49:31-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:49:31-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+
+2025-10-03T15:49:32-07:00 <cs-mux> 2025-10-03T22:49:32.250091Z TRACE chirpstack_packet_multiplexer::forwarder: Cleaning up inactive sockets
+
+2025-10-03T15:49:32-07:00 <cs-mux> 2025-10-03T22:49:32.257295Z TRACE chirpstack_packet_multiplexer::listener: Cleaning up inactive Gateway ID to addr mappings
+
+2025-10-03T15:49:35-07:00 <helium-wallet> 
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 33%
+
+Reading package lists... 64%
+
+Reading package lists... 90%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:49:37-07:00 <cs-mux> 2025-10-03T22:49:37.885070Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PullData gateway_id=0242acfffe110003 token=43087
+
+2025-10-03T15:49:37-07:00 <cs-mux> 2025-10-03T22:49:37.885227Z TRACE {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Setting / updating Gateway ID to addr mapping gateway_id=0242acfffe110003 addr=172.17.0.3:51096
+
+2025-10-03T15:49:37-07:00 <cs-mux> 2025-10-03T22:49:37.885309Z  INFO {addr=172.17.0.3:51096}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PullAck
+
+2025-10-03T15:49:37-07:00 <cs-mux> 2025-10-03T22:49:37.886068Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PullAck token=43087
+
+2025-10-03T15:49:37-07:00 <cs-mux> 2025-10-03T22:49:37.886187Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PULL_DATA acknowledged token=43087
+
+2025-10-03T15:49:37-07:00 <udp-packet-forwarder> INFO: [down] PULL_ACK received in 0 ms
+
+2025-10-03T15:49:38-07:00 <helium-wallet> 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 33%
+
+Reading package lists... 61%
+
+Reading package lists... 86%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+2025-10-03T15:49:38-07:00 <helium-wallet> 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 72%
+
+Building dependency tree... Done
+
+
+2025-10-03T15:49:38-07:00 <helium-wallet> 
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+2025-10-03T15:49:38-07:00 <helium-wallet> curl is already the newest version (7.88.1-10+deb12u14).
+
+2025-10-03T15:49:38-07:00 <helium-wallet> jq is already the newest version (1.6-2.1+deb12u1).
+
+2025-10-03T15:49:38-07:00 <helium-wallet> i2c-tools is already the newest version (4.3-2+b3).
+
+2025-10-03T15:49:38-07:00 <helium-wallet> ca-certificates is already the newest version (20230311+deb12u1).
+
+2025-10-03T15:49:38-07:00 <helium-wallet> wget is already the newest version (1.21.3-1+deb12u1).
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ##### 2025-10-03 22:49:39 GMT #####
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ### [UPSTREAM] ###
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # RF packets received by concentrator: 5
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # CRC_OK: 80.00%, CRC_FAIL: 20.00%, NO_CRC: 0.00%
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # RF packets forwarded: 4 (106 bytes)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # PUSH_DATA datagrams sent: 5 (1192 bytes)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # PUSH_DATA acknowledged: 100.00%
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ### [DOWNSTREAM] ###
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # PULL_DATA sent: 3 (100.00% acknowledged)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # RF packets sent to concentrator: 0 (0 bytes)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # TX errors: 0
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # TX rejected (collision packet): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # TX rejected (collision beacon): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # TX rejected (too late): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # TX rejected (too early): 0.00% (req:7, rej:0)
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ### SX1302 Status ###
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # SX1302 counter (INST): 205852188
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # SX1302 counter (PPS):  0
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # BEACON queued: 0
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # BEACON sent so far: 0
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # BEACON rejected: 0
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ### [JIT] ###
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> #--------
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ### [GPS] ###
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> # GPS *FAKE* coordinates: latitude 38.85114, longitude -121.26995, altitude 0 m
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> ##### END #####
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> 
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> JSON up: {"stat":{"time":"2025-10-03 22:49:39 GMT","lati":38.85114,"long":-121.26995,"alti":0,"rxnb":5,"rxok":4,"rxfw":4,"ackr":100.0,"dwnb":0,"txnb":0,"temp":30.0}}
+
+2025-10-03T15:49:39-07:00 <udp-packet-forwarder> INFO: [up] PUSH_ACK received in 1 ms
+
+2025-10-03T15:49:39-07:00 <cs-mux> 2025-10-03T22:49:39.031615Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: UDP packet received packet_type=PushData gateway_id=0242acfffe110003 token=19047
+
+2025-10-03T15:49:39-07:00 <cs-mux> 2025-10-03T22:49:39.031818Z  INFO {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending UDP packet packet_type=PushAck
+
+2025-10-03T15:49:39-07:00 <cs-mux> 2025-10-03T22:49:39.032081Z DEBUG {addr=172.17.0.3:50529}: chirpstack_packet_multiplexer::listener: Sending received data to uplink channel
+
+2025-10-03T15:49:39-07:00 <cs-mux> 2025-10-03T22:49:39.033251Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: UDP packet received packet_type=PushAck token=19047
+
+2025-10-03T15:49:39-07:00 <cs-mux> 2025-10-03T22:49:39.033409Z  INFO {addr=172.17.0.4:1680 gateway_id=0242acfffe110003}: chirpstack_packet_multiplexer::forwarder: PUSH_DATA acknowledged token=19047
+
+2025-10-03T15:49:40-07:00 <helium-wallet> 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+2025-10-03T15:49:40-07:00 <helium-wallet> --2025-10-03 22:49:40--  https://github.com/helium/helium-wallet-rs/releases/latest/download/helium-wallet-aarch64-unknown-linux-gnu
+
+2025-10-03T15:49:40-07:00 <helium-wallet> Resolving github.com (github.com)... 140.82.116.3
+
+2025-10-03T15:49:40-07:00 <helium-wallet> Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+
+2025-10-03T15:49:40-07:00 <helium-wallet> HTTP request sent, awaiting response... 302 Found
+
+2025-10-03T15:49:40-07:00 <helium-wallet> Location: https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-aarch64-unknown-linux-gnu [following]
+
+2025-10-03T15:49:40-07:00 <helium-wallet> --2025-10-03 22:49:40--  https://github.com/helium/helium-wallet-rs/releases/download/helium-wallet-v2.2.0/helium-wallet-aarch64-unknown-linux-gnu
+
+2025-10-03T15:49:40-07:00 <helium-wallet> Reusing existing connection to github.com:443.
+
+2025-10-03T15:49:40-07:00 <helium-wallet> HTTP request sent, awaiting response... 404 Not Found
+
+2025-10-03T15:49:40-07:00 <helium-wallet> 2025-10-03 22:49:40 ERROR 404: Not Found.
+
+2025-10-03T15:49:40-07:00 <helium-wallet> 
+
+2025-10-03T15:49:41-07:00 Service exited 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:49:42-07:00 Restarting service 'helium-wallet sha256:d00d6ba8577cd547b3836d649fd84e270ffaeebeed31012c53a9b9be93ef3c78'
+2025-10-03T15:49:42-07:00 <gateway-rs> 2025-10-03T22:49:42.729642Z  WARN run: gateway_rs::beaconer: ingest error err=Service(Rpc(Status { code: Unknown, message: "h2 protocol error: error reading a body from connection: connection reset", source: Some(hyper::Error(Body, Error { kind: Io(Kind(ConnectionReset)) })) }))
+
+2025-10-03T15:49:42-07:00 <helium-wallet> 
+0% [Working]
+            
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+
+2025-10-03T15:49:42-07:00 <helium-wallet> 
+0% [Waiting for headers]
+                        
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+
+2025-10-03T15:49:43-07:00 <helium-wallet> 
+0% [Waiting for headers]
+                        
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease

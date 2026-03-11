@@ -1,0 +1,8 @@
+ gwmp-mux  Aug 20 23:15:27.601 ERRO host_and_mux error: error parsing socket address: invalid socket address syntax
+
+  gwmp-mux  thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/semtech-udp-0.11.0/src/server_runtime/mod.rs:266:17:
+ gwmp-mux  UdpTx threw error: ClientEventQueueFull(SendError(PacketReceived(V1(RxPkV1 { chan: 6, codr: _4_5, data: [64, 150, 1, 0, 120, 128, 160, 0, 2, 189, 240, 54, 55, 42, 23, 177, 46], datr: DataRate(SF7, BW125), freq: 905.1, lsnr: 14.2, modu: LORA, rfch: 1, rssi: -51, rssis: Some(-51), size: 17, stat: OK, tmst: 10103809, time: None }), MacAddr8([2, 66, 172, 255, 254, 17, 0, 4]))))
+ gwmp-mux  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+  gwmp-mux  thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/semtech-udp-0.11.0/src/server_runtime/mod.rs:256:17:
+ gwmp-mux  UdpRx threw error: InternalQueueClosedOrFull

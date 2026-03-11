@@ -1,0 +1,516 @@
+Downloading image 'registry2.balena-cloud.com/v2/2f2d2104ba82efa29fd31986bc8f7afd@sha256:23d9179f96c38682a81f64f5e660ceda481fd9294a2653d4d67a1d05d93ec1dd'
+Downloading image 'registry2.balena-cloud.com/v2/5e827cf28f64183cd6dc9111feb0fb33@sha256:7eb560ff210baef9e1d2d6adfcb857c1df6af8ec23966b894e216f24b3f4f843'
+Creating volume 'gateway-data'
+Creating volume 'gateway-logs'
+Downloaded image 'registry2.balena-cloud.com/v2/5e827cf28f64183cd6dc9111feb0fb33@sha256:7eb560ff210baef9e1d2d6adfcb857c1df6af8ec23966b894e216f24b3f4f843'
+Taking update locks
+Downloaded image 'registry2.balena-cloud.com/v2/2f2d2104ba82efa29fd31986bc8f7afd@sha256:23d9179f96c38682a81f64f5e660ceda481fd9294a2653d4d67a1d05d93ec1dd'
+Installing service 'gateway-service sha256:6671b7ead5a0b86e02bf5a7a4bddef1c7fdf561250fad70e0ad10f8cbe86247f'
+Installed service 'gateway-service sha256:6671b7ead5a0b86e02bf5a7a4bddef1c7fdf561250fad70e0ad10f8cbe86247f'
+Starting service 'gateway-service sha256:6671b7ead5a0b86e02bf5a7a4bddef1c7fdf561250fad70e0ad10f8cbe86247f'
+Started service 'gateway-service sha256:6671b7ead5a0b86e02bf5a7a4bddef1c7fdf561250fad70e0ad10f8cbe86247f'
+<gateway-service> Starting start-gateway-service.sh
+
+<gateway-service> Checking for I2C device
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> ECC is not present.
+
+<gateway-service> Interacting with ECC_CHIP
+
+<gateway-service> Using ECC for public key.
+
+<gateway-service> Appending template configuration...
+
+<gateway-service> Final settings.toml content:
+
+<gateway-service> keypair = "ecc://i2c-1:96?slot=0"
+
+<gateway-service> ## gateway-rs configuration file
+
+<gateway-service> 
+
+<gateway-service> ## Keypair is a string that supports specifying different locations for 
+
+<gateway-service> ## the secrets. The default one is file based one since all devices 
+
+<gateway-service> ## can support it.
+
+<gateway-service> ## Note: The keypair configuration is dynamically set by the start script
+
+<gateway-service> ## based on whether an ECC chip is detected.
+
+<gateway-service> 
+
+<gateway-service> # Ecc608 based (for original hotspots):
+
+<gateway-service> onboarding = "ecc://i2c-1:96?slot=15"
+
+<gateway-service> 
+
+<gateway-service> # The address to listen on for the (semtech) packet forwarder
+
+<gateway-service> listen = "0.0.0.0:1680"
+
+<gateway-service> 
+
+<gateway-service> # The local port to serve the local grpc on. Supports both a simple port number
+
+<gateway-service> # or full ip:port listen address. Do NOT expose this port outside of the host
+
+<gateway-service> # network for security
+
+<gateway-service> api = 4467
+
+<gateway-service> 
+
+<gateway-service> # The default region to use until a region is received from the Helium network.
+
+<gateway-service> # This value should line up with the configured region of the semtech packet
+
+<gateway-service> # forwarder. Note: Not setting this here or with a GW_REGION env var will stop
+
+<gateway-service> # packet and poc beaconing until the correct asserted region is retrieved. 
+
+<gateway-service> # Note: The region configuration is dynamically set by the start script
+
+<gateway-service> # based on the REGION_OVERRIDE environment variable.
+
+<gateway-service> 
+
+<gateway-service> [log]
+
+<gateway-service> # The logging level to assume on startup
+
+<gateway-service> level = "debug"
+
+<gateway-service> # Whether the logged output should include timestamps
+
+<gateway-service> timestamp = true
+
+<gateway-service> 
+
+<gateway-service> [poc]
+
+<gateway-service> # Whether the poc is enabled or not. When a gateway is not on chain (i.e.
+
+<gateway-service> # dataonly) set this to true to avoid unneeded RF traffic. Defaults to false. 
+
+<gateway-service> #
+
+<gateway-service> disable = true
+
+<gateway-service> 
+
+<gateway-service> # The uri to fetch entropy for poc beacons
+
+<gateway-service> entropy_uri = "http://entropy.iot.mainnet.helium.io:7080"
+
+<gateway-service> # The uri for IOT ingest services to deliver beacons and witnesses
+
+<gateway-service> ingest_uri = "http://mainnet-pociot.helium.io:9080"
+
+<gateway-service> 
+
+<gateway-service> # The config service is used to fetch and monitor region parameters and other
+
+<gateway-service> # configuration items
+
+<gateway-service> [config]
+
+<gateway-service> pubkey = "137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8"
+
+<gateway-service> uri = "http://mainnet-config.helium.io:6080/"
+
+<gateway-service> 
+
+<gateway-service> # The router uri is where lorawan packets are delivered to the helium packet
+
+<gateway-service> # router. 
+
+<gateway-service> [router]
+
+<gateway-service> uri = "http://mainnet-router.helium.io:8080/"
+
+<gateway-service> # Maximum number of packets to queue up for the packet router
+
+<gateway-service> queue = 20Copying to final location...
+
+<gateway-service> Calling helium_gateway server ...
+
+<gateway-service> 2025-08-19T23:40:37.943823Z DEBUG helium_gateway: starting settings=/etc/helium_gateway/settings.toml
+
+Installing service 'packet-forwarder sha256:5554dbc519da294f621faec7ad188c78603d47824b76d7897604f1653b038320'
+<gateway-service> 2025-08-19T23:40:38.023536Z  INFO run: gateway_rs::server: starting server version=1.3.0 key=112ADVweQDZse6cnWmNqkLXMRHSVo9JmpSF1x2o3qUwMA724MQHv
+
+<gateway-service> 2025-08-19T23:40:38.023669Z  INFO run: gateway_rs::region_watcher: starting default_region=UNKNOWN
+
+<gateway-service> 2025-08-19T23:40:38.023781Z  INFO run: gateway_rs::beaconer: starting beacon_interval=21600 disabled=true uri=http://mainnet-pociot.helium.io:9080/
+
+<gateway-service> 2025-08-19T23:40:38.023859Z  INFO run: gateway_rs::gateway: starting listen="0.0.0.0:1680"
+
+<gateway-service> 2025-08-19T23:40:38.023910Z  INFO run:run: gateway_rs::packet_router: starting uri=http://mainnet-router.helium.io:8080/
+
+<gateway-service> 2025-08-19T23:40:38.023966Z  INFO run: gateway_rs::api::server: starting listen=127.0.0.1:4467
+
+Installed service 'packet-forwarder sha256:5554dbc519da294f621faec7ad188c78603d47824b76d7897604f1653b038320'
+Starting service 'packet-forwarder sha256:5554dbc519da294f621faec7ad188c78603d47824b76d7897604f1653b038320'
+Started service 'packet-forwarder sha256:5554dbc519da294f621faec7ad188c78603d47824b76d7897604f1653b038320'
+Releasing update locks
+<gateway-service> 2025-08-19T23:40:43.297880Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=14YjBg38RU5oS39MCUGcN3YGBheMcYyYqznBA1pGojaySyAr9Xb
+
+<gateway-service> 2025-08-19T23:40:43.399570Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=13obFH7DNMz8wsC3vqJCxbeuWk2zAgmc5RvwRyyTwtYdNHAu1v4
+
+<gateway-service> 2025-08-19T23:40:45.341079Z  INFO run: gateway_rs::region_watcher: fetched config region_params pubkey=137oJzq1qZpSbzHawaysTGGsRCYTXG1MiTMQNxYSsQJp4YMDdN8 uri=http://mainnet-config.helium.io:6080/ default_region=UNKNOWN region=US915
+
+<gateway-service> 2025-08-19T23:40:45.341239Z  INFO run: gateway_rs::beaconer: next beacon time beacon_time=2025-08-19 23:59:31.0 +00:00:00
+
+<gateway-service> 2025-08-19T23:40:45.341269Z  INFO run: gateway_rs::beaconer: region updated region="US915"
+
+<gateway-service> 2025-08-19T23:40:45.341353Z  INFO run: gateway_rs::gateway: region updated region="US915"
+
+<gateway-service> 2025-08-20T00:10:43.576746Z  INFO run: gateway_rs::service::conduit: initialized session module="beaconer" session_key=13gSF8HyT3bqHApzTDaEXksvRrTy2CmG8nJYBUuNQqi18WxZP3P
+
+<gateway-service> 2025-08-20T00:10:43.854448Z  INFO run:run: gateway_rs::service::conduit: initialized session module="packet_router" session_key=133Kq1BSHLZQpXs9n2wKHo45KJR5Ga5DMgBF1grT5KgtPzr2azW
+
+Creating volume 'gwmp-config'
+Creating network 'gateway-net'
+Downloading delta for image 'registry2.balena-cloud.com/v2/3fcd3d37b208a74a61d49f36c0b3fe34@sha256:d712f05265b134425f36a815816792b67ec27240e6281e2cf715c4a0ec7d844e'
+Downloading delta for image 'registry2.balena-cloud.com/v2/f524973fe63b6f01ede8cf573dfe8507@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Downloading image 'registry2.balena-cloud.com/v2/933826a19e05fd46667bd08e68f73eaf@sha256:1aab0573e298d5ef5b4e7525a309ce333bb863b0c1219370a460eec215e7cde7'
+Removing network 'default'
+Downloaded image 'registry2.balena-cloud.com/v2/f524973fe63b6f01ede8cf573dfe8507@sha256:69935427132b18ad27c0b0c1df0ff9099cb348fa444866e41481a01ed7431649'
+Downloaded image 'registry2.balena-cloud.com/v2/3fcd3d37b208a74a61d49f36c0b3fe34@sha256:d712f05265b134425f36a815816792b67ec27240e6281e2cf715c4a0ec7d844e'
+Taking update locks
+Creating network 'default'
+Killing service 'gateway-service sha256:6671b7ead5a0b86e02bf5a7a4bddef1c7fdf561250fad70e0ad10f8cbe86247f'
+Killing service 'packet-forwarder sha256:5554dbc519da294f621faec7ad188c78603d47824b76d7897604f1653b038320'
+Downloaded image 'registry2.balena-cloud.com/v2/933826a19e05fd46667bd08e68f73eaf@sha256:1aab0573e298d5ef5b4e7525a309ce333bb863b0c1219370a460eec215e7cde7'
+<packet-forwarder> Reading existing ./global_conf.json file
+
+<packet-forwarder> Reading existing ./local_conf.json file
+
+<gwmp-mux> Starting gwmp-mux multiplexer...
+
+<gwmp-mux> === gwmp-mux Configuration ===
+
+<gwmp-mux> Bind Address: 0.0.0.0:1700
+
+<gwmp-mux> Config File: /etc/gwmp-mux/config.toml
+
+<gwmp-mux> ==============================
+
+<gwmp-mux> Configuration file contents:
+
+<gwmp-mux> # gwmp-mux configuration template
+
+<gwmp-mux> # This multiplexer receives packets from the packet forwarder
+
+<gwmp-mux> # and forwards them to multiple upstream servers
+
+<gwmp-mux> 
+
+<gwmp-mux> [server]
+
+<gwmp-mux> # Address to bind the GWMP server (where packet forwarder connects)
+
+<gwmp-mux> bind = "0.0.0.0:1700"
+
+<gwmp-mux> 
+
+<gwmp-mux> # Primary upstream: Helium Gateway Service
+
+<gwmp-mux> [[upstreams]]
+
+<gwmp-mux> name = "helium-gateway"
+
+<gwmp-mux> host = "gateway-service"
+
+<gwmp-mux> port = 1680
+
+<gwmp-mux> enabled = true
+
+<gwmp-mux> 
+
+<gwmp-mux> # Example: Additional upstream servers
+
+<gwmp-mux> # Uncomment and configure as needed for multiple LNS connections
+
+<gwmp-mux> 
+
+<gwmp-mux> # [[upstreams]]
+
+<gwmp-mux> # name = "ttn"
+
+<gwmp-mux> # host = "eu1.cloud.thethings.network"
+
+<gwmp-mux> # port = 1700
+
+<gwmp-mux> # enabled = false
+
+<gwmp-mux> 
+
+<gwmp-mux> # [[upstreams]]
+
+<gwmp-mux> # name = "chirpstack"
+
+<gwmp-mux> # host = "chirpstack.example.com"
+
+<gwmp-mux> # port = 1700
+
+<gwmp-mux> # enabled = false
+
+<gwmp-mux> 
+
+<gwmp-mux> # [[upstreams]]
+
+<gwmp-mux> # name = "other-lns"
+
+<gwmp-mux> # host = "other-server.example.com"
+
+<gwmp-mux> # port = 1700
+
+<gwmp-mux> # enabled = false
+
+<gwmp-mux> 
+
+<gwmp-mux> [log]
+
+<gwmp-mux> level = "info"
+
+<gwmp-mux> format = "json"  # or "text"
+
+<gwmp-mux> Starting gwmp-mux...
+
+<gwmp-mux> error: Found argument '--config' which wasn't expected, or isn't valid in this context
+
+<gwmp-mux> 
+
+<gwmp-mux> USAGE:
+
+<gwmp-mux>     gwmp-mux [FLAGS] [OPTIONS] [--] [log-level]
+
+<gwmp-mux> 
+
+<gwmp-mux> For more information try --help
+
+Restarting service 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
+Service exited 'gwmp-mux sha256:775840889dd79f9722ff89b24f5bdba64f2211a2f416907eb7e7af75c1a399f5'
+Restarting service 'gwmp-mux sha256:775840889dd79f9722ff89b24f5bdba64f2211a2f416907eb7e7af75c1a399f5'
+Warning: Suppressed 16 message(s) due to rate limiting
+<packet-forwarder> Protocol:      UDP
+
+<packet-forwarder> Server:        gwmp-mux:1700
+
+<packet-forwarder> Band:          us_902_928
+
+<packet-forwarder> Gateway EUI:   0242ACFFFE110004
+
+<packet-forwarder> EUI Source:    file
+
+<packet-forwarder> 
+
+<packet-forwarder> Radio
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Model:         RAK2287
+
+<packet-forwarder> Concentrator:  SX1302
+
+<packet-forwarder> Design:        CORECELL
+
+<packet-forwarder> Interface:     SPI
+
+<packet-forwarder> Radio Device:  /dev/spidev0.0
+
+<packet-forwarder> SPI Speed:     8000000
+
+<packet-forwarder> Reset GPIO:    15
+
+<packet-forwarder> Enable GPIO:   23
+
+<packet-forwarder> Enable Logic:  1
+
+<packet-forwarder> 
+
+<packet-forwarder> Extra
+
+<packet-forwarder> ------------------------------------------------------------------
+
+<packet-forwarder> Stat interval: 30
+
+<packet-forwarder> Push timeout:  100
+
+<packet-forwarder> Use fake GPS:  TRUE
+
+<packet-forwarder> Latitude:      38.851137
+
+<packet-forwarder> Longitude:     -121.269953
+
+<packet-forwarder> Altitude:      0
+
+<packet-forwarder> 
+
+<packet-forwarder> Concentrator enabled through GPIO23 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio23 does not exist
+
+<packet-forwarder> Concentrator reset through GPIO15 (using sysfs)
+
+<packet-forwarder> Warning: /sys/class/gpio/gpio15 does not exist
+
+<packet-forwarder> *** Packet Forwarder ***
+
+<packet-forwarder> Version: 2.1.0
+
+<packet-forwarder> *** SX1302 HAL library version info ***
+
+<packet-forwarder> Version: 2.1.0;
+
+<packet-forwarder> ***
+
+<packet-forwarder> INFO: Little endian host
+
+<packet-forwarder> INFO: found configuration file global_conf.json, parsing it
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+
+<packet-forwarder> INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+
+<packet-forwarder> INFO: antenna_gain 0 dBi
+
+<packet-forwarder> INFO: Configuring legacy timestamp
+
+<packet-forwarder> INFO: no configuration for SX1261
+
+<packet-forwarder> INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+
+<packet-forwarder> INFO: radio 0 enabled (type SX1250), center frequency 904300000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+
+<packet-forwarder> INFO: radio 1 enabled (type SX1250), center frequency 905000000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+
+<packet-forwarder> INFO: Lora multi-SF channel 0>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 1>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 2>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 3>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 4>  radio 1, IF -300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 5>  radio 1, IF -100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 6>  radio 1, IF 100000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora multi-SF channel 7>  radio 1, IF 300000 Hz, 125 kHz bw, SF 5 to 12
+
+<packet-forwarder> INFO: Lora std channel> radio 0, IF 300000 Hz, 500000 Hz bw, SF 8, Explicit header
+
+<packet-forwarder> INFO: FSK channel 8 disabled
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream keep-alive interval is configured to 10 seconds
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: Beaconing period is configured to 0 seconds
+
+<packet-forwarder> INFO: Beaconing signal will be emitted at 923300000 Hz
+
+<packet-forwarder> INFO: Beaconing channel number is set to 8
+
+<packet-forwarder> INFO: Beaconing channel frequency step is set to 600000Hz
+
+<packet-forwarder> INFO: Beaconing datarate is set to SF12
+
+<packet-forwarder> INFO: Beaconing modulation bandwidth is set to 500000Hz
+
+<packet-forwarder> INFO: Beaconing TX power is set to 27dBm
+
+<packet-forwarder> INFO: global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+
+<packet-forwarder> INFO: got 2 debug reference payload
+
+<packet-forwarder> INFO: reference payload ID 0 is 0xCAFE1234
+
+<packet-forwarder> INFO: reference payload ID 1 is 0xCAFE2345
+
+<packet-forwarder> INFO: setting debug log file name to loragw_hal.log
+
+<packet-forwarder> INFO: found configuration file local_conf.json, parsing it
+
+<packet-forwarder> INFO: local_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+
+<packet-forwarder> INFO: gateway MAC address is configured to 0242ACFFFE110004
+
+<packet-forwarder> INFO: server hostname or IP address is configured to "gwmp-mux"
+
+<packet-forwarder> INFO: upstream port is configured to "1700"
+
+<packet-forwarder> INFO: downstream port is configured to "1700"
+
+<packet-forwarder> INFO: statistics display interval is configured to 30 seconds
+
+<packet-forwarder> INFO: upstream PUSH_DATA time-out is configured to 100 ms
+
+<packet-forwarder> INFO: packets received with a valid CRC will be forwarded
+
+<packet-forwarder> INFO: packets received with a CRC error will NOT be forwarded
+
+<packet-forwarder> INFO: packets received with no CRC will NOT be forwarded
+
+<packet-forwarder> INFO: GPS serial port path is configured to ""
+
+<packet-forwarder> INFO: Reference latitude is configured to 38.851137 deg
+
+<packet-forwarder> INFO: Reference longitude is configured to -121.269953 deg
+
+<packet-forwarder> INFO: Reference altitude is configured to 0 meters
+
+<packet-forwarder> INFO: fake GPS is enabled
+
+<packet-forwarder> ERROR: [up] getaddrinfo on address gwmp-mux (PORT 1700) returned No address associated with hostname
+
+Service exited 'packet-forwarder sha256:8d56b25769af980e3b299e4fde1e0f29fa73590557a9ae93b6fbdbb8bcf9ce1f'
