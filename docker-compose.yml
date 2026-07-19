@@ -70,6 +70,31 @@ services:
       # optional; start conservative if 8 MHz is flaky:
       # SPI_SPEED: "4000000"
 
+  tailscale:
+    build: ./tailscale
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE   # containerboot modprobes tun on the balenaOS host
+    labels:
+      io.balena.features.kernel-modules: '1'
+      io.balena.features.balena-socket: '1'   # engine access for logs/restarts over tailscale ssh
+    tmpfs:
+      - /tmp
+      - /run
+    volumes:
+      - tailscale-state:/var/lib/tailscale   # node identity must survive reboots and fleet pushes
+    environment:
+      TS_STATE_DIR: /var/lib/tailscale
+      TS_USERSPACE: "false"
+      TS_AUTH_ONCE: "true"     # only log in if not already logged in; reusable key stays unused after first join
+      TS_EXTRA_ARGS: --ssh
+      # TS_AUTHKEY is intentionally NOT set here — supply it as a balena
+      # fleet env var (reusable, pre-approved, tag:buoy-gateway key).
+      # Optional per-device override: TS_HOSTNAME device env var; otherwise
+      # the node appears as the balena device hostname (short UUID).
+
   gateway-rs:
      image: quay.io/team-helium/miner:gateway-latest
      restart: unless-stopped
@@ -89,3 +114,4 @@ services:
 volumes:
   rak-config: {}
   helium-gateway-data: {}
+  tailscale-state: {}
