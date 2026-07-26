@@ -28,15 +28,15 @@
     # If set to true, any downlink will be discarded.
     uplink_only = false
 
-  # Server 2: External server (uplink only, no acks expected)
-  # [[multiplexer.server]]
-    # Hostname:port of the external server.
-    # server = "20.121.50.53:1690"
-    
-    # Only allow uplink.
-    #
-    # Set to true since we don't expect acks from this server.
-    # uplink_only = true
+  # Server 2: Direct path to the buoy LNS (ChirpStack us915 gateway bridge).
+  # Needed where Helium's region map disagrees with the deployment's channel
+  # plan (e.g. Costa Rica = AS923_1 on Helium, but the site runs US915):
+  # gateway-rs can't transmit downlinks there, so joins/downlinks ride this
+  # direct path instead. uplink_only = false because join accepts must come
+  # back through it.
+  [[multiplexer.server]]
+    server = "lns.buoy.fish:1701"
+    uplink_only = false
 
 # Monitoring configuration.
 [monitoring]
